@@ -3058,10 +3058,9 @@ h2.accordion-header {
 	margin-bottom: 20px;
 }
 .login-register_style3-head ul li {
-	width: 31.3%;
+	width: 100%;
 	float: left;
 	overflow: hidden;
-	margin-right: 3%;
 }
 .login-register_style3-head ul li:last-child{
 	margin: 0px;
