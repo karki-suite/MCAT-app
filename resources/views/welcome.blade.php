@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Karki Suite</title>
+	<title>Karki's MCAT Suite</title>
 	<!-- <link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="16x16">
 	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="18x18">
 	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="20x20"> -->
@@ -120,7 +120,7 @@
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="hero-caption pt-150 pb-200">
-						<h2>Karki Suite</h2>
+						<h2>Karki's MCAT Suite</h2>
 						<p>Simple, Affordable, World-Class MCAT Study Guide</p>
 					</div>
 				</div>
@@ -210,7 +210,7 @@
 									</div>
 									<div class="content">
 										<h4>Simple Yet Powerful</h4>
-										<p>Watch our demo video! Karki Suite is incredibly easy to get started with.</p>
+										<p>Watch our demo video! Karki's MCAT Suite is incredibly easy to get started with.</p>
 									</div>
 								</div>
 							</div>
@@ -471,7 +471,7 @@
 				<div class="row">
 					<div class="col-lg-6 align-self-center">
 						<div class="copy-f-text">
-							<p>Copyright ©2023 <a href="#">Karki Suite</a>. All Rights Reserved</p>
+							<p>Copyright ©2023 <a href="#">Karki's MCAT Suite</a>. All Rights Reserved</p>
 						</div>
 					</div>
 					<div class="col-lg-6">
