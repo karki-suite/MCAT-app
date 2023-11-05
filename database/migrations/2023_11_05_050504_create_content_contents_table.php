@@ -14,9 +14,9 @@ return new class extends Migration
         Schema::create('content_contents', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('category_id');
-            $table->enum('type', ['Video', 'Text', 'Kaplan']);
-            $table->enum('subcategory', ['Overview', 'Content', 'Review']);
-            $table->enum('tracking', ['Checkbox', 'Percentage', 'None']);
+            $table->enum('type', ['VIDEO', 'TEXT', 'KAPLAN']);
+            $table->enum('subcategory', ['OVERVIEW', 'CONTENT', 'REVIEW']);
+            $table->enum('tracking', ['CHECKBOX', 'PERCENTAGE', 'NONE']);
             $table->string('label');
             $table->string('link');
             $table->foreign('category_id')->references('id')->on('content_groups_categories');
