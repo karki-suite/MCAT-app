@@ -5,8 +5,9 @@
             <div class="flex">
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
-                    <a href="{{ route('dashboard') }}">
-                        <x-application-logo class="block h-9 w-auto fill-current text-gray-800" />
+                    <a href="{{ route('dashboard') }}" class="auth-logo-container dashboard-logo-container">
+                        <img src="/assets/img/logo.png" class="auth-logo" />
+                        <span class="auth-logo-text">MCAT Suite</span>
                     </a>
                 </div>
 
@@ -14,6 +15,9 @@
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('schedule')" :active="request()->routeIs('schedule')">
+                        {{ __('Content Schedule') }}
                     </x-nav-link>
                 </div>
             </div>
@@ -69,6 +73,9 @@
         <div class="pt-2 pb-3 space-y-1">
             <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('schedule')" :active="request()->routeIs('schedule')">
+                {{ __('Content Schedule') }}
             </x-responsive-nav-link>
         </div>
 

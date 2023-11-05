@@ -4,10 +4,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Karki's MCAT Suite</title>
-	<!-- <link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="16x16">
+	<title>MCAT Suite</title>
+	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="16x16">
 	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="18x18">
-	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="20x20"> -->
+	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="20x20">
 
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/bootstrap-icons.css">
@@ -38,8 +38,9 @@
 				<!-- Logo -->
 				<div class="col-lg-3 align-self-center">
 					<div class="logo">
-						<a href="index.html">
-							Karki Suite
+                        <img src="assets/img/logo.png" alt="MCAT Suite" />
+						<a href="#">
+							MCAT Suite
 						</a>
 					</div>
 					<div class="canvas_open">
@@ -120,7 +121,7 @@
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="hero-caption pt-150 pb-200">
-						<h2>Karki's MCAT Suite</h2>
+						<h2>MCAT Suite</h2>
 						<p>Simple, Affordable, World-Class MCAT Study Guide</p>
 					</div>
 				</div>
@@ -149,7 +150,7 @@
 	                			<h5>Hours Of Curated Content</h5>
 	                			<p class="text-sm">Hundreds of hours of curated content, in the format that suits you best, intelligently scheduled based on what you need to learn most.</p>
 		              			<hr class="vertical dark">
-							</div>	
+							</div>
 	            		</div>
 						<!-- Single -->
 						<div class="col-md-4 position-relative">
@@ -161,7 +162,7 @@
 	                			<h5>Average Test Score</h5>
 	                			<p class="text-sm">Customers who spent at least 100 hours studying with Karki Suite scored an average of 510.</p>
 		              			<hr class="vertical dark">
-							</div>	
+							</div>
 	            		</div>
 						<!-- Single -->
 						<div class="col-md-4">
@@ -172,7 +173,7 @@
                                 </div>
 	                			<h5>Accuracy</h5>
 	                			<p class="text-sm">Most score predictions land within 3% of your final score. Know exactly when you've studied enough.</p>
-							</div>	
+							</div>
 	            		</div>
 					</div>
 				</div>

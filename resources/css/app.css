@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.auth-logo-container .auth-logo {
+    max-width: 160px;
+    display: inline-block;
+}
+
+.auth-logo-container.dashboard-logo-container .auth-logo {
+    max-width: 80px;
+}
+.auth-logo-container > .auth-logo-text {
+    vertical-align: middle;
+    font-size: 32px;
+}
