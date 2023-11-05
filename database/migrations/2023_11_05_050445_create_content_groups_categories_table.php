@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('content_groups_categories', function (Blueprint $table) {
             $table->id();
-            $table->integer('group_id')->unsigned();
+            $table->unsignedBigInteger('group_id');
             $table->string('title');
             $table->foreign('group_id')->references('id')->on('content_groups');
         });

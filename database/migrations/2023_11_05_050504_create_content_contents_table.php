@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('content_contents', function (Blueprint $table) {
             $table->id();
-            $table->integer('category_id')->unsigned();
+            $table->unsignedBigInteger('category_id');
             $table->enum('type', ['Video', 'Text', 'Kaplan']);
             $table->enum('subcategory', ['Overview', 'Content', 'Review']);
             $table->enum('tracking', ['Checkbox', 'Percentage', 'None']);
