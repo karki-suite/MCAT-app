@@ -39,9 +39,6 @@
 				<div class="col-lg-3 align-self-center">
 					<div class="logo">
                         <img src="assets/img/logo.png" alt="MCAT Suite" />
-						<a href="#">
-							MCAT Suite
-						</a>
 					</div>
 					<div class="canvas_open">
                         <a href="javascript:void(0)">

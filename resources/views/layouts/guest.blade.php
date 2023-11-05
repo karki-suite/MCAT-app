@@ -19,7 +19,6 @@
             <div>
                 <a href="/" class="auth-logo-container">
                     <img src="/assets/img/logo.png" class="auth-logo" />
-                    <span class="auth-logo-text">MCAT Suite</span>
                 </a>
             </div>
 
