@@ -56,18 +56,10 @@ class ContentContentCrudController extends CrudController
                 'REVIEW' => 'Review'
             ]
         ]);
-        CRUD::addColumn([
-            'label' => 'Type',
-            'type' => 'enum',
-            'name' => 'type',
-            'options' => [
-                'VIDEO' => 'Video',
-                'TEXT' => 'Text',
-                'KAPLAN' => 'Kaplan'
-            ]
-        ]);
         CRUD::column('label')->type('string');
-        CRUD::column('link')->type('string');
+        CRUD::column('link_text')->type('string');
+        CRUD::column('link_video')->type('string');
+        CRUD::column('link_kaplan')->type('string');
         CRUD::addColumn([
             'label' => 'Tracking',
             'type' => 'enum',
@@ -105,18 +97,10 @@ class ContentContentCrudController extends CrudController
                 'REVIEW' => 'Review'
             ]
         ]);
-        CRUD::addField([
-            'label' => 'Type',
-            'type' => 'enum',
-            'name' => 'type',
-            'options' => [
-                'VIDEO' => 'Video',
-                'TEXT' => 'Text',
-                'KAPLAN' => 'Kaplan'
-            ]
-        ]);
         CRUD::field('label')->type('text');
-        CRUD::field('link')->type('text');
+        CRUD::field('link_text')->type('text')->label('Text Link');
+        CRUD::field('link_video')->type('text')->label('Video Link');
+        CRUD::field('link_kaplan')->type('text')->label('Kaplan Link');
         CRUD::addField([
             'label' => 'Tracking',
             'type' => 'enum',
