@@ -34,11 +34,12 @@ class Content extends Model
      */
     protected $fillable = [
         'category_id',
-        'type',
         'subcategory',
         'tracking',
         'label',
-        'link'
+        'link_text',
+        'link_video',
+        'link_kaplan'
     ];
 
 }
