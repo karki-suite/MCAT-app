@@ -35,7 +35,7 @@
                                                 <input class="float-right" type="checkbox" name="{{ $content->id }}" />
                                                 @break
                                             @case('PERCENTAGE')
-                                                <input class="float-right w-12 p-0" type="number" placeholder="00%" min="0" max="100" name="{{ $content->id }}" />
+                                                <input class="float-right w-12 p-0 text-right" type="number" placeholder="00%" min="0" max="100" name="{{ $content->id }}" />
                                                 @break
                                         @endswitch
                                     </div>
@@ -60,7 +60,7 @@
                                                 <input class="float-right" type="checkbox" name="{{ $content->id }}" />
                                                 @break
                                             @case('PERCENTAGE')
-                                                <input class="float-right w-12 p-0" type="number" placeholder="00%" min="0" max="100" name="{{ $content->id }}" />
+                                                <input class="float-right w-12 p-0 text-right" type="number" placeholder="00%" min="0" max="100" name="{{ $content->id }}" />
                                                 @break
                                         @endswitch
                                     </div>
@@ -85,7 +85,7 @@
                                                 <input class="float-right" type="checkbox" name="{{ $content->id }}" />
                                                 @break
                                             @case('PERCENTAGE')
-                                                <input class="float-right w-12 p-0" type="number" placeholder="00%" min="0" max="100" name="{{ $content->id }}" />
+                                                <input class="float-right w-12 p-0 text-right" type="number" placeholder="00%" min="0" max="100" name="{{ $content->id }}" />
                                                 @break
                                         @endswitch
                                     </div>
