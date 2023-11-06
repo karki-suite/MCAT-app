@@ -10,7 +10,7 @@
             <div class="py-6 max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <h3 class="font-semibold text-xl text-gray-800 leading-tight pb-1">{{ $group->title }}</h3>
                 <h4 class="font-semibold text-lg text-gray-800 leading-tight pb-1">{{ $group->subtitle }}</h4>
-                <div class="block md:grid md:grid-cols-3 md:flex md:flex-wrap md:text-left text-center">
+                <div class="block md:grid md:grid-cols-3 md:flex md:flex-wrap md:text-left">
                     @foreach ($group->categories as $category)
                         <div class="mb-1 md:mr-1 bg-white overflow-hidden shadow-sm sm:rounded-lg">
                             <div class="p-6 text-gray-900">
