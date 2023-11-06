@@ -19,19 +19,76 @@
                                     <h6 class="text-center underline text-lg text-gray-800 leading-tight pb-1">Overview</h6>
                                 @endif
                                 @foreach ($category->contentsOverview as $content)
-                                    <div>{{ $content->label }}</div>
+                                    <div>
+                                        @if ($content->link_text !== null)
+                                            <a class="fa-solid fa-book" title="Read" target="_BLANK" href="{{ $content->link_text }}"></a>
+                                        @endif
+                                        @if ($content->link_video !== null)
+                                            <a class="fa-solid fa-video" title="Video" target="_BLANK" href="{{ $content->link_video }}"></a>
+                                        @endif
+                                        @if ($content->link_kaplan !== null)
+                                            <a class="fa-solid fa-k" title="Kaplan" target="_BLANK" href="{{ $content->link_kaplan }}"></a>
+                                        @endif
+                                        <span class="pl-2">{{ $content->label }}</span>
+                                        @switch($content->tracking)
+                                            @case('CHECKBOX')
+                                                <input class="float-right" type="checkbox" name="{{ $content->id }}" />
+                                                @break
+                                            @case('PERCENTAGE')
+                                                <input class="float-right w-12 p-0" type="number" placeholder="00%" min="0" max="100" name="{{ $content->id }}" />
+                                                @break
+                                        @endswitch
+                                    </div>
                                 @endforeach
                                 @if (count($category->contentsContent) > 0)
                                     <h6 class="text-center underline text-lg text-gray-800 leading-tight pb-1">Content</h6>
                                 @endif
                                 @foreach ($category->contentsContent as $content)
-                                    <div>{{ $content->label }}</div>
+                                    <div>
+                                        @if ($content->link_text !== null)
+                                            <a class="fa-solid fa-book" title="Read" target="_BLANK" href="{{ $content->link_text }}"></a>
+                                        @endif
+                                        @if ($content->link_video !== null)
+                                            <a class="fa-solid fa-video" title="Video" target="_BLANK" href="{{ $content->link_video }}"></a>
+                                        @endif
+                                        @if ($content->link_kaplan !== null)
+                                            <a class="fa-solid fa-k" title="Kaplan" target="_BLANK" href="{{ $content->link_kaplan }}"></a>
+                                        @endif
+                                        <span class="pl-2">{{ $content->label }}</span>
+                                        @switch($content->tracking)
+                                            @case('CHECKBOX')
+                                                <input class="float-right" type="checkbox" name="{{ $content->id }}" />
+                                                @break
+                                            @case('PERCENTAGE')
+                                                <input class="float-right w-12 p-0" type="number" placeholder="00%" min="0" max="100" name="{{ $content->id }}" />
+                                                @break
+                                        @endswitch
+                                    </div>
                                 @endforeach
                                 @if (count($category->contentsReview) > 0)
                                     <h6 class="text-center underline text-lg text-gray-800 leading-tight pb-1">Review</h6>
                                 @endif
                                 @foreach ($category->contentsReview as $content)
-                                    <div>{{ $content->label }}</div>
+                                    <div>
+                                        @if ($content->link_text !== null)
+                                            <a class="fa-solid fa-book" title="Read" target="_BLANK" href="{{ $content->link_text }}"></a>
+                                        @endif
+                                        @if ($content->link_video !== null)
+                                            <a class="fa-solid fa-video" title="Video" target="_BLANK" href="{{ $content->link_video }}"></a>
+                                        @endif
+                                        @if ($content->link_kaplan !== null)
+                                            <a class="fa-solid fa-k" title="Kaplan" target="_BLANK" href="{{ $content->link_kaplan }}"></a>
+                                        @endif
+                                        <span class="pl-2">{{ $content->label }}</span>
+                                        @switch($content->tracking)
+                                            @case('CHECKBOX')
+                                                <input class="float-right" type="checkbox" name="{{ $content->id }}" />
+                                                @break
+                                            @case('PERCENTAGE')
+                                                <input class="float-right w-12 p-0" type="number" placeholder="00%" min="0" max="100" name="{{ $content->id }}" />
+                                                @break
+                                        @endswitch
+                                    </div>
                                 @endforeach
                             </div>
                         </div>
