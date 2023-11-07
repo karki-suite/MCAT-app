@@ -97,4 +97,31 @@
             </div>
         @endforeach
     </div>
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            $('.fa-video').click(function (e) {
+                if($(this).attr('href').includes('youtube')) {
+                    var searchString = new URL($(this).attr('href')).search;
+                    var searchParts = parseUrlParams(searchString);
+                    if(searchParts['v']) {
+                        e.preventDefault();
+                        $('<div style="max-width:620px;"><iframe width="560" height="315" src="https://www.youtube.com/embed/' + searchParts['v'] + '" title="YouTube Video Player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>').modal();
+                    }
+                }
+            });
+            $('.fa-k').click(function (e) {
+                e.preventDefault();
+                $('<div><b>Kaplan Reference:</b> ' + $(this).attr('href') + '<br />Kaplan is an optional paid resource.</div>').modal();
+            });
+        });
+        function parseUrlParams(url) {
+            var query = url.substr(1);
+            var result = {};
+            query.split("&").forEach(function(part) {
+                var item = part.split("=");
+                result[item[0]] = decodeURIComponent(item[1]);
+            });
+            return result;
+        }
+    </script>
 </x-app-layout>
