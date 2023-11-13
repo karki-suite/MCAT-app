@@ -28,20 +28,6 @@ class Content extends Model
     }
 
     /**
-     * Get video code for embedding.
-     *
-     * @return string|null
-     */
-    public function getVideoCode(): ?string
-    {
-        parse_str(parse_url($this->link_video, PHP_URL_QUERY), $videoParsed);
-        if(isset($videoParsed['v'])) {
-            return $videoParsed['v'];
-        }
-        return null;
-    }
-
-    /**
      * The attributes that are mass assignable.
      *
      * @var array<int, string>
@@ -52,8 +38,10 @@ class Content extends Model
         'tracking',
         'label',
         'link_text',
+        'ref_text',
         'link_video',
-        'link_kaplan'
+        'ref_kaplan',
+        'notes'
     ];
 
 }

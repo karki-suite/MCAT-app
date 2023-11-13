@@ -30,10 +30,6 @@
                     }
                 }
             });
-            $('.fa-k').click(function (e) {
-                e.preventDefault();
-                $('<div><b>Kaplan Reference:</b> ' + $(this).attr('href') + '<br />Kaplan is an optional paid resource.</div>').modal();
-            });
         });
 
         function parseUrlParams(url) {

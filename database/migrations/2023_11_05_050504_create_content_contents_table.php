@@ -16,11 +16,12 @@ return new class extends Migration
             $table->unsignedBigInteger('category_id');
             $table->enum('subcategory', ['OVERVIEW', 'CONTENT', 'REVIEW', 'PRACTICE', 'CARS']);
             $table->enum('tracking', ['CHECKBOX', 'PERCENTAGE', 'TEXTAREA', 'NONE']);
-            $table->string('label');
-            $table->string('link_text')->nullable();
-            $table->string('ref_text')->nullable();
-            $table->string('link_video')->nullable();
-            $table->string('ref_kaplan')->nullable();
+            // Note: These references can exceed 255 characters, text fields are a requirement vs string/varchar
+            $table->text('label');
+            $table->text('link_text')->nullable();
+            $table->text('ref_text')->nullable();
+            $table->text('link_video')->nullable();
+            $table->text('ref_kaplan')->nullable();
             $table->text('notes');
             $table->foreign('category_id')->references('id')->on('content_groups_categories');
         });

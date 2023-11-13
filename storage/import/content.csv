@@ -1,0 +1,386 @@
+Group,Category,Title,Subcategory,Link: Text,Ref: Text,Link: Video,Ref: Kaplan,Notes,Response
+Group 1,Atoms & Molecules,Group 1 Overview,Overview,,,https://www.youtube.com/watch?v=EFjbht5nKJw,,,Checkbox
+Group 1,Atoms & Molecules,Read the 4E Content Overview,Overview,https://students-residents.aamc.org/media/9261/download,,,,,Checkbox
+Group 1,Atoms & Molecules,Atoms,Content,https://openstax.org/books/chemistry-atoms-first-2e/pages/2-1-early-ideas-in-atomic-theory,,https://www.khanacademy.org/science/chemistry/atomic-structure-and-properties,Kaplan Chemistry 1.1 - 1.4 (Atomic Structure),,Checkbox
+Group 1,Atoms & Molecules,Stoichiometry,Content,https://openstax.org/books/chemistry-atoms-first-2e/pages/7-1-writing-and-balancing-chemical-equations,,https://www.youtube.com/playlist?list=PL_uKI3obn00Z5HcGo-of084ZLN1m48wXR,,,Checkbox
+Group 1,Atoms & Molecules,KA: Isotope Composition,Practice,https://www.khanacademy.org/science/chemistry/atomic-structure-and-properties/introduction-to-the-atom/e/isotope-composition-counting-protons-electrons-and-neutrons-exercise,,,,,Percentage
+Group 1,Atoms & Molecules,KA: Stochiometry Questions,Practice,https://www.khanacademy.org/test-prep/mcat/physical-processes/stoichiometry/e/stoichiometry-questions,,,,,Percentage
+Group 1,Atoms & Molecules,"OpenStax Stoichiometry Excercises (1-55, odd)",Practice,https://openstax.org/books/chemistry-atoms-first-2e/pages/7-exercises,,,,,Percentage
+Group 1,Atoms & Molecules,Applied Anki: Atoms & Atomic Structure,Review,`,,`,,,Checkbox
+Group 1,Periodic Trends & Nucleophiles,Periodic Trends,Content,https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Supplemental_Modules_and_Websites_(Inorganic_Chemistry)/Descriptive_Chemistry/Periodic_Trends_of_Elemental_Properties,,https://www.khanacademy.org/science/chemistry/periodic-table,Kaplan Chemistry 2.1 - 2.4 (Periodic Trends),,Checkbox
+Group 1,Periodic Trends & Nucleophiles,Nucleophiles,Content,http://www.masterorganicchemistry.com/2012/06/18/what-makes-a-good-nucleophile/?_ga=1.236913161.906671673.1406758108,,https://www.khanacademy.org/science/class-11-chemistry-india/xfbb6cb8fc2bd00c8:in-in-organic-chemistry-some-basic-principles-and-techniques/xfbb6cb8fc2bd00c8:in-in-fundamental-concepts-in-organic-reaction-mechanism/v/nucleophilicity-nucleophile-strength,,,Checkbox
+Group 1,Periodic Trends & Nucleophiles,AP Chem Worksheet: Periodic Trends,Practice,https://www.cbsd.org/cms/lib/PA01916442/Centricity/Domain/2209/Periodic%20Trends%20TOTAL%20Review%20Practice%202%20WITH%20KEY.pdf,,,,,Percentage
+Group 1,Periodic Trends & Nucleophiles,KA: Nucleophiles vs. Electrophiles,Practice,https://www.khanacademy.org/science/class-11-chemistry-india/xfbb6cb8fc2bd00c8:in-in-organic-chemistry-some-basic-principles-and-techniques/xfbb6cb8fc2bd00c8:in-in-fundamental-concepts-in-organic-reaction-mechanism/e/ishani-s-first-exercise,,,,,Percentage
+Group 1,Periodic Trends & Nucleophiles,UWorld: Atomic Theory (30 Questions),Practice,https://gradschool.uworld.com/mcat/?gclid=CjwKCAiA3aeqBhBzEiwAxFiOBl_yYh5tNonC4AgFb3ZlaHkw8XSH98WzrZOEyojqwhIHZ9Oti63cqxoCDg8QAvD_BwE,,,,,Percentage
+Group 1,Periodic Trends & Nucleophiles,Applied Anki: Periodic Trends ,Review,,,,,,Checkbox
+Group 1,Periodic Trends & Nucleophiles,2 CARs Passages,CARs,,,,,,Checkbox
+Group 1,Molecules & IMFs,Molecules,Content,,,https://www.khanacademy.org/science/ap-chemistry-beta/x2eef969c74e0d802:molecular-and-ionic-compound-structure-and-properties,Kaplan Chemistry 3.1 - 3.4 (Bonding and Forces),,Checkbox
+Group 1,Molecules & IMFs,Intermolecular Forces,Content,,,https://www.youtube.com/watch?v=QdwzMPwPA3I,,,Checkbox
+Group 1,Molecules & IMFs,OpenStax 10.1 Practice Problems (Odd),Practice,https://openstax.org/books/chemistry-2e/pages/10-exercises,,,,The key is at the bottom of the textbook.,Percentage
+Group 1,Molecules & IMFs,OpensStax: 7.3 + 7.6 Practice Problems (Odd) ,Practice,https://openstax.org/books/chemistry-2e/pages/7-exercises,,,,,Percentage
+Group 1,Molecules & IMFs,KA: VESPR Practice,Practice,https://www.khanacademy.org/science/ap-chemistry-beta/x2eef969c74e0d802:molecular-and-ionic-compound-structure-and-properties/x2eef969c74e0d802:vsepr/e/vsepr,,,,,Percentage
+Group 1,Molecules & IMFs,Applied Anki: Atomic Structure + Bonding,Review,,,,,,Checkbox
+Group 1,Molecules & IMFs,General Anki Review,Review,,,,,,Checkbox
+Group 1,Stereochemistry,Stereochemistry,Content,https://www.masterorganicchemistry.com/2018/09/10/types-of-isomers/,,https://www.khanacademy.org/science/organic-chemistry/stereochemistry-topic,Kaplan Orgo 2.1 - 2.3 (Structure n Stereochem),,Checkbox
+Group 1,Stereochemistry,KA: Stereochemistry Practice Problems,Practice,https://www.khanacademy.org/test-prep/mcat/chemical-processes/stereochemistry/e/stereochemistry-questions,,,,,Percentage
+Group 1,Stereochemistry,UT Dallas: Stereochemistry Worksheet,Practice,https://personal.utdallas.edu/~scortes/ochem/OChem1_Lecture/exercises/ch5_stereo1.pdf,,,,,Percentage
+Group 1,Stereochemistry,UWorld: Interactions of Chem Substances (30 Q),Practice,,,,,,Percentage
+Group 1,Stereochemistry,Applied Anki: Stereochemistry,Review,,,,,,Checkbox
+Group 1,Stereochemistry,General Anki Review,Review,,,,,,Checkbox
+Group 1,Stereochemistry,4 CARs Passages,CARs,https://jackwestin.com/#daily-passages,,,,,Checkbox
+Group 1,Acid-Base Equilibrium,Acids & Bases,Content,https://openstax.org/books/chemistry-2e/pages/14-1-bronsted-lowry-acids-and-bases,,https://www.chadsprep.com/chads-general-chemistry-videos/lewis-acids-and-bases/,Kaplan Chemistry 10.1 - 10.4 (Acid-Base),Only have to do 16.1-16.5,Checkbox
+Group 1,Acid-Base Equilibrium,Khan Academy Passage: Contaminated Water,Practice,https://www.khanacademy.org/test-prep/mcat/physical-sciences-practice/physical-sciences-practice-tut/e/qualitative-analysis-of-contaminated-water-supply,,,,,Percentage
+Group 1,Acid-Base Equilibrium,KA Practice Questions: Acids & Bases,Practice,https://www.khanacademy.org/test-prep/mcat/chemical-processes/acid-base-equilibria/e/acid-base-questions,,,,,Percentage
+Group 1,Acid-Base Equilibrium,KA Practice Questions: Titrations,Practice,https://www.khanacademy.org/test-prep/mcat/chemical-processes/titrations-and-solubility-equilibria/e/titration-questions,,,,,Percentage
+Group 1,Acid-Base Equilibrium,OpenStax Acids/Bases: 14.1-14.7 (Odd),Practice,https://openstax.org/books/chemistry-2e/pages/14-exercises,,,,,Percentage
+Group 1,Redox & Electrochemistry,Electrochemistry,Content,https://openstax.org/books/chemistry-2e/pages/17-1-review-of-redox-chemistry,,https://www.khanacademy.org/science/chemistry/oxidation-reduction,Kaplan Chemistry 12.1 - 12.3 (Electrochemistry),redox to cell potential,Checkbox
+Group 1,Electrochemistry,KA: Electrochemistry Practice Questions,Practice,,,,,,Percentage
+Group 1,Electrochemistry,UWorld: Solutions and Electrochemistry (25 Q),Practice,,,,,,Percentage
+Group 1,Electrochemistry,End of Week Summary: What are you doing well? What do you still need to work on?,Overview,,,,,,Textarea
+Group 2,Amino Acids,Amino Acids,Content,https://wou.edu/chemistry/courses/online-chemistry-textbooks/ch450-and-ch451-biochemistry-defining-life-at-the-molecular-level/chapter-7-enzyme-kinetics/,,https://www.khanacademy.org/science/biology/macromolecules/proteins-and-amino-acids/v/introduction-to-amino-acids,Kaplan Biochem 1.1 - 1.6 (Amino Acid),,Checkbox
+Group 2,Amino Acids,Draw all amino acids in a cheat sheet,Content,https://www.reddit.com/r/Mcat/comments/vg0qrx/figured_id_share_my_amino_acid_cheat_sheet_that_i/,,,,,Checkbox
+Group 2,Amino Acids,Applied Anki on MilesDown Amino Acids,Review,,,,,,Checkbox
+Group 2,Amino Acids,KA: Amino Acids Questions,Practice,https://www.khanacademy.org/test-prep/mcat/biomolecules/amino-acids-and-proteins1/e/amino-acids-and-proteins-questions,,,,,Percentage
+Group 2,Amino Acids,Amino Acid Quiz Game,Practice,https://www.stolaf.edu/depts/chemistry/courses/toolkits/373/js/aminoac/,,,,,Percentage
+Group 2,Kinetics & Equilibrium,Kinetics,Content,https://openstax.org/books/chemistry-2e/pages/12-1-chemical-reaction-rates,,https://www.khanacademy.org/test-prep/mcat/chemical-processes/kinetics/v/rate-of-reaction,"Kaplan Chemistry 5.1 - 5.2, 6.1 - 6.3 (Equilibrium and Kinetics)",,Checkbox
+Group 2,Kinetics & Equilibrium,KA: Equilibrium Questions,Practice,https://www.khanacademy.org/test-prep/mcat/chemical-processes/equilibrium-mcat/e/equilibrium-questions,,,,,Percentage
+Group 2,Kinetics & Equilibrium,KA: Basic Concepts in Bioenergetics,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-1-passages/e/basic-concepts-in-bioenergetics--phosphoryl-group-transfers-and-atp-hydrolysis,,,,,Percentage
+Group 2,Kinetics & Equilibrium,Applied Anki: Kinetics & Equilibrium,Review,,,,,,Checkbox
+Group 2,Kinetics & Equilibrium,General Anki Review,Review,,,,,,Checkbox
+Group 2,Kinetics & Equilibrium,2 CARs Passages,CARs,,,,,,Checkbox
+Group 2,Thermodynamics & Thermochemistry,Thermodynamics,Content,https://openstax.org/books/chemistry-2e/pages/16-introduction,,https://www.khanacademy.org/test-prep/mcat/chemical-processes/thermodynamics-mcat/e/thermodynamics-questions,Kaplan Physics Chapter 3,,Checkbox
+Group 2,Thermodynamics & Thermochemistry,Thermochemistry,Content,https://openstax.org/books/chemistry-2e/pages/5-introduction,,https://www.khanacademy.org/test-prep/mcat/chemical-processes/thermochemistry/e/thermochemistry-questions,Kaplan Chemistry 7.1 - 7.6 (Thermochemistry),,Checkbox
+Group 2,Thermodynamics & Thermochemistry,KA: Control of Glucose Levels,Practice,"https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-1-passages/e/principles-of-bioenergetics---passage-2#:~:text=Controlling%20glucose%20levels%20is%20essential,produce%20and%20break%20down%20glucose.",,,,,Percentage
+Group 2,Thermodynamics & Thermochemistry,KA: Heat Generation in Brown Fat,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-1-passages/e/principle-s-of-bioenergetics,,,,,Percentage
+Group 2,Thermodynamics & Thermochemistry,KA: Thermodynamics of ATP Hydrolysis,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-1-passages/e/the-thermodynamics-of-atp-hydrolysis-in-living-cells,,,,,Percentage
+Group 2,Thermodynamics & Thermochemistry,"UWorld Thermochem, Kinetics, Eq (25 Q)",Practice,,,,,,Percentage
+Group 2,Thermodynamics & Thermochemistry,KA Questions: Thermochemistry,Practice,https://www.khanacademy.org/test-prep/mcat/chemical-processes/thermochemistry/e/thermochemistry-questions,,,,,Percentage
+Group 2,Enzymes,Enzymes,Content,https://aklectures.com/subject/biochemistry/biochemistry-enzymes,,https://wou.edu/chemistry/courses/online-chemistry-textbooks/ch450-and-ch451-biochemistry-defining-life-at-the-molecular-level/chapter-7-enzyme-kinetics/,Kaplan Biochem Chapter 2 (Enzymes),except derivation of michelis menten,Checkbox
+Group 2,Enzymes,KA Content Questions: Enzyme Regulation,Practice,https://www.khanacademy.org/science/biology/energy-and-enzymes/enzyme-regulation/e/enzyme-regulation-and-inhibition,,,,,Percentage
+Group 2,Enzymes,KA Content Questions: Enzyme Structure and Catalysis,Practice,https://www.khanacademy.org/science/ap-biology/cellular-energetics/enzyme-structure-and-catalysis/e/enzyme-structure-and-catalysis-exercise,,,,,Percentage
+Group 2,Enzymes,KA Content Questions: Michaelis Mentin,Practice,https://www.khanacademy.org/test-prep/mcat/biomolecules/enzyme-kinetics/e/enzyme-kinetics-questions,,,,,Percentage
+Group 2,Enzymes,KA: Fighting the Flu,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-1-passages/e/enzyme-structure-and-function---passage-1,,,,,Percentage
+Group 2,Enzymes,Applied Anki: Enzymes,Review,,,,,,Checkbox
+Group 2,Enzymes,General Anki Review,Review,,,,,,Checkbox
+Group 2,Biotechnology,Spectroscopy,Content,https://excelsiumprep.com/wp-content/uploads/MCAT-Lab-Techniques-1.pdf,,https://aklectures.com/subject/organic-chemistry/analytical-techniques-and-spectroscopy,Kaplan Bioch 3.3-3.4&Orgo 11.1-11.3+12.1-12.3,,Checkbox
+Group 2,Biotechnology,KA: Purification of Coffee,Practice,https://www.khanacademy.org/test-prep/mcat/physical-sciences-practice/physical-sciences-practice-tut/e/purification-of-caffeine,,,,,Percentage
+Group 2,Biotechnology,KA: Quantitative Analysis of Water Supply,Practice,https://www.khanacademy.org/test-prep/mcat/physical-sciences-practice/physical-sciences-practice-tut/e/qualitative-analysis-of-contaminated-water-supply,,,,,Percentage
+Group 2,Biotechnology,UWorld Lab Techniques (25 Q),Practice,,,,,,Percentage
+Group 2,Biotechnology,"Applied Anki on Organic Sep, Lab Tech, Analytic",Review,,,,,,Checkbox
+Group 2,Review Day,UWorld Enzymes (25 Q),Practice,,,,,,Percentage
+Group 2,Review Day,UWorld Amino Acids (25 Q),Practice,,,,,,Percentage
+Group 2,Review Day,General Anki Review,Review,,,,,,Checkbox
+Group 2,Review Day,2 CARs Passages,CARs,,,,,,Checkbox
+Group 2,Review Day,End of Week Summary,Overview,,,,,,Textarea
+Group 3,Carbohydrates,Carbohydrates,Content,https://chem.libretexts.org/Bookshelves/Biological_Chemistry/Supplemental_Modules_(Biological_Chemistry)/Carbohydrates/Carbohydrates_Fundamentals,,https://aklectures.com/subject/medical/fundamentals/metabolism-of-carbohydrates,"Kaplan"",""Kaplan Biochem 4.1 - 4.4 (Carbohydrates)",,Checkbox
+Group 3,Carbohydrates,"Draw the four essential monosaccharides in Haworth and 3D projection: fructose, glucose, galactose, and mannose; draw disaccharides sucrose, lactose, maltose, trehalose, and isomaltose",Content,,,,,,Checkbox
+Group 3,Carbohydrates,Helpful Mneumonic ,Content,https://www.reddit.com/r/Mcat/comments/ggyuwh/glucose/,,,,,Checkbox
+Group 3,Carbohydrates,KA Passage: Hemiacetal Formation of Carbohydrates,Practice,https://www.khanacademy.org/test-prep/mcat/physical-sciences-practice/physical-sciences-practice-tut/e/carbohydrates-quiz-passage-2,,,,,Percentage
+Group 3,Carbohydrates,KA Passage: Structure of Monosaccharides,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-1-passages/e/carbohydrates-quiz-passage-1,,,,,Percentage
+Group 3,Carbohydrates,Applied Anki: Organic Chemistry,Review,,,,,,Checkbox
+Group 3,Carbohydrates,General Anki Review,Review,,,,,,Checkbox
+Group 3,Lipids and Cell Membranes,Lipids,Content,https://openstax.org/books/microbiology/pages/7-3-lipids,,https://aklectures.com/subject/biochemistry/carbohydrates-lipids-and-the-cell-membrane,Kaplan Biochem Chapter 5 (Lipids),,Checkbox
+Group 3,Lipids and Cell Membranes,Cell Membrane,Content,https://openstax.org/books/anatomy-and-physiology-2e/pages/3-1-the-cell-membrane,,https://aklectures.com/subject/biochemistry/carbohydrates-lipids-and-the-cell-membrane,Kaplan Biochem Chapter 8 (Membrane),,Checkbox
+Group 3,Lipids and Cell Membranes,KA: Fat Metabolism Deficiency,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-1-passages/e/fat-and-protein-metabolism---passage-2,,,,,Percentage
+Group 3,Lipids and Cell Membranes,KA: Cell Membranes and Trafficking Disorders,Practice,https://jackwestin.com/khan-academy-mcat/cell-membranes-and-trafficking-disorders,,,,,Percentage
+Group 3,Lipids and Cell Membranes,KA: Membrane Transport,Practice,https://www.khanacademy.org/science/ap-biology/cell-structure-and-function/membrane-transport/e/membrane-transport,,,,,Percentage
+Group 3,Lipids and Cell Membranes,Applied Anki: Lipids and Cell Membrane and Nucleotides,Review,,,,,,Checkbox
+Group 3,Lipids and Cell Membranes,General Anki Review,Review,,,,,,Checkbox
+Group 3,Lipids and Cell Membranes,2 CARs Passages,CARs,,,,,,Checkbox
+Group 3,Functional Groups & Nomenclature,Functional Groups,Content,https://www.masterorganicchemistry.com/2010/10/06/functional-groups-organic-chemistry/,,https://www.youtube.com/watch?v=m9jM8lWxrAE&t=268s,Kaplan Organic Chemistry Ch. 1 (Nomenclature),,Checkbox
+Group 3,Functional Groups & Nomenclature,Nomenclature,Content,https://www.masterorganicchemistry.com/2014/10/21/organic-chemistry-iupac-nomenclature-demystified-with-a-simple-puzzle-piece-approach/,,https://www.youtube.com/playlist?list=PLo9yFKfZe_zf_C0-zNthqPBXTYYitrVk9,Kaplan Organic Chemistry Ch. 1 (Nomenclature),watch videos 1-3 of organic chem tutor,Checkbox
+Group 3,Functional Groups & Nomenclature,Worksheet: Problem Set 8 Nomenclature,Practice,https://tigerweb.towson.edu/jdiscord/www/332%20pages/332_exam_chapters20_21.htm,,,,,Percentage
+Group 3,Functional Groups & Nomenclature,KA: Identifying Functional Group,Practice,https://www.khanacademy.org/science/in-in-class-10-chemistry-india/x87dd2847d57ee419:in-in-carbon-and-its-compounds-coming-soon/x87dd2847d57ee419:in-in-functional-groups/e/identify-functional-groups-,,,,,Percentage
+Group 3,Functional Groups & Nomenclature,Worksheet: Acid Derivative Reactivity,Practice,https://tigerweb.towson.edu/jdiscord/www/332%20pages/332_exam_chapters20_21.htm,,,,,Percentage
+Group 3,Functional Groups & Nomenclature,Applied Anki: Organic Chemistry,Review,,,,,,Checkbox
+Group 3,SN1/SN2,SN1/SN2,Content,https://www.masterorganicchemistry.com/2012/08/08/comparing-the-sn1-and-sn2-reactions/,,https://www.youtube.com/watch?v=yrvV85H737o,Kaplan Chapter 4 (Analyzing Organic Reactions),,Checkbox
+Group 3,SN1/SN2,KA: Kinetics of SN1 and SN2,Practice,https://www.khanacademy.org/science/class-12-chemistry-india/x6a5fb67b43bb54b9:haloalkanes-haloarenes/x6a5fb67b43bb54b9:sn2-sn2-e1-e2/e/kinetics-of-sn1-vs-sn2-reactions,,,,,Percentage
+Group 3,SN1/SN2,Chemistry Steps Practice in SN1/SN2,Practice,https://www.chemistrysteps.com/sn1-sn2-e1-or-e2-mechanism-practice-problems/,,,,,Percentage
+Group 3,SN1/SN2,KA: Kinetics of Sn1 vs Sn2,Practice,https://www.khanacademy.org/science/class-12-chemistry-india/x6a5fb67b43bb54b9:haloalkanes-haloarenes/x6a5fb67b43bb54b9:sn2-sn2-e1-e2/e/kinetics-of-sn1-vs-sn2-reactions,,,,,Percentage
+Group 3,Reduction & Oxidation,Reduction and Oxidation,Content,http://chemistry2.csudh.edu/rpendarvis/OxRed.html,,https://www.youtube.com/watch?v=bzSKOBd5FUE,Kaplan Chapter 4 (Analyzing Organic Reactions),,Checkbox
+Group 3,Reduction & Oxidation,Chemistry Steps Practice: Reduction,Practice,https://www.chemistrysteps.com/preparation-of-alcohols-via-reduction/,,,,,Percentage
+Group 3,Reduction & Oxidation,Chemistry Steps Practice: Oxidation,Practice,https://www.chemistrysteps.com/oxidation-of-alcohols/,,,,,Percentage
+Group 3,UWorld,Functional Groups & Reactions (30 Q),Practice,,,,,,Percentage
+Group 3,UWorld,"Carbohydrates, Nucleotides, and Lipids (30 Q)",Practice,,,,,,Percentage
+Group 3,UWorld,Applied Anki: Organic Chemistry,Review,,,,,,Checkbox
+Group 3,UWorld,General Anki Review,Review,,,,,,Checkbox
+Group 3,Review Day,6 CARs Passages,CARs,,,,,,Checkbox
+Group 3,Review Day,UWorld Incorrects (30 Questions),Practice,,,,,,Percentage
+Group 3,Review Day,General Anki Review,Review,,,,,,Checkbox
+Group 3,Review Day,"Draw out nucleotides, functional groups, NADH, NADPH, pyruvate, acetyl-CoA, fructose-6-phosphate, lactate, the general structure of a fatty acid, ubiqinol, carbohydrates (glucose, mannose, galactose, sucrose, fructose), imidazole, indole, and all the amino acids. Place your drawings into your personal anki.",Content,,,,,,Checkbox
+Group 4,Sensing the Environment,KA Document: Pages (1-8),Content,https://docs.google.com/document/d/1IlE-AYZhM7XRsLFH1ouDeX5EWGboZ6EX/edit,,https://www.khanacademy.org/test-prep/mcat/processing-the-environment,,"Students should watch high yield videos only: Bottom Up vs. Top Down Processing, Gestalt Principles, Photoreceptors, Sensory Adaptation and Amplification, Sensory Adaptation, Weber's Law, Absolute Threshold of Sensation",Checkbox
+Group 4,Sensing the Environment,KA Passage: Somatosensation and Hypersensitivity,Practice,https://www.khanacademy.org/test-prep/mcat/social-sciences-practice/social-science-practice-tut/e/somatosensory-effects-of-temple-grandin-s-squeeze-box-on-hypersensitivity-,,,,,Percentage
+Group 4,Sensing the Environment,KA Passage: Could complete darkness be the cure?,Practice,https://www.khanacademy.org/test-prep/mcat/social-sciences-practice/social-science-practice-tut/e/could-complete-darkness-be-the-cure-for-amblyopia-,,,,,Percentage
+Group 4,Sensing the Environment,KA Sensory Perception Questions,Practice,https://www.khanacademy.org/test-prep/mcat/processing-the-environment/sensory-perception/e/sensory-perception-questions,,,,,Percentage
+Group 4,Sensing the Environment,KA Sight Questions,Practice,https://www.khanacademy.org/test-prep/mcat/processing-the-environment/sight/e/sight-questions,,,,,Percentage
+Group 4,Sensing the Environment,KA Sound Questions,Practice,https://www.khanacademy.org/test-prep/mcat/processing-the-environment/sound-audition/e/sound-questions,,,,,Percentage
+Group 4,Sensing the Environment,Applied Anki: Sensation and Perception,Content,,,,,,Checkbox
+Group 4,Making Sense of the Environment,KA Document: Pages (8-22),Content,https://docs.google.com/document/d/1IlE-AYZhM7XRsLFH1ouDeX5EWGboZ6EX/edit,,https://www.khanacademy.org/test-prep/mcat/processing-the-environment,,,Checkbox
+Group 4,Making Sense of the Environment,"Applied Anki: Attention, Cognition, Consciousness, Language, Memory",Content,,,,,"Students should watch these videos: Divided attention & selective attention, information processing model, piaget's stages of cognitive development, theories of language development, language and the brain, long term potentiation and synaptic plasticitiy",Checkbox
+Group 4,Making Sense of the Environment,KA Passage: Cognition and Hockey,Practice,https://www.khanacademy.org/test-prep/mcat/social-sciences-practice/social-science-practice-tut/e/embodied-cognition--hockey--does-expertise-impact-text-understanding-,,,,,Percentage
+Group 4,Making Sense of the Environment,"KA Passage: Miller's Law, chunking, and working memory",Practice,https://www.khanacademy.org/test-prep/mcat/social-sciences-practice/social-science-practice-tut/e/miller-s-law--chunking--and-the-capacity-of-working-memory,,,,,Percentage
+Group 4,Making Sense of the Environment,KA Passage: Information Processing and Iconic Memory,Practice,https://www.khanacademy.org/test-prep/mcat/social-sciences-practice/social-science-practice-tut/e/information-processing-and-the-discovery-of-iconic-memory,,,,,Percentage
+Group 4,Making Sense of the Environment,KA Cognition Questions,Practice,https://www.khanacademy.org/test-prep/mcat/processing-the-environment/cognition/e/cognition-questions,,,,,Percentage
+Group 4,Making Sense of the Environment,KA Language Questions,Practice,https://www.khanacademy.org/test-prep/mcat/processing-the-environment/language/e/language-questions-2,,,,,Percentage
+Group 4,Making Sense of the Environment,KA Passage: Matchboxes and Problem Solving,Practice,https://www.khanacademy.org/test-prep/mcat/social-sciences-practice/social-science-practice-tut/e/cognition---passage-1,,,,,Percentage
+Group 4,Making Sense of the Environment,P/S Specific Anki Review,Review,,,,,,Checkbox
+Group 4,Responding To The World,KA 86-page document (pg 22-24) ,Content,https://docs.google.com/document/d/1IlE-AYZhM7XRsLFH1ouDeX5EWGboZ6EX/edit,,https://www.khanacademy.org/test-prep/mcat/processing-the-environment/emotion/v/three-components-of-emotion-and-the-universal-emotions,,"Structure and function of nervous system, modern ways of studying the brain, drive reduction and cognitive theories, positive and negative feedback, theories of personality (all), reward pathways in the brain, and personality disorders",Checkbox
+Group 4,Responding To The World,Applied Anki: Emotions and Stress,Content,,,,,,Checkbox
+Group 4,Responding To The World,KA Emotions Questions,Practice,https://www.khanacademy.org/test-prep/mcat/processing-the-environment/emotion/e/emotion-questions,,,,,Percentage
+Group 4,Responding To The World,KA Passage: Universal Emotions,Practice,https://www.khanacademy.org/test-prep/mcat/processing-the-environment/stress/e/stress-questions,,,,,Percentage
+Group 4,Responding To The World,KA Stress Questions,Practice,https://www.khanacademy.org/test-prep/mcat/processing-the-environment/stress/e/stress-questions,,,,,Percentage
+Group 4,Responding To The World,KA Passage: Stress and the endocrine system,Practice,https://www.khanacademy.org/test-prep/mcat/social-sciences-practice/social-science-practice-tut/e/biological-basis-of-behavior---endocrine-system,,,,,Percentage
+Group 4,Responding To The World,"UWorld Sensation, Perception, Consciousness (30 Q)",Practice,,,,,,Percentage
+Group 4,Responding To The World,P/S Specific Anki Review,Review,,,,,,Checkbox
+Group 4,Individual Influences on Behavior,KA 86-page document (pg 25-39),Content,https://docs.google.com/document/d/1IlE-AYZhM7XRsLFH1ouDeX5EWGboZ6EX/edit,,https://www.khanacademy.org/test-prep/mcat/behavior,,"Structure and function of nervous system, modern ways of studying the brain, drive reduction and cognitive theories, positive and negative feedback, theories of personality (all), reward pathways in the brain, and personality disorders",Checkbox
+Group 4,Individual Influences on Behavior,KA Theories of Personality Questions,Practice,https://www.khanacademy.org/test-prep/mcat/behavior/theories-personality/e/theories-of-personality-questions,,,,,Percentage
+Group 4,Individual Influences on Behavior,"Applied Anki: Biology and Behavior, Attitudes, Motivations, Personality",Content,,,,,,Checkbox
+Group 4,Individual Influences on Behavior,KA Motivations and Attitudes Questions,Practice,https://www.khanacademy.org/test-prep/mcat/behavior/physiological-and-sociocultural-concepts-of-motivation-and-attitudes/e/motivations-and-attitudes-questions,,,,,Percentage
+Group 4,Individual Influences on Behavior,KA Passage: Big Five Personality Traits and Health Behaviors,Practice,https://www.khanacademy.org/test-prep/mcat/social-sciences-practice/social-science-practice-tut/e/big-five-personality-traits-and-health-behaviors,,,,,Percentage
+Group 4,Individual Influences on Behavior,KA Theories of Attitude Questions,Practice,https://www.khanacademy.org/test-prep/mcat/behavior/theories-of-attitude-and-behavior-change/e/theories-of-attitude-and-behavior-change-questions,,,,,Percentage
+Group 4,Individual Influences on Behavior,"UWorld Motivations, Attitude, Personality..(30 Q)",Practice,,,,,,Percentage
+Group 4,Individual Influences on Behavior,KA Passage: Antisocial Personality Disorder,Practice,https://www.khanacademy.org/test-prep/mcat/social-sciences-practice/social-science-practice-tut/e/theories-of-personality---passage-1,,,,,Percentage
+Group 4,Individual Influences on Behavior,P/S Specific Anki Review,Review,,,,,,Checkbox
+Group 4,Social Processes & Learning,KA 86-page document (pg 40-49),Content,https://docs.google.com/document/d/1IlE-AYZhM7XRsLFH1ouDeX5EWGboZ6EX/edit,,https://www.khanacademy.org/test-prep/mcat/behavior,,"Conformity and groupthink, social facilitation and social loafing, perspectives on deviance, ALL of learning",Checkbox
+Group 4,Social Processes & Learning,Applied Anki: Learning & Social Behavior,Content,,,,,,Checkbox
+Group 4,Social Processes & Learning,KA Questions: Normative and Non-normative behavior,Practice,https://www.khanacademy.org/test-prep/mcat/behavior/normative-and-non-normative-behavior/e/normative-and-nonnormative-behavior-questions,,,,,Percentage
+Group 4,Social Processes & Learning,KA Questions: Social Psychology,Practice,https://www.khanacademy.org/test-prep/mcat/behavior/social-psychology/e/social-psychology-questions,,,,,Percentage
+Group 4,Social Processes & Learning,KA Passage: Applications of Operant Conditioning,Practice,https://www.khanacademy.org/test-prep/mcat/social-sciences-practice/social-science-practice-tut/e/applications-of-operant-conditioning-in-daily-life,,,,,Percentage
+Group 4,Social Processes & Learning,KA Passage: Cats and Dogs Conditioning,Practice,https://www.khanacademy.org/test-prep/mcat/social-sciences-practice/social-science-practice-tut/e/classical-and-operant-conditioning,,,,,Percentage
+Group 4,Social Processes & Learning,KA Passage: Clinical Applications of Classical...,Practice,https://www.khanacademy.org/test-prep/mcat/social-sciences-practice/social-science-practice-tut/e/exploring-clinical-applications-of-classical-conditioning,,,,,Percentage
+Group 4,Social Processes & Learning,P/S Specific Anki Review,Review,,,,,,Checkbox
+Group 4,Social Processes & Learning,"UWorld Learning, Memory, and Cognition (30 Q)",Practice,,,,,,Percentage
+Group 4,Review & CARs Day,6 CARs Passages,CARs,,,,,,Checkbox
+Group 4,Review & CARs Day,UWorld 30 Incorrects,Review,,,,,,Checkbox
+Group 4,Review & CARs Day,General Anki Review,Review,,,,,,Checkbox
+Group 5,Reproduction & Cell Cycle,Cell Cycle,Content,https://openstax.org/books/biology-2e/pages/10-1-cell-division,,https://aklectures.com/subject/biology/cell-cycle-reproduction-and-embryology,Kaplan Biology 2&3 (Reproduction and Embryogenesis),,Checkbox
+Group 5,Reproduction & Cell Cycle,Reproduction,Content,https://jackwestin.com/resources/mcat-content/reproductive-system,,https://www.youtube.com/watch?v=dAOWQC-OBv0,Kaplan Biology 2&3 (Reproduction and Embryogenesis),,Checkbox
+Group 5,Reproduction & Cell Cycle,Applied Anki: Reproduction,Content,,,,,,Checkbox
+Group 5,Reproduction & Cell Cycle,KA Questions Reproductive System 1,Practice,https://www.khanacademy.org/test-prep/mcat/organ-systems/mcat-reproductive-system/e/reproductive-system-questions,,,,,Percentage
+Group 5,Reproduction & Cell Cycle,KA Questions Reproductive System 2,Practice,https://www.khanacademy.org/test-prep/mcat/organ-systems/mcat-reproductive-system/e/reproductive-questions-2,,,,,Percentage
+Group 5,Reproduction & Cell Cycle,KA Passage: Induced Stem Cells from Healthy Adults,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-2-passages/e/induced-stem-cells-from-healthy-adults,,,,,Percentage
+Group 5,Reproduction & Cell Cycle,"Human Reproduction Worksheet (Print Out, Use Google!)",Practice,https://www.monyetlaproject.co.za/wp-content/uploads/2021/04/QUESTIONS.male-and-female-3.pdf,,,,,Percentage
+Group 5,Reproduction & Cell Cycle,KA: Embryology Practice Questions Set 2,Practice,https://www.khanacademy.org/test-prep/mcat/cells/embryology/e/embryology-questions,,,,,Percentage
+Group 5,Reproduction & Cell Cycle,KA: Embryology Practice Questions Set 1,Practice,https://www.khanacademy.org/test-prep/mcat/cells/embryology/e/embryology-questions,,,,,Percentage
+Group 5,Genetics & Evolution,Genetics,Content,https://openstax.org/books/biology-2e/pages/12-introduction,,https://www.khanacademy.org/science/generations-old-and-new/x74478e8d979438e2:principles-of-inheritance-and-variation,Kaplan Biology Chapter 12 (Genetics and Evolution),,Checkbox
+Group 5,Genetics & Evolution,Applied Anki: Evolution and Genetics,Content,,,,,,Checkbox
+Group 5,Genetics & Evolution,KA Questions: Mendellian Practice,Practice,https://www.khanacademy.org/test-prep/mcat/biomolecules/mendelian-genetics/e/mendelian-genetics-questions,,,,,Percentage
+Group 5,Genetics & Evolution,KA Passage: Inheritance Patterns,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-1-passages/e/inheritance-patterns-in-flowering-plants,,,,,Percentage
+Group 5,Genetics & Evolution,KA Passage: Translocations in the Germline,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-1-passages/e/translocations-in-the-germline,,,,,Percentage
+Group 5,Genetics & Evolution,KA Passage: Mendellian inheritance of immunodeficiency,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-1-passages/e/mendelian-genetics---passage-2,,,,,Percentage
+Group 5,Genetics & Evolution,KA Passage: Evolution of Geckos,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-1-passages/e/the-evolution-of-gecko-toepads,,,,,Percentage
+Group 5,Genetics & Evolution,KA Passage: Human impact on animal populations,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-1-passages/e/evolution-and-population-dynamics----passage-2,,,,,Percentage
+Group 5,Genetics & Evolution,KA Questions: Hardy Weinberg Practice Problems,Practice,https://www.khanacademy.org/science/ap-biology/natural-selection/hardy-weinberg-equilibrium/e/hardy-weinberg-equilibrium,,,,,Percentage
+Group 5,Genetics & Evolution,UWorld: Genetics & Reproduction Set (25Q),Practice,,,,,,Percentage
+Group 5,Genetics & Evolution,General Anki Review,Review,,,,,,Checkbox
+Group 5,DNA/RNA,DNA/RNA,Content,https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Introductory_Biology_(CK-12)/04%3A_Molecular_Biology,,https://aklectures.com/subject/biology/genetics,Kaplan Biochem Chapter 6 & 7 (DNA and RNA),"Videos of AK Lectures: Replication, Transcription and Translation",Checkbox
+Group 5,DNA/RNA,Applied Anki: DNA and RNA,Content,,,,,,Checkbox
+Group 5,DNA/RNA,KA Passage: Recombiant DNA Technology,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-1-passages/e/dna-technology--passage-1,,,,,Percentage
+Group 5,DNA/RNA,KA Passage: Speed Limit of DNA Polymerase,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-1-passages/e/the--speed-limit--of-dna-polymerase-,,,,,Percentage
+Group 5,DNA/RNA,KA Passage: Kinetics and DNA Replication,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-1-passages/e/dna-polymerase--kinetics-and-dna-replication,,,,,Percentage
+Group 5,DNA/RNA,University of Wisconsin: DNA Practice,Practice,http://bioweb.uwlax.edu/GenWeb/Molecular/Theory/Translation/Translation_Problems/translation_problems.htm,,,,,Percentage
+Group 5,DNA/RNA,KA Passage: Early Experiments on Genetic Code,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-1-passages/e/dna---passage-1,,,,,Percentage
+Group 5,DNA/RNA,P/S Specific Anki Review,Review,,,,,,Checkbox
+Group 5,DNA/RNA,General Anki Review,Review,,,,,,Checkbox
+Group 5,Microbiology,Prokaryotes and Eukaryotes,Content,https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Introductory_Biology_(CK-12)/04%3A_Molecular_Biology,,https://aklectures.com/subject/biology/cell-structure-and-viruses,Kaplan Biology Ch. 1 & Biochem Ch. 7.4-7.5,,Checkbox
+Group 5,Microbiology,Gene Regulation,Content,https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Principles_of_Biology/02%3A_Chapter_2/16%3A_Gene_Regulation,,https://aklectures.com/subject/biology/genetics,,,Checkbox
+Group 5,Microbiology,"Anki: Parts of Cell, Tissues, Viruses and Bacteria",Content,,,,,,Checkbox
+Group 5,Microbiology,KA Questions: Cell structures and functions,Practice,https://www.khanacademy.org/science/ap-biology/cell-structure-and-function/cell-structures-and-their-functions/e/cell-structures-and-their-functions-exercise,,,,,Percentage
+Group 5,Microbiology,KA Passage: Cardiomyocytes cell cycle,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-2-passages/e/blood-oxygen-levels-may-determine-cardiac-muscle-regeneration,,,,,Percentage
+Group 5,Microbiology,KA Questions: Prokaryotes,Practice,https://www.khanacademy.org/test-prep/mcat/cells/prokaryotes-bacteria/e/prokaryotes-questions,,,,,Percentage
+Group 5,Microbiology,KA Passage: Molecular targets of antiretroviral therapies,Practice,https://www.khanacademy.org/test-prep/mcat/cells/viruses/e/molecular-targets-of-antiretroviral-therapies,,,,,Percentage
+Group 5,Microbiology,KA Passage: Gene therapy using retroviruses,Practice,https://www.khanacademy.org/test-prep/mcat/cells/viruses/e/gene-control---passage-1,,,,,Percentage
+Group 5,UWorld,UWorld Molecular Biology (25 Q),Practice,,,,,,Percentage
+Group 5,UWorld,UWorld Cellular Biology (25 Q),Practice,,,,,,Percentage
+Group 5,Review & CARs Day,6 CARs Passages,Review,,,,,,Checkbox
+Group 5,Review & CARs Day,UWorld 30 Incorrects,Review,,,,,,Checkbox
+Group 5,Review & CARs Day,General Anki Review,Review,,,,,,Checkbox
+Group 5,Review & CARs Day,P/S Anki Review,Review,,,,,,Checkbox
+Group 6,Self-Identity,KA 86-page document (pg 49-55),Content,https://docs.google.com/document/d/1IlE-AYZhM7XRsLFH1ouDeX5EWGboZ6EX/edit,,https://www.khanacademy.org/test-prep/mcat/individuals-and-society/self-identity/e/self-identity-questions,,,Checkbox
+Group 6,Self-Identity,Applied Anki: Behavioral Identity and Development,Content,,,,,,Checkbox
+Group 6,Self-Identity,KA Questions: Self Identity,Practice,https://www.khanacademy.org/test-prep/mcat/individuals-and-society/self-identity/e/self-identity-questions,,,,,Percentage
+Group 6,Self-Identity,KA Passage: Increasing Sarah's Self Efficiency,Practice,https://www.khanacademy.org/test-prep/mcat/social-sciences-practice/social-science-practice-tut/e/self-identity---passage-2,,,,,Percentage
+Group 6,Self-Identity,KA Passage: Social Norms and Deviance,Practice,https://www.khanacademy.org/test-prep/mcat/social-sciences-practice/social-science-practice-tut/e/social-structures---passage-2,,,,,Percentage
+Group 6,Self-Identity,2 CARs Passages,CARs,,,,,,Checkbox
+Group 6,Self-Identity,P/S Specific Anki Review,Review,,,,,,Checkbox
+Group 6,Social Thinking,KA 86-page document (pg 55-59),Content,https://docs.google.com/document/d/1IlE-AYZhM7XRsLFH1ouDeX5EWGboZ6EX/edit,,https://www.khanacademy.org/test-prep/mcat/individuals-and-society/perception-prejudice-and-bias/e/perception--prejudice--and-bias-questions,,,Checkbox
+Group 6,Social Thinking,Applied Anki: Social Perception,Content,,,,,,Checkbox
+Group 6,Social Thinking,"KA Questions: Perception, Prejudice, and Bias",Practice,https://www.khanacademy.org/test-prep/mcat/individuals-and-society/perception-prejudice-and-bias/e/perception--prejudice--and-bias-questions,,,,,Percentage
+Group 6,Social Thinking,Oxford University Press: Practice Quiz,Practice,https://global.oup.com/us/companion.websites/9780199329366/ch15/quiz/,,,,,Percentage
+Group 6,Social Thinking,2 CARs Passages,CARs,,,,,,Checkbox
+Group 6,Social Thinking,PS Anki Review,Review,,,,,,Checkbox
+Group 6,Social Interactions,KA 86-page document (pg 59-66),Content,https://docs.google.com/document/d/1IlE-AYZhM7XRsLFH1ouDeX5EWGboZ6EX/edit,,https://www.khanacademy.org/test-prep/mcat/individuals-and-society,,"Secure and insecure attachment, role strain and role conflict, primary and secondary groups, impression management, harlow monkey experiments, prejudice vs. discrimination,",Checkbox
+Group 6,Social Interactions,Applied Anki: Social Behavior and Social Interaction,Content,,,,,,Checkbox
+Group 6,Social Interactions,KA Questions: Social Interactions ,Practice,,,,,,Percentage
+Group 6,Social Interactions,KA Questions: Social Behavior,Practice,,,,,,Percentage
+Group 6,Social Interactions,KA Passage: Reciprocal altruism,Practice,,,,,,Percentage
+Group 6,Social Interactions,UWorld Identity and Social Interactions (30 Q),Practice,,,,,,Percentage
+Group 6,Social Interactions,KA Passage: Romantic and sexual networks of adults,Practice,https://www.khanacademy.org/test-prep/mcat/social-sciences-practice/social-science-practice-tut/e/romantic-and-sexual-networks-of-adolescents,,,,,Percentage
+Group 6,Social Interactions,Sociology Unlocked: Practice Quiz,Practice,https://learninglink.oup.com/access/content/cumming-student-resources/cumming-chapter-5-practice-quiz?previousFilter=tag_chapter-05,,,,,Percentage
+Group 6,Social Interactions,PS Anki Review,Review,,,,,,Checkbox
+Group 6,Understanding Social Structure,Understanding Social Structure,Content,https://docs.google.com/document/d/1IlE-AYZhM7XRsLFH1ouDeX5EWGboZ6EX/edit,,https://www.khanacademy.org/test-prep/mcat/society-and-culture,,"macrosociology vs. microsociology, functionalism to rational choice theory",Checkbox
+Group 6,Understanding Social Structure,Applied Anki: Social Structure,Content,,,,,,Checkbox
+Group 6,Understanding Social Structure,KA Questions: Understanding Social Structures,Practice,https://www.khanacademy.org/test-prep/mcat/society-and-culture/social-structures/e/understanding-social-structures-questions,,,,,Percentage
+Group 6,Understanding Social Structure,KA Passage: Cohabit or not cohabit?,Practice,https://www.khanacademy.org/test-prep/mcat/social-sciences-practice/social-science-practice-tut/e/to-cohabit-or-not-to-cohabit-,,,,,Percentage
+Group 6,Understanding Social Structure,KA Passage: Social conflict theory,Practice,https://www.khanacademy.org/test-prep/mcat/social-sciences-practice/social-science-practice-tut/e/social-conflict-theory-in-an-historical-context,,,,,Percentage
+Group 6,Understanding Social Structure,Sociology Unlocked: Practice Quiz,Practice,https://learninglink.oup.com/access/content/cumming-student-resources/cumming-chapter-2-practice-quiz,,,,,Percentage
+Group 6,Understanding Social Structure,PS Anki Review,Review,,,,,,Checkbox
+Group 6,Demographics & Inequality,KA 86-page document (pg 73-85),Content,https://docs.google.com/document/d/1IlE-AYZhM7XRsLFH1ouDeX5EWGboZ6EX/edit,,https://www.khanacademy.org/test-prep/mcat/social-inequality/social-class/e/social-inequality-questions,,"Social reproduction, health and healthcare inequalities, absolute vs. relative, intergenerational and intragenerational, upward and downward mobility,",Checkbox
+Group 6,Demographics & Inequality,Applied Anki: Demographics and Inequality,Content,,,,,,Checkbox
+Group 6,Demographics & Inequality,KA Questions: Social Inequality ,Practice,https://www.khanacademy.org/test-prep/mcat/social-inequality/social-class/e/social-inequality-questions,,,,,Percentage
+Group 6,Demographics & Inequality,KA Questions: Discrimination,Practice,https://www.khanacademy.org/test-prep/mcat/individuals-and-society/discrimination/e/discrimination-questions,,,,,Percentage
+Group 6,Demographics & Inequality,KA Passage: Demographic Disparity in Food,Practice,https://www.khanacademy.org/test-prep/mcat/social-sciences-practice/social-science-practice-tut/e/demographic-disparities-in-food-resources,,,,,Percentage
+Group 6,Demographics & Inequality,"KA Passage: Race, Socioeconomic Class, and nutrition",Practice,https://www.khanacademy.org/test-prep/mcat/social-sciences-practice/social-science-practice-tut/e/race--socioeconomic-status--and-nutrition,,,,,Percentage
+Group 6,Demographics & Inequality,KA Passage: Population Growth and Immigration,Practice,https://www.khanacademy.org/test-prep/mcat/social-sciences-practice/social-science-practice-tut/e/demographics---passage-1,,,,,Percentage
+Group 6,Demographics & Inequality,Sociology Unlocked Quiz,Practice,https://learninglink.oup.com/access/content/cumming-student-resources/cumming-chapter-11-practice-quiz?previousFilter=tag_chapter-11,,,,,Percentage
+Group 6,Demographics & Inequality,UWorld Dem. and Social Structure (25 Q),Practice,,,,,,Percentage
+Group 6,Review & CARs Day,6 CARs Passages,CARs,,,,,,Checkbox
+Group 6,Review & CARs Day,UWorld 30 Incorrects,Review,,,,,,Checkbox
+Group 6,Review & CARs Day,General Anki Review,Review,,,,,,Checkbox
+Group 7,"Glycolysis, Gluconeogenesis, PPP",Glycolysis,Content,https://ecampusontario.pressbooks.pub/bioc2580/chapter/glycolysis/,,https://www.youtube.com/playlist?list=PLTF9h-T1TcJhy6Og8piwo8doDJavTFOvg,"""Kaplan Chapter 9.1-9.7 excl. 9.5",,Checkbox
+Group 7,"Glycolysis, Gluconeogenesis, PPP",Gluconeogenesis & PPP,Content,https://bio.libretexts.org/Bookshelves/Cell_and_Molecular_Biology/Book%3A_Cells_-_Molecules_and_Mechanisms_(Wong)/06%3A_Metabolism_II__Anabolic_Reactions/6.04%3A_Gluconeogenesis,,https://www.khanacademy.org/test-prep/mcat/biomolecules/carbohydrate-metabolism/v/gluconeogenesis,,Gluconeogenesis to PPP,Checkbox
+Group 7,"Glycolysis, Gluconeogenesis, PPP",Glycogen,Content,https://www.youtube.com/watch?v=2XBVUKn_I5w,,,,,Checkbox
+Group 7,"Glycolysis, Gluconeogenesis, PPP",KA Passage: Muscles and Lactate Dehydrogenase,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-1-passages/e/enzyme-structure-and-function---passage-2,,,,,Percentage
+Group 7,"Glycolysis, Gluconeogenesis, PPP","Glycolysis game (Start with lecture, match, then timed exam)",Practice,https://www.athleticarcade.com/educational/match/glycolysis/index.html,,,,,Percentage
+Group 7,"Glycolysis, Gluconeogenesis, PPP",Khan Academy: Structure and function of glycogen,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-1-passages/e/carbohydrates--the-structure-and-function-of-glycogen,,,,,Percentage
+Group 7,"Glycolysis, Gluconeogenesis, PPP",Khan Academy: Glucose-6-phosphate dehydrogenase and the most important function of the pentose phosphate pathway,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-1-passages/e/glucose-6-phosphate-dehydrogenase-and-the-most-important-function-of-the-pentose-phosphate-pathway,,,,,Percentage
+Group 7,"Glycolysis, Gluconeogenesis, PPP",Oxford University Press: Biochemistry Review,Practice,https://global.oup.com/us/companion.websites/9780199730841/student/chapter8/quiz1/,,,,,Percentage
+Group 7,"Glycolysis, Gluconeogenesis, PPP",KA Questions: Glycolysis,Practice,https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation/glycolysis/a/glycolysis,,,,,Percentage
+Group 7,"Glycolysis, Gluconeogenesis, PPP",KA Passage: Control of Glucose Levels,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-1-passages/e/principles-of-bioenergetics---passage-2,,,,,Percentage
+Group 7,PDC & Krebs,Krebs Cycle,Content,https://en.wikipedia.org/wiki/Citric_acid_cycle,,https://www.youtube.com/watch?v=5WHFJ0ypeFE&list=PLTF9h-T1TcJhy6Og8piwo8doDJavTFOvg&index=3,"Kaplan Biochem 9.4, 10.1, 10.2 (PDH and CAC)",Ninja Nerds: Transition step to Kreb's Cycle,Checkbox
+Group 7,PDC & Krebs,"Draw a map including glycolysis and gluconeogenesis and the Kreb's Cylce, keeping track of the carbons via numbering, and each NADH and ATP generated; draw out the equations as well",Content,,,,,,Checkbox
+Group 7,PDC & Krebs,Can I Keep Selling Sex For Money Officer?,Practice,https://www.youtube.com/watch?v=aMBIs_Iw0kE,,,,,Percentage
+Group 7,PDC & Krebs,Oxford University Press: CAC Review,Practice,https://global.oup.com/us/companion.websites/9780199730841/student/chapter9/quiz1/,,,,,Percentage
+Group 7,PDC & Krebs,KA Question: Kreb's Cycle,Practice,https://www.khanacademy.org/test-prep/mcat/biomolecules/krebs-citric-acid-cycle-and-oxidative-phosphorylation/e/krebs--citric-acid--cycle-and-oxidative-phosphorylation-questions,,,,,Percentage
+Group 7,PDC & Krebs,KA Passage: Regulating electron carrier molecules,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-1-passages/e/overview-of-metabolism---passage-1,,,,,Percentage
+Group 7,PDC & Krebs,Khan Academy: Hypoglycemia,Practice,https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiR2IiEj9iBAxWHmWoFHX_7A3gQFnoECBEQAQ&url=https%3A%2F%2Fpl.khanacademy.org%2Ftest-prep%2Fmcat%2Fbiological-sciences-practice%2Fbiological-sciences-practice-tut%2Fe%2Fcarbohydrate-metabolism---passage-1&usg=AOvVaw3A7UmuLAH_rtusmyvI4vqN&opi=89978449,,,,,Percentage
+Group 7,PDC & Krebs,KA Passage: Glucogenic and Ketogenic Amino Acids ,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-1-passages/e/krebs-cycle-and-oxidative-phosphorylation---passage-2,,,,,Percentage
+Group 7,PDC & Krebs,General Anki Review,Review,,,,,,Checkbox
+Group 7,Oxidative Phosphorylation,Oxidative Phosphorylation,Content,https://en.wikipedia.org/wiki/Electron_transport_chain,,https://www.youtube.com/watch?v=UyTto4Aegss&list=PLTF9h-T1TcJhy6Og8piwo8doDJavTFOvg&index=6,,,Checkbox
+Group 7,Oxidative Phosphorylation,KA Questions: Oxidative Phosphorylation,Practice,,,,,,Percentage
+Group 7,Oxidative Phosphorylation,KA Passage: Inhibiting Electron Transport Chain,Practice,,,,,,Percentage
+Group 7,Oxidative Phosphorylation,Oxford University Press: Oxidative Phoshporylation,Practice,,,,,,Percentage
+Group 7,Oxidative Phosphorylation,2 CARs Passages,CARs,,,,,,Checkbox
+Group 7,Oxidative Phosphorylation,Draw ANOTHER map including glycolysis and gluconeogenesis and the Kreb's Cycle as well as oxidative phosphorylation ,Review,,,,,,Checkbox
+Group 7,Fatty Acid Metabolism,Fatty Acid Metabolism,Review,https://en.wikipedia.org/wiki/Fatty_acid_metabolism,,https://www.youtube.com/watch?v=WQ2HBx-l5b0&t=868s,Kaplan Biochem Chapter 11,,Checkbox
+Group 7,Fatty Acid Metabolism,KA Questions: Fatty Acid and Protein Metabolism,Practice,https://www.khanacademy.org/test-prep/mcat/biomolecules/fat-and-protein-metabolism/e/fat-and-protein-metabolism-questions,,,,,Percentage
+Group 7,Fatty Acid Metabolism,Amino Acid Synthesis Video (Strecker/Gabriel),Content,https://www.youtube.com/watch?v=T_mFhtBja5A,,,,,Checkbox
+Group 7,Fatty Acid Metabolism,KA Passage: Fat Metabolism Deficiencies,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-1-passages/e/fat-and-protein-metabolism---passage-2,,,,,Percentage
+Group 7,Fatty Acid Metabolism,Oxford University Press: Fatty Acid Metabolism,Practice,https://global.oup.com/us/companion.websites/9780199730841/student/chapter12/quiz1/,,,,,Percentage
+Group 7,Fatty Acid Metabolism,KA: Diabetes and Hyperglycemia,Practice,https://www.khanacademy.org/test-prep/mcat/organ-systems/hormonal-regulation/e/fat-and-protein-metabolism---passage-1,,,,,Percentage
+Group 7,Fatty Acid Metabolism,General Anki Review,Review,,,,,,Checkbox
+Group 7,UWorld Day,UWorld Metabolism (40 Q),Practice,,,,,,Percentage
+Group 7,UWorld Day,Applied Anki: Metabolism,Content,,,,,,Checkbox
+Group 7,UWorld Day,General Anki Review,Review,,,,,,Checkbox
+Group 7,Review Day,6 CARs Passages,CARs,,,,,,Checkbox
+Group 7,Review Day,UWorld 20 Incorrects,Review,,,,,,Checkbox
+Group 7,Review Day,Draw a final map including all of metabolism,Review,,,,,,Checkbox
+Group 7,Review Day,General Anki Review,Review,,,,,,Checkbox
+Group 8,Kinematics & Force,Kinematics & Force,Review,,The Berkeley Review Physics: Section I and II,https://youtube.com/playlist?list=PL2iz2QJdvPGIuaXgMG1uh5GzWhxhcNJPK&si=E2lGCZkcTGFrdQit,Kaplan Physics 1.1 - 1.6 (Movement and Forces),,Checkbox
+Group 8,Kinematics & Force,Leah4sci MCAT: Math Without A Calculator Playlist,Content,https://www.youtube.com/playlist?list=PL_uKI3obn00Z4zrNbkPAw6B3KNZPQ16se,,,,,Checkbox
+Group 8,Kinematics & Force,Leah4sci MCAT Math Accompanying Worksheet,Content,https://studyhall.leah4sci.com/wp-content/uploads/2023/02/Worksheet-for-MCAT-math-8Feb2023-edit.pdf?utm_source=ONTRAPORT-email-sequence&utm_medium=ONTRAPORT-email-sequence&utm_term=&utm_content=Your+MCAT+Math+Worksheet&utm_campaign=MCAT+Math+Worksheet+,,,,Make sure to use the accompanying worksheet,Checkbox
+Group 8,Kinematics & Force,Applied Anki: Kinematics and Force Equations,Content,,,,,,Checkbox
+Group 8,Kinematics & Force,Physics Classroom Set: Newton's Law,Practice,,,,,,Percentage
+Group 8,Kinematics & Force,Physics Classroom Set: Vectors and Projectiles,Practice,,,,,,Percentage
+Group 8,Kinematics & Force,KA Passage: Ancient Greek Catapult,Practice,,,,,,Percentage
+Group 8,Kinematics & Force,KA Passage: Forces of Tension,Practice,,,,,,Percentage
+Group 8,Kinematics & Force,KA Passage: Tension in Muscles,Practice,,,,,,Percentage
+Group 8,Kinematics & Force,General Anki Review,Review,,,,,,Checkbox
+Group 8,Work & Energy,Work & Energy,Content,,The Berkeley Review Physics: Section III,https://youtube.com/playlist?list=PL2iz2QJdvPGIuaXgMG1uh5GzWhxhcNJPK&si=E2lGCZkcTGFrdQit,Kaplan Physics 2.1 - 2.3 (Work and Energy),,Checkbox
+Group 8,Work & Energy,"Physics Classroom Set: Work, Energy, and Power",Content,https://www.physicsclassroom.com/calcpad/energy/problems,,,,,Checkbox
+Group 8,Work & Energy,KA Passage: Rollercoasters,Practice,"https://www.khanacademy.org/test-prep/mcat/physical-sciences-practice/physical-sciences-practice-tut/e/work-and-energy---passage-2#:~:text=One%20of%20the%20most%20interesting,advantage%20of%20gravitational%20potential%20energy.",,,,,Percentage
+Group 8,Work & Energy,UWorld Mechanics and Energy (30 Questions),Practice,,,,,,Percentage
+Group 8,Work & Energy,Applied Anki: Work,Review,,,,,,Checkbox
+Group 8,Work & Energy,General Anki Review,Review,,,,,,Checkbox
+Group 8,Waves & Sound,Sound,Content,,The Berkeley Review Part 2: Section VIII,https://youtube.com/playlist?list=PL2iz2QJdvPGIuaXgMG1uh5GzWhxhcNJPK&si=E2lGCZkcTGFrdQit,Kaplan Physics Chapter 7 & 8,,Checkbox
+Group 8,Waves & Sound,Physics Classroom: Sound & Music,Practice,https://www.physicsclassroom.com/calcpad/sound/problems,,,,,Percentage
+Group 8,Waves & Sound,Applied Anki: Waves and Sound,Content,,,,,,Checkbox
+Group 8,Waves & Sound,KA Passage: How Movements Influence Ultrasound,Practice,https://www.khanacademy.org/test-prep/mcat/physical-sciences-practice/physical-sciences-practice-tut/e/sound-quiz-passage-1,,,,,Percentage
+Group 8,Waves & Sound,KA Passage: Mechanics of Standing Balance,Practice,"https://www.khanacademy.org/test-prep/mcat/physical-sciences-practice/physical-sciences-practice-tut/e/the-mechanics-of-standing-balance#:~:text=The%20analogy%20between%20a%20standing,fulcrum%20formed%20by%20their%20feet.",,,,,Percentage
+Group 8,Waves & Sound,KA Questions: Sound,Practice,https://www.khanacademy.org/test-prep/mcat/physical-processes/sound/e/sound-questions-2,,,,,Percentage
+Group 8,Waves & Sound,General Anki Review,Review,,,,,,Checkbox
+Group 8,Light & Optics,Light,Content,,The Berkeley Review Part 2: Section IX-X,https://youtube.com/playlist?list=PL2iz2QJdvPGIuaXgMG1uh5GzWhxhcNJPK&si=E2lGCZkcTGFrdQit,Kaplan Physics Chapter 8,,Checkbox
+Group 8,Light & Optics,Physics Classroom: Refraction and Lenses,Practice,https://www.physicsclassroom.com/calcpad/refrn/problems,,,,,Percentage
+Group 8,Light & Optics,Physics Classroom: Light,Practice,https://www.physicsclassroom.com/calcpad/light,,,,,Percentage
+Group 8,Light & Optics,UWorld Light and Sound (25 Q),Practice,,,,,,Percentage
+Group 8,Light & Optics,2 CARs Passages,CARs,,,,,,Checkbox
+Group 8,Light & Optics,Applied Anki: Light and Optics,Content,,,,,,Checkbox
+Group 8,Light & Optics,General Anki Review,Review,,,,,,Checkbox
+Group 8,Gases,Gases,Content,,The Berkeley Review Part 1: Section V,https://www.chadsprep.com/chads-general-physics-videos/pressure-and-gas-laws/,Kaplan Chemistry 8.1 - 8.4 (Gases),,Checkbox
+Group 8,Gases,Applied Anki: Gases,Content,,,,,,Checkbox
+Group 8,Gases,KA Passage: Heat Engines and Work,Practice,https://www.khanacademy.org/test-prep/mcat/physical-sciences-practice/physical-sciences-practice-tut/e/gas-in-a-canister-with-a-piston,,,,,Percentage
+Group 8,Gases,KA Passage: Ideal Gases,Practice,https://www.khanacademy.org/test-prep/mcat/physical-sciences-practice/physical-sciences-practice-tut/e/the-kinetic-properties-of-ideal-gases,,,,,Percentage
+Group 8,Gases,KA Passage: Charles' Law,Practice,https://www.khanacademy.org/test-prep/mcat/physical-sciences-practice/physical-sciences-practice-tut/e/gas-phase---passage-2,,,,,Percentage
+Group 8,Gases,Physics Classroom Set: Ideal Gas Law,Practice,https://www.physicsclassroom.com/calcpad/launch/CPGL7,,,,,Percentage
+Group 8,Gases,Physics Classroom Set: Dalton's Law,Practice,https://www.physicsclassroom.com/calcpad/launch/CPGL12,,,,,Percentage
+Group 8,Gases,Physics Classroom Set: Combined Gas Law,Practice,https://www.physicsclassroom.com/calcpad/launch/CPGL6,,,,,Percentage
+Group 8,Gases,2 CARs Passages,CARs,,,,,,Checkbox
+Group 8,Gases,General Anki Review,Review,,,,,,Checkbox
+Group 8,Fluids,Fluids,Content,,The Berkeley Review Part 1: Section V,https://youtube.com/playlist?list=PL2iz2QJdvPGIuaXgMG1uh5GzWhxhcNJPK&si=E2lGCZkcTGFrdQit,Kaplan Physics Chapter 4,,Checkbox
+Group 8,Fluids,Applied Anki: Fluids,Content,,,,,,Checkbox
+Group 8,Fluids,KA Passage: Pressure-Regulation and Fluid Dynamics,Practice,https://www.khanacademy.org/test-prep/mcat/physical-sciences-practice/physical-sciences-practice-tut/e/pressure-regulation-and-fluid-dynamics-of-the-respiratory-system,,,,,Percentage
+Group 8,Fluids,KA Passage: A Scale Under Water,Practice,https://www.khanacademy.org/test-prep/mcat/physical-sciences-practice/physical-sciences-practice-tut/e/fluids-at-rest---passage-1,,,,,Percentage
+Group 8,Fluids,KA Passage: Tubular System in Acquarium,Practice,https://www.khanacademy.org/test-prep/mcat/physical-sciences-practice/physical-sciences-practice-tut/e/fluids-in-motion--passage-1,,,,,Percentage
+Group 8,Fluids,KA Passage: Hydrotherapy,Practice,https://www.khanacademy.org/test-prep/mcat/physical-sciences-practice/physical-sciences-practice-tut/e/fluids-in-motion--passage-2,,,,,Percentage
+Group 8,Fluids,KA Passage: Coronary Heart Disease,Practice,https://www.khanacademy.org/test-prep/mcat/physical-sciences-practice/physical-sciences-practice-tut/e/fluids-at-rest---passage-2,,,,,Percentage
+Group 8,Fluids,General Anki Review,Review,,,,,,Checkbox
+Group 8,Fluids,UWorld Fluids & Gases (25 Questions),Practice,,,,,,Percentage
+Group 9,Circulation & Respiration,Applied Anki: Circulation and Respiration,Content,,,,,,Checkbox
+Group 9,Circulation & Respiration,Circulation,Content,https://www.youtube.com/watch?v=_vZ0lefPg_0,,,,,Checkbox
+Group 9,Circulation & Respiration,Respiration,Content,https://youtube.com/playlist?list=PLEb9Ugg1mc_lb3fHtlVqN0KVrKhFkvueL,,,,,Checkbox
+Group 9,Circulation & Respiration,Bicarbonate Buffer,Content,https://www.youtube.com/watch?v=tC9EfkOe8IQ,,,,,Checkbox
+Group 9,Circulation & Respiration,KA Circulation System Practice Questions,Practice,https://www.khanacademy.org/test-prep/mcat/organ-systems/the-circulatory-system/e/circulatory-system-questions,,,,,Percentage
+Group 9,Circulation & Respiration,KA Respiration System Practice Questions,Practice,https://www.khanacademy.org/test-prep/mcat/organ-systems/the-respiratory-system/e/respiratory-system-questions,,,,,Percentage
+Group 9,Circulation & Respiration,KA Passage: Detection of Myocardial Infarction,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-3-passages/e/muscular-system---passage-2,,,,,Percentage
+Group 9,Circulation & Respiration,KA Passage: Lung Volume Studies,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-3-passages/e/respiratory-system---passage-2,,,,,Percentage
+Group 9,Circulation & Respiration,KA Passage: Anemia and Clinical Cases,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-3-passages/e/a-clinical-approach-to-anemia--solve-the-case,,,,,Percentage
+Group 9,Circulation & Respiration,General Anki Review,Review,,,,,,Checkbox
+Group 9,Digestion and Excretion,Applied Anki: Digestion & Excretion,Review,,,,,,Checkbox
+Group 9,Digestion and Excretion,Kidneys,Content,https://youtube.com/playlist?list=PLdonEKZrk3DlbmOriD9xjgJs_Aarve8Ol,,,, up until countercurrent multiplier system,Checkbox
+Group 9,Digestion and Excretion,Aldosterone and ADH,Content,https://www.youtube.com/watch?v=Z0XPMFL45oo,,,,,Checkbox
+Group 9,Digestion and Excretion,Starling Forces,Content,https://www.youtube.com/watch?v=_w_73H4MHqU,,,,,Checkbox
+Group 9,Digestion and Excretion,Amoebe Sisters: Digestive System,Content,https://www.youtube.com/watch?v=1UvuBYUbFk0,,,,,Checkbox
+Group 9,Digestion and Excretion,KA Question: Gastro system,Practice,https://www.khanacademy.org/test-prep/mcat/organ-systems/the-gastrointestinal-system/e/gastrointestinal-system-questions,,,,,Percentage
+Group 9,Digestion and Excretion,KA Renal: RAAS Inhibitors,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-3-passages/e/ace-inhibitors-and-the-renal-regulation-of-blood-pressure-,,,,,Percentage
+Group 9,Digestion and Excretion,KA Renal: Measuring GFR with Insulin,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-3-passages/e/measuring-glomerular-filtration-rate-of-the-kidneys-with-inulin,,,,,Percentage
+Group 9,Digestion and Excretion,KA Renal: Heart Failure and Diuretics,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-3-passages/e/congestive-heart-failure-and-diuretics,,,,,Percentage
+Group 9,Digestion and Excretion,UWorld Digestion and Excretion (25 Q),Practice,,,,,,Percentage
+Group 9,Digestion and Excretion,2 CARs Passages,CARs,,,,,,Checkbox
+Group 9,Digestion and Excretion,General Anki Review,Review,,,,,,Checkbox
+Group 9,Immune and Skin,Amoebe sisters overview video on immune systems,Content,https://www.youtube.com/watch?v=fSEFXl2XQpc,,,,,Checkbox
+Group 9,Immune and Skin,Applied Anki on Immune System & Skin,Content,,,,,,Checkbox
+Group 9,Immune and Skin,Map out the immune system pathway (what activates what? which ones present MHC I and MHC II? what's a part of the innane and humoral immune system?,Content,,,,,,Checkbox
+Group 9,Immune and Skin,KA Immune: Milk Allergy and Intolerance,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-3-passages/e/the-underlying-mechanism-of-milk-allergies-,,,,,Percentage
+Group 9,Immune and Skin,KA Immune: Mechanisms of Antibody Variability,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-3-passages/e/mechanisms-of-antibody-variability-during-b-cell-development,,,,,Percentage
+Group 9,Immune and Skin,KA Immune: T-Cell Activation,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-3-passages/e/activation-of-t-lymphocytes,,,,,Percentage
+Group 9,Immune and Skin,KA Immune: Antibody Class Differences,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-3-passages/e/antibody-class-differences,,,,,Percentage
+Group 9,Immune and Skin,KA Skin: Laser Tattoo Removal,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-3-passages/e/integumentary-quiz-passage-1,,,,,Percentage
+Group 9,Immune and Skin,KA Skin Lasers as Vaccine Adjustments,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-3-passages/e/rh-passage-4,,,,,Percentage
+Group 9,Immune and Skin,UWorld Skin and Immune System (25 Q),Practice,,,,,,Percentage
+Group 9,Immune and Skin,2 CARs Passages,CARs,,,,,,Checkbox
+Group 9,Immune and Skin,General Anki Review,Review,,,,,,Checkbox
+Group 9,Nervous System,Muscle System,Content,,,https://www.youtube.com/playlist?list=PLEb9Ugg1mc_lCvxO1UnFy3CNtaCOGNRDF,,"Watch to ""The Motor Unit""); for skeletal watch ""The Osteon and Compact Bone Structure"" as well as ""Bone Metabolism"")",Checkbox
+Group 9,Nervous System,Action Potential,Content,,,https://www.youtube.com/watch?v=oa6rvUJlg7o&t=624s,,,Checkbox
+Group 9,Nervous System,Applied Anki on Milesdown — Nervous + Muscle,Content,,,,,,Checkbox
+Group 9,Nervous System,KA Skeletal: Disorders of Bone,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-3-passages/e/disorders-of-the-skeletal-system-and-bone-remodeling-,,,,,Percentage
+Group 9,Nervous System,KA Nervous: Opoid Receptors,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-3-passages/e/cell-cell-interactions---passage-1,,,,,Percentage
+Group 9,Nervous System,KA Nervous: Effects of Stroke,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-3-passages/e/neural-cells---passage-1,,,,,Percentage
+Group 9,Nervous System,KA Nervous: Organization of Motor Neurons,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-3-passages/e/nervous-system-disorders-i--als,,,,,Percentage
+Group 9,Nervous System,KA Muscle: Neuromuscular Junction,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-3-passages/e/enzyme-kinetics---passage-1,,,,,Percentage
+Group 9,Nervous System,KA Muscle: Duchenne Muscular Dystropy,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-3-passages/e/inherited-disorders--duchenne-muscular-dystrophy,,,,,Percentage
+Group 9,Nervous System,KA Nervous: Demyelinating Disease,Practice,https://www.khanacademy.org/test-prep/mcat/biological-sciences-practice/x04f6bc56:mcat-bio-biochem-foundation-3-passages/e/nervous-system-disorders-ii--ms,,,,,Percentage
+Group 9,Nervous System,"UWorld Muscoskeletal, Endocrine, Nervous (25)",Practice,,,,,,Percentage
+Group 9,Circuits,Circuits,Content,,The Berkeley Review Physics: Section VII,https://www.youtube.com/playlist?list=PLo21afxq3fi7O8YlCnpm3Y1vZDm9d2W9b,Kaplan Physics 6.1 - 6.4 (Circuits),,Checkbox
+Group 9,Circuits,KA: Analyzing Electrocardiogram Volt Signals,Practice,https://www.khanacademy.org/test-prep/mcat/physical-sciences-practice/physical-sciences-practice-tut/e/analyzing-electrocardiogram-voltage-signals,,,,,Percentage
+Group 9,Circuits,KA: Neuronal Membranes,Practice,https://www.khanacademy.org/test-prep/mcat/physical-sciences-practice/physical-sciences-practice-tut/e/neuronal-membranes--nature-s-capacitors,,,,,Percentage
+Group 9,Circuits,KA: Circuit Elements of a Defib,Practice,https://www.khanacademy.org/test-prep/mcat/physical-sciences-practice/physical-sciences-practice-tut/e/the-circuit-elements-of-a-simple-defibrillator,,,,,Percentage
+Group 9,Circuits,KA: Capacitors in Electrocardiography,Practice,https://www.khanacademy.org/test-prep/mcat/physical-sciences-practice/physical-sciences-practice-tut/e/capacitors---passage-1,,,,,Percentage
+Group 9,Circuits,UWorld (Circuits 20 Problems),Practice,,,,,,Percentage
+Group 9,Circuits,KA Passage: Myography,Practice,https://www.khanacademy.org/test-prep/mcat/physical-sciences-practice/physical-sciences-practice-tut/e/electromyography-and-passive-filters--circuitry-in-action,,,,,Percentage
+Group 9,Electrostatics and Magnetism,Electrostatics and Magnetism,Content,,The Berkeley Review Physics: Section VI,https://www.youtube.com/watch?v=KD8erWXQUOg,Kaplan Physics Chapter 5,,Checkbox
+Group 9,Electrostatics and Magnetism,Right Hand Rules,Content,,,https://www.youtube.com/watch?v=TyaY5b2fqZk,,,Checkbox
+Group 9,Electrostatics and Magnetism,KA Passage: Electric Field,Practice,https://www.khanacademy.org/test-prep/mcat/physical-processes/intro-electrochemistry-mcat/e/electrochemistry-questions,,,,,Percentage
+Group 9,Electrostatics and Magnetism,KA Questions: Magnetism ,Practice,https://www.khanacademy.org/test-prep/mcat/physical-processes/intro-electrochemistry-mcat/e/electrochemistry-questions,,,,,Percentage
+Group 9,Electrostatics and Magnetism,KA Questions: Electrochemistry,Practice,https://www.khanacademy.org/test-prep/mcat/physical-processes/intro-electrochemistry-mcat/e/electrochemistry-questions,,,,,Percentage
+Group 9,Electrostatics and Magnetism,Physics Classroom: Static Electricity,Practice,https://www.physicsclassroom.com/calcpad/estatics,,,,,Percentage
+Group 9,Electrostatics and Magnetism,UWorld Electrostatics and Circuits (25 Q),Practice,,,,,,Percentage
