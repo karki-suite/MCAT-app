@@ -1,8 +1,8 @@
 @if (count($content) > 0)
-    <h6 class="text-center underline text-lg text-gray-800 leading-tight pb-1">{{ $title }}</h6>
+    <h6 class="text-center underline text-lg text-gray-800 leading-tight pb-1 pt-2">{{ $title }}</h6>
 @endif
 @foreach ($content as $contentItem)
-    <div style="clear:both;" class="pt-2">
+    <div style="clear:both;" class="pt-1">
         @switch($contentItem->tracking)
             @case('CHECKBOX')
                 <input class="float-right ml-1" type="checkbox" name="{{ $contentItem->id }}" />
