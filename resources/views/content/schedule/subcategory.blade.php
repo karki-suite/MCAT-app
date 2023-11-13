@@ -5,10 +5,10 @@
     <div style="clear:both;" class="pt-1">
         @switch($contentItem->tracking)
             @case('CHECKBOX')
-                <input class="float-right ml-1" type="checkbox" name="{{ $contentItem->id }}" />
+                <input class="float-right ml-1" type="checkbox" name="content[{{ $contentItem->id }}]" />
                 @break
             @case('PERCENTAGE')
-                <input class="float-right w-12 p-0 ml-1 text-right" type="number" placeholder="0%" min="0" max="100" name="{{ $contentItem->id }}" />
+                <input class="float-right w-12 p-0 ml-1 text-right" type="number" placeholder="0%" min="0" max="100" name="content[{{ $contentItem->id }}]" />
                 @break
         @endswitch
         @if ($contentItem->link_text)
@@ -27,7 +27,7 @@
         @endif
         <span class="pl-2">{{ $contentItem->label }}</span>
         @if ($contentItem->tracking == 'TEXTAREA')
-            <textarea class="border-1 w-full h-24"></textarea>
+            <textarea class="border-1 w-full h-24" name="content[{{ $contentItem->id }}]"></textarea>
         @endif
     </div>
 @endforeach

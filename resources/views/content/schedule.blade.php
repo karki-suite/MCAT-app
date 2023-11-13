@@ -20,17 +20,59 @@
     </div>
     <script type="text/javascript">
         jQuery(document).ready(function () {
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': '{{ csrf_token() }}'
+                }
+            });
             $('.fa-video').click(function (e) {
                 if ($(this).attr('href').includes('youtube')) {
-                    var searchString = new URL($(this).attr('href')).search;
-                    var searchParts = parseUrlParams(searchString);
+                    let searchString = new URL($(this).attr('href')).search;
+                    let searchParts = parseUrlParams(searchString);
                     if (searchParts['v']) {
                         e.preventDefault();
                         $('<div style="max-width:620px;"><iframe width="560" height="315" src="https://www.youtube.com/embed/' + searchParts['v'] + '" title="YouTube Video Player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>').modal();
                     }
                 }
             });
+
+            function saveContentResponses() {
+                let response = {};
+                $('textarea,input').each(function () {
+                    if($(this).attr('name').startsWith('content[')) {
+                        let contentId = $(this).attr('name').split('[')[1].split(']')[0];
+                        if($(this).attr('type') == 'checkbox') {
+                            response[contentId] = $(this).is(':checked');
+                        } else {
+                            response[contentId] = $(this).val();
+                        }
+                    }
+                });
+
+                $.post('/schedule', {responses: response});
+            }
+
+            $('textarea,input').change(function () {
+                saveContentResponses();
+            });
+
+
+            function loadContentResponses(contentResponses) {
+                for (let contentId in contentResponses) {
+                    let $targetEle = $('[name="content[' + contentId + ']"]');
+                    if($targetEle.attr('type') == 'checkbox') {
+                        $targetEle.prop('checked', (contentResponses[contentId] == "true"));
+                    } else {
+                        $targetEle.val(contentResponses[contentId]);
+                    }
+                }
+            }
+
+            var contentResponses = {!! $contentResponses !!};
+            loadContentResponses(contentResponses);
         });
+
+
 
         function parseUrlParams(url) {
             var query = url.substr(1);

@@ -27,6 +27,10 @@ Route::get('/schedule', [ScheduleController::class, 'index'])
     ->middleware(['auth', 'verified'])
     ->name('schedule');
 
+Route::post('/schedule', [ScheduleController::class, 'save'])
+    ->middleware(['auth', 'verified'])
+    ->name('schedule.save');
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
