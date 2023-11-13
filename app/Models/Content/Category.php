@@ -48,6 +48,18 @@ class Category extends Model
             ->where('content_contents.subcategory', '=', 'REVIEW');
     }
 
+    public function contentsPractice(): HasMany
+    {
+        return $this->hasMany(Content::class)
+            ->where('content_contents.subcategory', '=', 'PRACTICE');
+    }
+
+    public function contentsCars(): HasMany
+    {
+        return $this->hasMany(Content::class)
+            ->where('content_contents.subcategory', '=', 'CARS');
+    }
+
     /**
      * The attributes that are mass assignable.
      *
