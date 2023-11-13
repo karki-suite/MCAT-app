@@ -53,23 +53,12 @@ class ContentContentCrudController extends CrudController
             'options' => [
                 'OVERVIEW' => 'Overview',
                 'CONTENT' => 'Content',
-                'REVIEW' => 'Review'
+                'REVIEW' => 'Review',
+                'PRACTICE' => 'Practice',
+                'CARS' => 'CARs'
             ]
         ]);
         CRUD::column('label')->type('string');
-        CRUD::column('link_text')->type('string');
-        CRUD::column('link_video')->type('string');
-        CRUD::column('link_kaplan')->type('string');
-        CRUD::addColumn([
-            'label' => 'Tracking',
-            'type' => 'enum',
-            'name' => 'tracking',
-            'options' => [
-                'CHECKBOX' => 'Checkbox',
-                'PERCENTAGE' => 'Percentage',
-                'NONE' => 'None'
-            ]
-        ]);
     }
 
     /**
@@ -94,18 +83,23 @@ class ContentContentCrudController extends CrudController
             'options' => [
                 'OVERVIEW' => 'Overview',
                 'CONTENT' => 'Content',
-                'REVIEW' => 'Review'
+                'REVIEW' => 'Review',
+                'PRACTICE' => 'Practice',
+                'CARS' => 'CARs'
             ]
         ]);
         CRUD::field('label')->type('text');
         CRUD::field('link_text')->type('text')->label('Text Link');
+        CRUD::field('ref_text')->type('text')->label('Text Link');
         CRUD::field('link_video')->type('text')->label('Video Link');
-        CRUD::field('link_kaplan')->type('text')->label('Kaplan Link');
+        CRUD::field('ref_kaplan')->type('text')->label('Kaplan Link');
+        CRUD::field('notes')->type('textarea')->label('Notes');
         CRUD::addField([
             'label' => 'Tracking',
             'type' => 'enum',
             'name' => 'tracking',
             'options' => [
+                'TEXTAREA' => 'Textarea',
                 'CHECKBOX' => 'Checkbox',
                 'PERCENTAGE' => 'Percentage',
                 'NONE' => 'None'

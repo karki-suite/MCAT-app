@@ -14,11 +14,14 @@ return new class extends Migration
         Schema::create('content_contents', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('category_id');
-            $table->enum('type', ['VIDEO', 'TEXT', 'KAPLAN']);
-            $table->enum('subcategory', ['OVERVIEW', 'CONTENT', 'REVIEW']);
-            $table->enum('tracking', ['CHECKBOX', 'PERCENTAGE', 'NONE']);
+            $table->enum('subcategory', ['OVERVIEW', 'CONTENT', 'REVIEW', 'PRACTICE', 'CARS']);
+            $table->enum('tracking', ['CHECKBOX', 'PERCENTAGE', 'TEXTAREA', 'NONE']);
             $table->string('label');
-            $table->string('link');
+            $table->string('link_text')->nullable();
+            $table->string('ref_text')->nullable();
+            $table->string('link_video')->nullable();
+            $table->string('ref_kaplan')->nullable();
+            $table->text('notes');
             $table->foreign('category_id')->references('id')->on('content_groups_categories');
         });
     }
