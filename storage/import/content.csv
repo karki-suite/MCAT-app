@@ -37,8 +37,8 @@ Group 1,Redox & Electrochemistry,Electrochemistry,Content,https://openstax.org/b
 Group 1,Redox & Electrochemistry,KA: Electrochemistry Practice Questions,Practice,,,,,,Percentage
 Group 1,Redox & Electrochemistry,UWorld: Solutions and Electrochemistry (25 Q),Practice,,,,,,Percentage
 Group 1,Redox & Electrochemistry,End of Week Summary: What are you doing well? What do you still need to work on?,Review,,,,,,Textarea
-Group 2,Amino Acids,Group 2 Overview Video,Overview,,,https://youtu.be/_3f7G5GFW1k,,,
-Group 2,Amino Acids,Read the 1A & 5E Content Overview,Overview,https://students-residents.aamc.org/media/9261/download,,,,,
+Group 2,Amino Acids,Group 2 Overview Video,Overview,,,https://youtu.be/_3f7G5GFW1k,,,Checkbox
+Group 2,Amino Acids,Read the 1A & 5E Content Overview,Overview,https://students-residents.aamc.org/media/9261/download,,,,,Checkbox
 Group 2,Amino Acids,Amino Acids,Content,https://wou.edu/chemistry/courses/online-chemistry-textbooks/ch450-and-ch451-biochemistry-defining-life-at-the-molecular-level/chapter-7-enzyme-kinetics/,,https://www.khanacademy.org/science/biology/macromolecules/proteins-and-amino-acids/v/introduction-to-amino-acids,Kaplan Biochem 1.1 - 1.6 (Amino Acid),,Checkbox
 Group 2,Amino Acids,Draw all amino acids in a cheat sheet,Content,https://www.reddit.com/r/Mcat/comments/vg0qrx/figured_id_share_my_amino_acid_cheat_sheet_that_i/,,,,,Checkbox
 Group 2,Amino Acids,Applied Anki on MilesDown Amino Acids,Review,,,,,,Checkbox
@@ -74,8 +74,8 @@ Group 2,Review Day,UWorld Amino Acids (25 Q),Practice,,,,,,Percentage
 Group 2,Review Day,General Anki Review,Review,,,,,,Checkbox
 Group 2,Review Day,2 CARs Passages,CARs,,,,,,Checkbox
 Group 2,Review Day,End of Week Summary,Review,,,,,,Textarea
-Group 3,Carbohydrates,Group 3 Overview Video,Overview,,,https://youtu.be/PI106jeSdOc,,,
-Group 3,Carbohydrates,Read the 5D Content Overview,Overview,https://students-residents.aamc.org/media/9261/download,,,,,
+Group 3,Carbohydrates,Group 3 Overview Video,Overview,,,https://youtu.be/PI106jeSdOc,,,Checkbox
+Group 3,Carbohydrates,Read the 5D Content Overview,Overview,https://students-residents.aamc.org/media/9261/download,,,,,Checkbox
 Group 3,Carbohydrates,Carbohydrates,Content,https://chem.libretexts.org/Bookshelves/Biological_Chemistry/Supplemental_Modules_(Biological_Chemistry)/Carbohydrates/Carbohydrates_Fundamentals,,https://aklectures.com/subject/medical/fundamentals/metabolism-of-carbohydrates,"Kaplan"",""Kaplan Biochem 4.1 - 4.4 (Carbohydrates)",,Checkbox
 Group 3,Carbohydrates,"Draw the four essential monosaccharides in Haworth and 3D projection: fructose, glucose, galactose, and mannose; draw disaccharides sucrose, lactose, maltose, trehalose, and isomaltose",Content,,,,,,Checkbox
 Group 3,Carbohydrates,Helpful Mneumonic ,Content,https://www.reddit.com/r/Mcat/comments/ggyuwh/glucose/,,,,,Checkbox
@@ -111,10 +111,10 @@ Group 3,UWorld & Review Day,General Anki Review,Review,,,,,,Checkbox
 Group 3,UWorld & Review Day,6 CARs Passages,CARs,,,,,,Checkbox
 Group 3,UWorld & Review Day,UWorld Incorrects (30 Questions),Practice,,,,,,Percentage
 Group 3,UWorld & Review Day,General Anki Review,Review,,,,,,Checkbox
-Group 3,UWorld & Review Day,End of Week Summary,Overview,,,,,,
+Group 3,UWorld & Review Day,End of Week Summary,Overview,,,,,,Checkbox
 Group 3,UWorld & Review Day,"Draw out nucleotides, functional groups, NADH, NADPH, pyruvate, acetyl-CoA, fructose-6-phosphate, lactate, the general structure of a fatty acid, ubiqinol, carbohydrates (glucose, mannose, galactose, sucrose, fructose), imidazole, indole, and all the amino acids.",Content,,,,,,Checkbox
-Group 4,Sensing the Environment,Group 4 Overview Video,Overview,,,https://youtu.be/lq-Jf7tt1kM,,,
-Group 4,Sensing the Environment,Read the 6A Content Overview,Overview,https://students-residents.aamc.org/media/9261/download,,,,,
+Group 4,Sensing the Environment,Group 4 Overview Video,Overview,,,https://youtu.be/lq-Jf7tt1kM,,,Checkbox
+Group 4,Sensing the Environment,Read the 6A Content Overview,Overview,https://students-residents.aamc.org/media/9261/download,,,,,Checkbox
 Group 4,Sensing the Environment,KA Document: Pages (1-8),Content,https://docs.google.com/document/d/1IlE-AYZhM7XRsLFH1ouDeX5EWGboZ6EX/edit,,https://www.khanacademy.org/test-prep/mcat/processing-the-environment,,"Students should watch high yield videos only: Bottom Up vs. Top Down Processing, Gestalt Principles, Photoreceptors, Sensory Adaptation and Amplification, Sensory Adaptation, Weber's Law, Absolute Threshold of Sensation",Checkbox
 Group 4,Sensing the Environment,KA Passage: Somatosensation and Hypersensitivity,Practice,https://www.khanacademy.org/test-prep/mcat/social-sciences-practice/social-science-practice-tut/e/somatosensory-effects-of-temple-grandin-s-squeeze-box-on-hypersensitivity-,,,,,Percentage
 Group 4,Sensing the Environment,KA Passage: Could complete darkness be the cure?,Practice,https://www.khanacademy.org/test-prep/mcat/social-sciences-practice/social-science-practice-tut/e/could-complete-darkness-be-the-cure-for-amblyopia-,,,,,Percentage
@@ -159,10 +159,10 @@ Group 4,Social Processes & Learning,P/S Specific Anki Review,Review,,,,,,Checkbo
 Group 4,Social Processes & Learning,"UWorld Learning, Memory, and Cognition (30 Q)",Practice,,,,,,Percentage
 Group 4,Review & CARs Day,6 CARs Passages,CARs,,,,,,Checkbox
 Group 4,Review & CARs Day,UWorld 30 Incorrects,Review,,,,,,Checkbox
-Group 4,Review & CARs Day,General Anki Review,Review,,,,,,
+Group 4,Review & CARs Day,General Anki Review,Review,,,,,,Checkbox
 Group 4,Review & CARs Day,End of Week Review,Review,,,,,,Checkbox
-Group 5,Reproduction & Cell Cycle,Group 5 Overview Video,Overview,,,https://youtu.be/chP5BI0fmcw,,,
-Group 5,Reproduction & Cell Cycle,Read the 1B+2C+1C Content Overview,Overview,https://students-residents.aamc.org/media/9261/download,,,,,
+Group 5,Reproduction & Cell Cycle,Group 5 Overview Video,Overview,,,https://youtu.be/chP5BI0fmcw,,,Checkbox
+Group 5,Reproduction & Cell Cycle,Read the 1B+2C+1C Content Overview,Overview,https://students-residents.aamc.org/media/9261/download,,,,,Checkbox
 Group 5,Reproduction & Cell Cycle,Cell Cycle,Content,https://openstax.org/books/biology-2e/pages/10-1-cell-division,,https://aklectures.com/subject/biology/cell-cycle-reproduction-and-embryology,Kaplan Biology 2&3 (Reproduction and Embryogenesis),,Checkbox
 Group 5,Reproduction & Cell Cycle,Reproduction,Content,https://jackwestin.com/resources/mcat-content/reproductive-system,,https://www.youtube.com/watch?v=dAOWQC-OBv0,Kaplan Biology 2&3 (Reproduction and Embryogenesis),,Checkbox
 Group 5,Reproduction & Cell Cycle,Applied Anki: Reproduction,Content,,,,,,Checkbox
@@ -205,10 +205,10 @@ Group 5,UWorld & Review,UWorld Cellular Biology (25 Q),Practice,,,,,,Percentage
 Group 5,UWorld & Review,6 CARs Passages,Review,,,,,,Checkbox
 Group 5,UWorld & Review,UWorld 30 Incorrects,Review,,,,,,Checkbox
 Group 5,UWorld & Review,General Anki Review,Review,,,,,,Checkbox
-Group 5,UWorld & Review,End of Week Summary,Review,,,,,,
+Group 5,UWorld & Review,End of Week Summary,Review,,,,,,Checkbox
 Group 5,UWorld & Review,P/S Anki Review,Review,,,,,,Checkbox
-Group 6,Self-Identity,Group 6 Overview Video,Overview,,,https://youtu.be/A7jBwc1p5BI,,,
-Group 6,Self-Identity,Read the 8A Content Overview,Overview,https://students-residents.aamc.org/media/9261/download,,,,,
+Group 6,Self-Identity,Group 6 Overview Video,Overview,,,https://youtu.be/A7jBwc1p5BI,,,Checkbox
+Group 6,Self-Identity,Read the 8A Content Overview,Overview,https://students-residents.aamc.org/media/9261/download,,,,,Checkbox
 Group 6,Self-Identity,KA 86-page document (pg 49-55),Content,https://docs.google.com/document/d/1IlE-AYZhM7XRsLFH1ouDeX5EWGboZ6EX/edit,,https://www.khanacademy.org/test-prep/mcat/individuals-and-society/self-identity/e/self-identity-questions,,,Checkbox
 Group 6,Self-Identity,Applied Anki: Behavioral Identity and Development,Content,,,,,,Checkbox
 Group 6,Self-Identity,KA Questions: Self Identity,Practice,https://www.khanacademy.org/test-prep/mcat/individuals-and-society/self-identity/e/self-identity-questions,,,,,Percentage
@@ -250,9 +250,9 @@ Group 6,Demographics & Inequality,UWorld Dem. and Social Structure (25 Q),Practi
 Group 6,Review & CARs Day,6 CARs Passages,CARs,,,,,,Checkbox
 Group 6,Review & CARs Day,UWorld 30 Incorrects,Review,,,,,,Checkbox
 Group 6,Review & CARs Day,General Anki Review,Review,,,,,,Checkbox
-Group 6,Review & CARs Day,End of Week Summary,Review,,,,,,
-Group 7,"Glycolysis, Gluconeogenesis, PPP",Group 7 Overview Video,Overview,,,https://youtu.be/mhpxQ9Z26Cs,,,
-Group 7,"Glycolysis, Gluconeogenesis, PPP",Read the 1D Content Overview,Overview,https://students-residents.aamc.org/media/9261/download,,,,,
+Group 6,Review & CARs Day,End of Week Summary,Review,,,,,,Checkbox
+Group 7,"Glycolysis, Gluconeogenesis, PPP",Group 7 Overview Video,Overview,,,https://youtu.be/mhpxQ9Z26Cs,,,Checkbox
+Group 7,"Glycolysis, Gluconeogenesis, PPP",Read the 1D Content Overview,Overview,https://students-residents.aamc.org/media/9261/download,,,,,Checkbox
 Group 7,"Glycolysis, Gluconeogenesis, PPP",Glycolysis,Content,https://ecampusontario.pressbooks.pub/bioc2580/chapter/glycolysis/,,https://www.youtube.com/playlist?list=PLTF9h-T1TcJhy6Og8piwo8doDJavTFOvg,"""Kaplan Chapter 9.1-9.7 excl. 9.5",,Checkbox
 Group 7,"Glycolysis, Gluconeogenesis, PPP",Gluconeogenesis & PPP,Content,https://bio.libretexts.org/Bookshelves/Cell_and_Molecular_Biology/Book%3A_Cells_-_Molecules_and_Mechanisms_(Wong)/06%3A_Metabolism_II__Anabolic_Reactions/6.04%3A_Gluconeogenesis,,https://www.khanacademy.org/test-prep/mcat/biomolecules/carbohydrate-metabolism/v/gluconeogenesis,,Gluconeogenesis to PPP,Checkbox
 Group 7,"Glycolysis, Gluconeogenesis, PPP",Glycogen,Content,https://www.youtube.com/watch?v=2XBVUKn_I5w,,,,,Checkbox
@@ -292,9 +292,9 @@ Group 7,UWorld & Review,6 CARs Passages,CARs,,,,,,Checkbox
 Group 7,UWorld & Review,UWorld 20 Incorrects,Review,,,,,,Checkbox
 Group 7,UWorld & Review,Draw a final map including all of metabolism,Review,,,,,,Checkbox
 Group 7,UWorld & Review,General Anki Review,Review,,,,,,Checkbox
-Group 7,UWorld & Review,End of Week Summary,Review,,,,,,
-Group 8,Kinematics & Force,Group 8 Overview,Overview,,,https://youtu.be/cSVIY5oWaJM,,,
-Group 8,Kinematics & Force,Read the 4A Content Overview,Overview,https://students-residents.aamc.org/media/9261/download,,,,,
+Group 7,UWorld & Review,End of Week Summary,Review,,,,,,Checkbox
+Group 8,Kinematics & Force,Group 8 Overview,Overview,,,https://youtu.be/cSVIY5oWaJM,,,Checkbox
+Group 8,Kinematics & Force,Read the 4A Content Overview,Overview,https://students-residents.aamc.org/media/9261/download,,,,,Checkbox
 Group 8,Kinematics & Force,Kinematics & Force,Review,,The Berkeley Review Physics: Section I and II,https://youtube.com/playlist?list=PL2iz2QJdvPGIuaXgMG1uh5GzWhxhcNJPK&si=E2lGCZkcTGFrdQit,Kaplan Physics 1.1 - 1.6 (Movement and Forces),,Checkbox
 Group 8,Kinematics & Force,Leah4sci MCAT: Math Without A Calculator Playlist,Content,https://www.youtube.com/playlist?list=PL_uKI3obn00Z4zrNbkPAw6B3KNZPQ16se,,,,,Checkbox
 Group 8,Kinematics & Force,Leah4sci MCAT Math Accompanying Worksheet,Content,https://studyhall.leah4sci.com/wp-content/uploads/2023/02/Worksheet-for-MCAT-math-8Feb2023-edit.pdf?utm_source=ONTRAPORT-email-sequence&utm_medium=ONTRAPORT-email-sequence&utm_term=&utm_content=Your+MCAT+Math+Worksheet&utm_campaign=MCAT+Math+Worksheet+,,,,Make sure to use the accompanying worksheet,Checkbox
@@ -344,9 +344,9 @@ Group 8,Fluids,KA Passage: Hydrotherapy,Practice,https://www.khanacademy.org/tes
 Group 8,Fluids,KA Passage: Coronary Heart Disease,Practice,https://www.khanacademy.org/test-prep/mcat/physical-sciences-practice/physical-sciences-practice-tut/e/fluids-at-rest---passage-2,,,,,Percentage
 Group 8,Fluids,General Anki Review,Review,,,,,,Checkbox
 Group 8,Fluids,UWorld Fluids & Gases (25 Questions),Practice,,,,,,Percentage
-Group 8,Fluids,End of Week Summary,Review,,,,,,
-Group 9,Circulation & Respiration,Group 9 Overview,Overview,,,https://youtu.be/B19UkvrZ9Fg,,,
-Group 9,Circulation & Respiration,Read the 3B Content Overview,Overview,https://students-residents.aamc.org/media/9261/download,,,,,
+Group 8,Fluids,End of Week Summary,Review,,,,,,Checkbox
+Group 9,Circulation & Respiration,Group 9 Overview,Overview,,,https://youtu.be/B19UkvrZ9Fg,,,Checkbox
+Group 9,Circulation & Respiration,Read the 3B Content Overview,Overview,https://students-residents.aamc.org/media/9261/download,,,,,Checkbox
 Group 9,Circulation & Respiration,Applied Anki: Circulation and Respiration,Content,,,,,,Checkbox
 Group 9,Circulation & Respiration,Circulation,Content,https://www.youtube.com/watch?v=_vZ0lefPg_0,,,,,Checkbox
 Group 9,Circulation & Respiration,Respiration,Content,https://youtube.com/playlist?list=PLEb9Ugg1mc_lb3fHtlVqN0KVrKhFkvueL,,,,,Checkbox
@@ -406,4 +406,4 @@ Group 9,Electrostatics and Magnetism,KA Questions: Magnetism ,Practice,https://w
 Group 9,Electrostatics and Magnetism,KA Questions: Electrochemistry,Practice,https://www.khanacademy.org/test-prep/mcat/physical-processes/intro-electrochemistry-mcat/e/electrochemistry-questions,,,,,Percentage
 Group 9,Electrostatics and Magnetism,Physics Classroom: Static Electricity,Practice,https://www.physicsclassroom.com/calcpad/estatics,,,,,Percentage
 Group 9,Electrostatics and Magnetism,UWorld Electrostatics and Circuits (25 Q),Practice,,,,,,Percentage
-Group 9,Electrostatics and Magnetism,End of Week Summary,Review,,,,,,
+Group 9,Electrostatics and Magnetism,End of Week Summary,Review,,,,,,Checkbox
