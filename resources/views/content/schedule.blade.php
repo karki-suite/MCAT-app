@@ -1,6 +1,6 @@
 <x-app-layout>
     <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight bg-yellow-50">
+        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
             {{ __('Content Schedule') }}
         </h2>
     </x-slot>
