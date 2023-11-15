@@ -47,7 +47,7 @@
                 @endforeach
             </div>
             <h4 class="p-6 text-gray-900 text-center text-xl">Content Schedule Scores</h4>
-            <div class="block md:grid md:grid-cols-3 md:flex md:flex-wrap">
+            <div class="block md:grid md:grid-cols-4 md:flex md:flex-wrap">
                 @foreach($scores as $group => $groupScores)
                     <div class="mb-1 md:mr-1 bg-white overflow-hidden shadow-sm sm:rounded-lg">
                         <div class="p-6 text-gray-900">
