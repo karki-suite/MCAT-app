@@ -16,9 +16,9 @@ class DashboardController extends Controller
      */
     public function index(Request $request): View
     {
-        $completion = auth()->user()->getResponseCompletionSummary();
         return view('dashboard', [
-            'completion' => $completion
+            'completion' => auth()->user()->getResponseCompletionSummary(),
+            'scores' => auth()->user()->getResponseScoreSummary()
         ]);
     }
 }

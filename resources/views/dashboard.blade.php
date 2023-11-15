@@ -28,16 +28,41 @@
                         <div class="p-6 text-gray-900">
                             <table class="text-left text-sm w-full">
                                 <thead class="font-semibold text-lg">
-                                    <tr>
-                                        <td>{{ $group }}</td>
-                                        <td class="text-right">{{ $groupCompletion['all'] }}%</td>
-                                    </tr>
+                                <tr>
+                                    <td>{{ $group }}</td>
+                                    <td class="text-right">{{ $groupCompletion['all'] }}%</td>
+                                </tr>
                                 </thead>
                                 @foreach($groupCompletion as $categoryTitle => $categoryCompletion)
                                     @if($categoryTitle !== 'all')
                                         <tr>
                                             <td>{{ $categoryTitle }}</td>
                                             <td class="text-right">{{ $categoryCompletion }}%</td>
+                                        </tr>
+                                    @endif
+                                @endforeach
+                            </table>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+            <h4 class="p-6 text-gray-900 text-center text-xl">Content Schedule Scores</h4>
+            <div class="block md:grid md:grid-cols-3 md:flex md:flex-wrap">
+                @foreach($scores as $group => $groupScores)
+                    <div class="mb-1 md:mr-1 bg-white overflow-hidden shadow-sm sm:rounded-lg">
+                        <div class="p-6 text-gray-900">
+                            <table class="text-left text-sm w-full">
+                                <thead class="font-semibold text-lg">
+                                <tr>
+                                    <td>{{ $group }}</td>
+                                    <td class="text-right">{{ $groupScores['all'] }}%</td>
+                                </tr>
+                                </thead>
+                                @foreach($groupScores as $categoryTitle => $categoryScore)
+                                    @if($categoryTitle !== 'all')
+                                        <tr>
+                                            <td>{{ $categoryTitle }}</td>
+                                            <td class="text-right">{{ $categoryScore }}%</td>
                                         </tr>
                                     @endif
                                 @endforeach

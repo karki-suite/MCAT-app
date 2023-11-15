@@ -58,7 +58,16 @@ class User extends Authenticatable
     {
         $responses = $this->getResponsesArray();
         return isset($responses[$contentId]) && strlen($responses[$contentId]) > 0
-        && $responses[$contentId] !== 'false';
+            && $responses[$contentId] !== 'false';
+    }
+
+    public function getResponseScore(int $contentId): ?int
+    {
+        $responses = $this->getResponsesArray();
+        if(is_numeric($responses[$contentId])) {
+            return intval($responses[$contentId]);
+        }
+        return null;
     }
 
     public function getResponsesCompletedPercentage(array $contentIds): int
@@ -72,6 +81,22 @@ class User extends Authenticatable
         }
 
         return round(count(array_filter($completed)) / count($completed) * 100);
+    }
+
+    public function getResponsesAverageScore(array $contentIds): int
+    {
+        $scores = [];
+        foreach($contentIds as $contentId) {
+            $score = $this->getResponseScore($contentId);
+            if($score !== null) {
+                $scores[] = $score;
+            }
+        }
+        if(count($scores) == 0) {
+            return 0;
+        }
+
+        return round(array_sum($scores) / count($scores));
     }
 
     public function getResponseCompletionSummary(): array
@@ -88,5 +113,21 @@ class User extends Authenticatable
             $completion[$group->shortname] = $groupSummary;
         }
         return $completion;
+    }
+
+    public function getResponseScoreSummary(): array
+    {
+        $groups = Group::all();
+        $scores = [];
+        foreach($groups as $group) {
+            $groupSummary = [];
+            $groupSummary['all'] = $this->getResponsesAverageScore($group->contentIds());
+            foreach($group->categories as $category) {
+                $categoryContentIds = $category->contents->pluck('id')->toArray();
+                $groupSummary[$category->title] = $this->getResponsesAverageScore($categoryContentIds);
+            }
+            $scores[$group->shortname] = $groupSummary;
+        }
+        return $scores;
     }
 }
