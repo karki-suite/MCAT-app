@@ -24,6 +24,10 @@ Route::get('/dashboard', [DashboardController::class, 'index'])
     ->middleware(['auth', 'verified'])
     ->name('dashboard');
 
+Route::get('/resources', [DashboardController::class, 'resources'])
+    ->middleware(['auth', 'verified'])
+    ->name('resources');
+
 Route::get('/schedule', [ScheduleController::class, 'index'])
     ->middleware(['auth', 'verified'])
     ->name('schedule');

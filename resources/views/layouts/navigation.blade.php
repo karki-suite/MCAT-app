@@ -19,6 +19,9 @@
                     <x-nav-link :href="route('schedule')" :active="request()->routeIs('schedule')">
                         {{ __('Content Schedule') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('resources')" :active="request()->routeIs('resources')">
+                        {{ __('Resources') }}
+                    </x-nav-link>
                 </div>
             </div>
 
@@ -76,6 +79,9 @@
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('schedule')" :active="request()->routeIs('schedule')">
                 {{ __('Content Schedule') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('resources')" :active="request()->routeIs('resources')">
+                {{ __('Resources') }}
             </x-responsive-nav-link>
         </div>
 
