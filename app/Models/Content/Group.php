@@ -24,6 +24,17 @@ class Group extends Model
         return $this->hasMany(Category::class);
     }
 
+    public function contentIds(): array
+    {
+        $contentIds = [];
+        $categories = $this->categories;
+        foreach ($categories as $category) {
+            $contentIds = array_merge($contentIds, $category->contents->pluck('id')->toArray());
+        }
+
+        return $contentIds;
+    }
+
     /**
      * The attributes that are mass assignable.
      *

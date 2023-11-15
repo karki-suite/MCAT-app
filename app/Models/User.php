@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Models\Content\Group;
 use App\Models\Content\Response;
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
@@ -48,4 +49,44 @@ class User extends Authenticatable
         'password' => 'hashed',
     ];
 
+    public function getResponsesArray(): array
+    {
+        return json_decode($this->content_responses, true);
+    }
+
+    public function isResponseComplete(int $contentId): bool
+    {
+        $responses = $this->getResponsesArray();
+        return isset($responses[$contentId]) && strlen($responses[$contentId]) > 0
+        && $responses[$contentId] !== 'false';
+    }
+
+    public function getResponsesCompletedPercentage(array $contentIds): int
+    {
+        $completed = [];
+        foreach($contentIds as $contentId) {
+            $completed[] = $this->isResponseComplete($contentId);
+        }
+        if(count($completed) == 0) {
+            return 0;
+        }
+
+        return round(count(array_filter($completed)) / count($completed) * 100);
+    }
+
+    public function getResponseCompletionSummary(): array
+    {
+        $groups = Group::all();
+        $completion = [];
+        foreach($groups as $group) {
+            $groupSummary = [];
+            $groupSummary['all'] = $this->getResponsesCompletedPercentage($group->contentIds());
+            foreach($group->categories as $category) {
+                $categoryContentIds = $category->contents->pluck('id')->toArray();
+                $groupSummary[$category->title] = $this->getResponsesCompletedPercentage($categoryContentIds);
+            }
+            $completion[$group->shortname] = $groupSummary;
+        }
+        return $completion;
+    }
 }
