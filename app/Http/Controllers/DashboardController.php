@@ -27,6 +27,11 @@ class DashboardController extends Controller
         return view('resources', [
             'resources' => [
                 [
+                    'title' => 'AAMC Guidelines',
+                    'paid' => false,
+                    'link' => 'https://students-residents.aamc.org/media/9261/download'
+                ],
+                [
                     'title' => 'MCAT Official Prep Hub',
                     'paid' => false,
                     'link' => 'https://students-residents.aamc.org/prepare-mcat-exam/prepare-mcat-exam'
