@@ -64,7 +64,7 @@ class User extends Authenticatable
     public function getResponseScore(int $contentId): ?int
     {
         $responses = $this->getResponsesArray();
-        if(is_numeric($responses[$contentId])) {
+        if(isset($responses[$contentId]) && is_numeric($responses[$contentId])) {
             return intval($responses[$contentId]);
         }
         return null;
