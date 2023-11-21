@@ -26,7 +26,8 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
-        'content_responses'
+        'content_responses',
+        'content_cars_responses',
     ];
 
     /**
@@ -115,6 +116,16 @@ class User extends Authenticatable
         return $completion;
     }
 
+    public function getResponseCompletionPercentage(): int
+    {
+        $groups = Group::all();
+        $contentIds = [];
+        foreach($groups as $group) {
+            $contentIds = array_merge($contentIds, $group->contentIds());
+        }
+        return $this->getResponsesCompletedPercentage($contentIds);
+    }
+
     public function getResponseScoreSummary(): array
     {
         $groups = Group::all();
@@ -129,5 +140,10 @@ class User extends Authenticatable
             $scores[$group->shortname] = $groupSummary;
         }
         return $scores;
+    }
+
+    public function getCarsResponsesArray(): array
+    {
+        return json_decode($this->content_cars_responses, true);
     }
 }

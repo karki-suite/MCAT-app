@@ -19,6 +19,7 @@ class ScheduleController extends Controller
         return view('content.schedule', [
             'groups' => Group::all(),
             'contentResponses' => auth()->user()->content_responses,
+            'completionPercent' => auth()->user()->getResponseCompletionPercentage(),
         ]);
     }
 

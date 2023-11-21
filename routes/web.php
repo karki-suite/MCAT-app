@@ -3,6 +3,7 @@
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Content\ScheduleController;
+use App\Http\Controllers\Content\CarsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -36,6 +37,13 @@ Route::post('/schedule', [ScheduleController::class, 'save'])
     ->middleware(['auth', 'verified'])
     ->name('schedule.save');
 
+Route::get('/cars', [CarsController::class, 'index'])
+    ->middleware(['auth', 'verified'])
+    ->name('cars');
+
+Route::post('/cars', [CarsController::class, 'save'])
+    ->middleware(['auth', 'verified'])
+    ->name('cars.save');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

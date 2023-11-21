@@ -5,6 +5,15 @@
         </h2>
     </x-slot>
 
+    @if($completionPercent != 0)
+        <div class="pt-6 max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="mb-1 text-lg text-center font-medium dark:text-white">Completion Status</div>
+            <div class="w-full h-6 bg-gray-200 rounded-full dark:bg-gray-700">
+                <div class="h-6 rounded-full text-center text-white font-semibold" style="width: {{ $completionPercent }}%;background-color: #003e79;">{{ $completionPercent }}%</div>
+            </div>
+        </div>
+    @endif
+
     <div class="py-6">
         @foreach ($groups as $group)
             <div class="py-6 max-w-7xl mx-auto sm:px-6 lg:px-8">
@@ -68,7 +77,7 @@
                 }
             }
 
-            var contentResponses = {!! $contentResponses !!};
+            let contentResponses = {!! $contentResponses !!};
             loadContentResponses(contentResponses);
         });
 

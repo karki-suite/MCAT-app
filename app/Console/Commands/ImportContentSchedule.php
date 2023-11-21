@@ -2,6 +2,7 @@
 
 namespace App\Console\Commands;
 
+use App\Console\Library\Csv;
 use App\Models\Content\Category;
 use App\Models\Content\Content;
 use App\Models\Content\Group;
@@ -28,7 +29,7 @@ class ImportContentSchedule extends Command
      */
     public function handle(): void
     {
-        $importData = $this->readCsvToAssoc(storage_path('import/content.csv'));
+        $importData = Csv::readCsvToAssoc(storage_path('import/content.csv'));
         foreach($importData as $importRow) {
             print_r($importRow);
             // Get Group...
@@ -69,23 +70,4 @@ class ImportContentSchedule extends Command
         }
     }
 
-    protected function readCsvToAssoc(string $file): array
-    {
-        $csvHandle = fopen($file, 'r');
-        $this->info('Running Import...');
-        $csvHeaders = fgetcsv($csvHandle);
-        $csvData = [];
-        while(!feof($csvHandle))
-        {
-            $processedRow = [];
-            $csvRow = fgetcsv($csvHandle);
-            for($i = 0; $i < count($csvRow); $i++) {
-                $processedRow[$csvHeaders[$i]] = $csvRow[$i];
-            }
-            $csvData[] = $processedRow;
-        }
-        fclose($csvHandle);
-
-        return $csvData;
-    }
 }
