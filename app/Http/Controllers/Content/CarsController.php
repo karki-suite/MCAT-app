@@ -15,9 +15,13 @@ class CarsController extends Controller
      */
     public function index(Request $request): View
     {
+        $jackWestin = Cars::all()->toArray();
+        $jackWestinSplit = [];
+        $jackWestinSplit[0] = array_slice($jackWestin, 0, count($jackWestin) / 2);
+        $jackWestinSplit[1] = array_slice($jackWestin, count($jackWestin) / 2);
 
         return view('content.cars', [
-            'jackwestin' => Cars::all(),
+            'jackWestin' => $jackWestinSplit,
             'carsResponses' => auth()->user()->content_cars_responses
         ]);
     }
