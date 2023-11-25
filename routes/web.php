@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Content\SampleTestsController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Content\ScheduleController;
@@ -44,6 +45,14 @@ Route::get('/cars', [CarsController::class, 'index'])
 Route::post('/cars', [CarsController::class, 'save'])
     ->middleware(['auth', 'verified'])
     ->name('cars.save');
+
+Route::get('/sample-tests', [SampleTestsController::class, 'index'])
+    ->middleware(['auth', 'verified'])
+    ->name('sampletests');
+
+Route::get('/sample-tests/{id}', [SampleTestsController::class, 'show'])
+    ->middleware(['auth', 'verified'])
+    ->name('sampletests.show');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
