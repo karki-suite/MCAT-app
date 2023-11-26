@@ -28,6 +28,7 @@ class User extends Authenticatable
         'password',
         'content_responses',
         'content_cars_responses',
+        'sample_tests',
     ];
 
     /**

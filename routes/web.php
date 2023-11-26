@@ -50,6 +50,10 @@ Route::get('/sample-tests', [SampleTestsController::class, 'index'])
     ->middleware(['auth', 'verified'])
     ->name('sampletests');
 
+Route::post('/sample-tests', [SampleTestsController::class, 'save'])
+    ->middleware(['auth', 'verified'])
+    ->name('sampletests.save');
+
 Route::get('/sample-tests/{id}', [SampleTestsController::class, 'show'])
     ->middleware(['auth', 'verified'])
     ->name('sampletests.show');

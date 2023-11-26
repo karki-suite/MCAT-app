@@ -31,7 +31,7 @@
     <table class="hidden" id="placeholder-entry">
         <tr>
             <td>
-                <select name="entry-section" class="w-24">
+                <select name="section" class="w-24">
                     <option value="-1" disabled="disabled" selected="selected">Select...</option>
                     <option>CP</option>
                     <option>CARS</option>
@@ -40,19 +40,19 @@
                 </select>
             </td>
             <td>
-                <input name="entry-question" type="number" class="w-24" />
+                <input name="question" type="number" class="w-24" />
             </td>
             <td>
-                <input name="entry-content-category" type="text" class="w-40" />
+                <input name="content-category" type="text" class="w-40" />
             </td>
             <td>
-                <input name="entry-thought-process" type="text" class="w-80" />
+                <input name="thought-process" type="text" class="w-80" />
             </td>
             <td>
-                <input name="entry-corrected-thought-process" type="text" class="w-80" />
+                <input name="corrected-thought-process" type="text" class="w-80" />
             </td>
             <td>
-                <select name="entry-error-type" class="w-40">
+                <select name="error-type" class="w-40">
                     <option value="-1" disabled="disabled" selected="selected">Select...</option>
                     <option>Content</option>
                     <option>Reading</option>
@@ -68,15 +68,71 @@
     </table>
     <script type="text/javascript">
         jQuery(document).ready(function ($) {
-            let addRow = () => {
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': '{{ csrf_token() }}'
+                }
+            });
+            const COLUMNS = ['section', 'question', 'content-category', 'thought-process', 'corrected-thought-process', 'error-type'];
+            /**
+             * Add a row to table/form...
+             * @param data
+             */
+            let addRow = (data = null) => {
                 let $newRow = $('<tr>' + $('#placeholder-entry tr').html() + '</tr>');
+                if(data !== null) {
+                    for(let columnKey in COLUMNS) {
+                        let column = COLUMNS[columnKey];
+                        if(data[column]) {
+                            $newRow.find('[name="' + column + '"]').val(data[column]);
+                        }
+                    }
+                }
                 $('#test-table > tbody').append($newRow);
             };
-            addRow();
+
+            /**
+             * Add row on click...
+             */
             $('#add-row').click(function (e) {
                 e.preventDefault();
                 addRow();
             });
+
+            /**
+             * Serialize data from table/form.
+             * @returns [{}]
+             */
+            let serializeTestData = () => {
+                let data = [];
+                $('#test-table > tbody > tr').each(function () {
+                    let dataRow = {};
+                    $(this).find('input,select').each(function () {
+                        dataRow[$(this).attr('name')] = $(this).val();
+                    });
+                    data.push(dataRow);
+                });
+                return data;
+            }
+
+            let saveData = () => {
+                let data = serializeTestData();
+                $.post('/sample-tests', {'test_id': '{{ $testId }}', 'sample_test': data});
+            }
+
+            $('#test-table').on('change', 'select,input', function () {
+                saveData();
+            });
+
+            // On Ready...
+            let testResponse = {!! $testResponse !!};
+            if(testResponse.length == 0) {
+                addRow();
+            } else {
+                for(let rowIdx in testResponse) {
+                    addRow(testResponse[rowIdx]);
+                }
+            }
         });
     </script>
 </x-app-layout>

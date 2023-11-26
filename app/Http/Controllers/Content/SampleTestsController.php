@@ -42,8 +42,34 @@ class SampleTestsController extends Controller
      */
     public function show(Request $request, string $id): View
     {
+        $sampleTests = json_decode(auth()->user()->sample_tests, true);
+        $testResponse = [];
+        if(isset($sampleTests[$id])) {
+            $testResponse = $sampleTests[$id];
+        }
+
         return view('sampletests.show', [
-            'testName' => $this->tests[$id]
+            'testName' => $this->tests[$id],
+            'testId' => $id,
+            'testResponse' => json_encode($testResponse)
         ]);
+    }
+
+    /**
+     * Save a sample test
+     *
+     * @param Request $request
+     * @return RedirectResponse
+     */
+    public function save(Request $request): RedirectResponse
+    {
+        $user = auth()->user();
+        $testId = $request->input('test_id');
+        $sampleTestInput = $request->input('sample_test');
+        $sampleTests = json_decode($user->sample_tests, true);
+        $sampleTests[$testId] = $sampleTestInput;
+        $user->sample_tests = $sampleTests;
+        $user->save();
+        return response()->redirectToRoute('cars');
     }
 }
