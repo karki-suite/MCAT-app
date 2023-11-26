@@ -19,7 +19,6 @@
                         </tr>
                     </thead>
                     <tbody>
-
                     </tbody>
                 </table>
                 <div class="text-right">
@@ -43,7 +42,12 @@
                 <input name="question" type="number" class="w-24" />
             </td>
             <td>
-                <input name="content-category" type="text" class="w-40" />
+                <select name="content-category" class="w-40">
+                    <option value="-1" disabled="disabled" selected="selected">Select...</option>
+                    @foreach($categories as $category)
+                        <option value="{{ $category['id'] }}">{{ $category['title'] }}</option>
+                    @endforeach
+                </select>
             </td>
             <td>
                 <input name="thought-process" type="text" class="w-80" />

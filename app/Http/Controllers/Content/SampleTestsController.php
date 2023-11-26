@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Content;
 
 use App\Http\Controllers\Controller;
+use App\Models\Content\Category;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
@@ -51,7 +52,8 @@ class SampleTestsController extends Controller
         return view('sampletests.show', [
             'testName' => $this->tests[$id],
             'testId' => $id,
-            'testResponse' => json_encode($testResponse)
+            'testResponse' => json_encode($testResponse),
+            'categories' => Category::all(['id', 'title'])->toArray()
         ]);
     }
 
