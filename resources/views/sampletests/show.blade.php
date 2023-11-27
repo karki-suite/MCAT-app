@@ -18,8 +18,7 @@
                             <th>Error Type</th>
                         </tr>
                     </thead>
-                    <tbody>
-                    </tbody>
+                    <tbody></tbody>
                 </table>
                 <div class="text-right">
                     <a href="#" id="add-row" class="text-blue-800">Add Row</a>

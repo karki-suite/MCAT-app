@@ -20,9 +20,11 @@ class CarsController extends Controller
         $jackWestinSplit[0] = array_slice($jackWestin, 0, count($jackWestin) / 2);
         $jackWestinSplit[1] = array_slice($jackWestin, count($jackWestin) / 2);
 
+
         return view('content.cars', [
             'jackWestin' => $jackWestinSplit,
-            'carsResponses' => auth()->user()->content_cars_responses
+            'carsResponses' => auth()->user()->content_cars_responses,
+            'jackWestinGraph' => json_encode(Cars::all(['id', 'label'])->toArray())
         ]);
     }
 

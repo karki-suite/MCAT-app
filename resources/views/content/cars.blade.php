@@ -4,6 +4,7 @@
             {{ __('CARS') }}
         </h2>
     </x-slot>
+    <div class="py-6 mx-auto hidden lg:block max-w-7xl max-h-96" id="chart-container"></div>
     <div class="py-6">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <h4 class="p-6 text-gray-900 text-center text-xl">Jack Westin</h4>
@@ -42,7 +43,7 @@
             </div>
         </div>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script type="text/javascript">
         jQuery(document).ready(function () {
             const responseTypes = ['score', 'time'];
@@ -71,6 +72,7 @@
             }
 
             $('input').change(function () {
+                updateChart();
                 saveCarsResponses();
             });
 
@@ -81,6 +83,43 @@
                         $('[name="cars[' + responseType + '][' + contentId + ']"]').val(carsResponses[responseType][contentId]);
                     }
                 }
+                updateChart();
+            }
+
+            function getChartData() {
+                const graphFields = {!! $jackWestinGraph !!};
+                let graphData = [];
+                for(let fieldIdx in graphFields) {
+                    let field = graphFields[fieldIdx];
+                    graphData.push({
+                        x: field['label'],
+                        y: $('[name="cars[score][' + field['id'] + ']"]').val()
+                    })
+                }
+                return graphData;
+            }
+
+            function updateChart() {
+                $('#chart-container').html('<canvas id="chart" class="w-full h-auto"></canvas>');
+                const ctx = document.getElementById('chart');
+
+                new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        datasets: [{
+                            label: 'Scores',
+                            data: getChartData()
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        },
+                        maintainAspectRatio: false
+                    }
+                });
             }
 
             let carsResponses = {!! $carsResponses !!};
