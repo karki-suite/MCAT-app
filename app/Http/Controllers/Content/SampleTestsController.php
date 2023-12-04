@@ -73,6 +73,6 @@ class SampleTestsController extends Controller
         $sampleTests[$testId] = $sampleTestInput;
         $user->sample_tests = $sampleTests;
         $user->save();
-        return response()->redirectToRoute('cars');
+        return response()->redirectToRoute('sampletests.show', ['id' => $testId]);
     }
 }
