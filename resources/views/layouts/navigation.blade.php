@@ -19,10 +19,10 @@
                     <x-nav-link :href="route('schedule')" :active="request()->routeIs('schedule')">
                         {{ __('Content Schedule') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('cars')" :active="request()->routeIs('cars')">
+                    <x-nav-link :href="route('cars.jackwestin')" :active="request()->routeIs('cars.jackwestin', 'cars.aamc')">
                         {{ __('CARS') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('sampletests')" :active="request()->routeIs('sampletests')">
+                    <x-nav-link :href="route('sampletests')" :active="request()->routeIs('sampletests', 'sampletests.show')">
                         {{ __('Sample Tests') }}
                     </x-nav-link>
                     <x-nav-link :href="route('resources')" :active="request()->routeIs('resources')">
@@ -86,10 +86,10 @@
             <x-responsive-nav-link :href="route('schedule')" :active="request()->routeIs('schedule')">
                 {{ __('Content Schedule') }}
             </x-responsive-nav-link>
-            <x-responsive-nav-link :href="route('cars')" :active="request()->routeIs('cars')">
+            <x-responsive-nav-link :href="route('cars.jackwestin')" :active="request()->routeIs('cars.jackwestin', 'cars.aamc')">
                 {{ __('CARS') }}
             </x-responsive-nav-link>
-            <x-responsive-nav-link :href="route('sampletests')" :active="request()->routeIs('sampletests')">
+            <x-responsive-nav-link :href="route('sampletests')" :active="request()->routeIs('sampletests', 'sampletests.show')">
                 {{ __('Sample Tests') }}
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('resources')" :active="request()->routeIs('resources')">

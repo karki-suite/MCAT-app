@@ -38,13 +38,21 @@ Route::post('/schedule', [ScheduleController::class, 'save'])
     ->middleware(['auth', 'verified'])
     ->name('schedule.save');
 
-Route::get('/cars', [CarsController::class, 'index'])
+Route::get('/cars/jackwestin', [CarsController::class, 'jackWestin'])
     ->middleware(['auth', 'verified'])
-    ->name('cars');
+    ->name('cars.jackwestin');
 
-Route::post('/cars', [CarsController::class, 'save'])
+Route::post('/cars/jackwestin', [CarsController::class, 'saveJackWestin'])
     ->middleware(['auth', 'verified'])
-    ->name('cars.save');
+    ->name('cars.jackwestin.save');
+
+Route::get('/cars/aamc', [CarsController::class, 'aamc'])
+    ->middleware(['auth', 'verified'])
+    ->name('cars.aamc');
+
+Route::post('/cars/aamc', [CarsController::class, 'saveAamc'])
+    ->middleware(['auth', 'verified'])
+    ->name('cars.aamc.save');
 
 Route::get('/sample-tests', [SampleTestsController::class, 'index'])
     ->middleware(['auth', 'verified'])

@@ -50,6 +50,7 @@ class SampleTestsController extends Controller
         }
 
         return view('sampletests.show', [
+            'tests' => $this->tests,
             'testName' => $this->tests[$id],
             'testId' => $id,
             'testResponse' => json_encode($testResponse),

@@ -4,6 +4,7 @@
             {{ __('CARS') }}
         </h2>
     </x-slot>
+    @include('content/cars/partials/navigation')
     <div class="py-6 mx-auto hidden lg:block max-w-7xl max-h-96" id="chart-container"></div>
     <div class="py-6">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
@@ -68,7 +69,7 @@
                     }
                 });
 
-                $.post('/cars', {cars_responses: response});
+                $.post('/cars/jackwestin', {cars_responses: response});
             }
 
             $('input').change(function () {
@@ -86,7 +87,7 @@
                 updateChart();
             }
 
-            function getChartData() {
+            function getChartScoreData() {
                 const graphFields = {!! $jackWestinGraph !!};
                 let graphData = [];
                 for(let fieldIdx in graphFields) {
@@ -99,6 +100,19 @@
                 return graphData;
             }
 
+            function getChartTimeData() {
+                const graphFields = {!! $jackWestinGraph !!};
+                let graphData = [];
+                for(let fieldIdx in graphFields) {
+                    let field = graphFields[fieldIdx];
+                    graphData.push({
+                        x: field['label'],
+                        y: $('[name="cars[time][' + field['id'] + ']"]').val()
+                    })
+                }
+                return graphData;
+            }
+
             function updateChart() {
                 $('#chart-container').html('<canvas id="chart" class="w-full h-auto"></canvas>');
                 const ctx = document.getElementById('chart');
@@ -106,15 +120,29 @@
                 new Chart(ctx, {
                     type: 'line',
                     data: {
-                        datasets: [{
-                            label: 'Scores',
-                            data: getChartData()
-                        }]
+                        datasets: [
+                            {
+                                label: 'Score',
+                                data: getChartScoreData(),
+                                backgroundColor: '#003e79',
+                                borderColor: '#003e79'
+                            },
+                            {
+                                label: 'Time Taken',
+                                data: getChartTimeData(),
+                                backgroundColor: '#F28500',
+                                borderColor: '#F28500'
+                            }]
                     },
                     options: {
                         scales: {
                             y: {
                                 beginAtZero: true
+                            },
+                            x: {
+                                ticks: {
+                                    display: false
+                                }
                             }
                         },
                         maintainAspectRatio: false

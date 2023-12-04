@@ -29,6 +29,7 @@ class User extends Authenticatable
         'content_responses',
         'content_cars_responses',
         'sample_tests',
+        'aamc_responses',
     ];
 
     /**
