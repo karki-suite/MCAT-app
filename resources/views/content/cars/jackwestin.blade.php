@@ -32,7 +32,7 @@
                                             <input class="w-12 p-0 text-right" type="number" placeholder="0%" min="0" max="100" name="cars[score][{{ $carsEntry['id'] }}]" />
                                         </td>
                                         <td>
-                                            <input class="w-20 p-0 text-right" type="number" placeholder="0 mins" min="0" max="300" name="cars[time][{{ $carsEntry['id'] }}]" />
+                                            <input class="w-20 p-0 text-right" type="number" placeholder="0 mins" min="0" max="30" name="cars[time][{{ $carsEntry['id'] }}]" />
                                         </td>
                                     </tr>
                                 @endforeach

@@ -34,7 +34,7 @@
                 <input class="w-12 p-0 text-right" type="number" placeholder="0%" min="0" max="100" name="score" />
             </td>
             <td>
-                <input class="w-20 p-0 text-right" type="number" placeholder="0 mins" min="0" max="300" name="time" />
+                <input class="w-20 p-0 text-right" type="number" placeholder="0 mins" min="0" max="30" name="time" />
             </td>
         </tr>
     </table>
