@@ -19,6 +19,9 @@
                     <x-nav-link :href="route('schedule')" :active="request()->routeIs('schedule')">
                         {{ __('Content Schedule') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('schedule.application')" :active="request()->routeIs('schedule.application')">
+                        {{ __('Application Schedule') }}
+                    </x-nav-link>
                     <x-nav-link :href="route('cars.jackwestin')" :active="request()->routeIs('cars.jackwestin', 'cars.aamc')">
                         {{ __('CARS') }}
                     </x-nav-link>
@@ -85,6 +88,9 @@
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('schedule')" :active="request()->routeIs('schedule')">
                 {{ __('Content Schedule') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('schedule.application')" :active="request()->routeIs('schedule.application')">
+                {{ __('Application Schedule') }}
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('cars.jackwestin')" :active="request()->routeIs('cars.jackwestin', 'cars.aamc')">
                 {{ __('CARS') }}

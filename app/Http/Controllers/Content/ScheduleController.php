@@ -16,7 +16,7 @@ class ScheduleController extends Controller
     public function index(Request $request): View
     {
 
-        return view('content.schedule', [
+        return view('content.schedule.index', [
             'groups' => Group::all(),
             'contentResponses' => auth()->user()->content_responses,
             'completionPercent' => auth()->user()->getResponseCompletionPercentage(),

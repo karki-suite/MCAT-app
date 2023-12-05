@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Content\ApplicationScheduleController;
 use App\Http\Controllers\Content\SampleTestsController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ProfileController;
@@ -29,6 +30,10 @@ Route::get('/dashboard', [DashboardController::class, 'index'])
 Route::get('/resources', [DashboardController::class, 'resources'])
     ->middleware(['auth', 'verified'])
     ->name('resources');
+
+Route::get('/schedule/application', [ApplicationScheduleController::class, 'index'])
+    ->middleware(['auth', 'verified'])
+    ->name('schedule.application');
 
 Route::get('/schedule', [ScheduleController::class, 'index'])
     ->middleware(['auth', 'verified'])
