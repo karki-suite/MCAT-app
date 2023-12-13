@@ -57,13 +57,25 @@ class ApplicationScheduleController extends Controller
             foreach ($contentGroup['sections'] as &$section) {
                 foreach ($section['cards'] as &$card) {
                     foreach ($card['content'] as &$contentItem) {
+                        $sectionTitleKey = preg_replace("/[^A-Za-z0-9]+/", "", $section['title']);
+                        $cardTitleKey = preg_replace("/[^A-Za-z0-9]+/", "", $card['title']);
                         if (isset($contentItem['text']) && str_starts_with($contentItem['text'], 'WEAKEST_CATEGORIES')) {
                             [$command, $commandSection, $commandIndex, $commandTargetField] = explode(':', $contentItem['text'], 4);
                             $targetCategory = $this->getWeakestCategoryAtIndex($sampleTests, $commandSection, $commandIndex);
+                            if (isset($targetCategory['id'])) {
+                                $contentItem['key'] = $sectionTitleKey . '-' . $cardTitleKey . '-CAT-' . $targetCategory['id'];
+                            } else {
+                                $contentItem['type'] = 'text';
+                            }
                             if(isset($targetCategory['uworld_reference'])) {
                                 $contentItem['text'] = $targetCategory['uworld_reference'];
                             } else {
                                 $contentItem['text'] = '-';
+                            }
+                        } else {
+                            if (isset($contentItem['text'])) {
+                                $contentTitleKey = preg_replace("/[^A-Za-z0-9]+/", "", $contentItem['text']);
+                                $contentItem['key'] = $sectionTitleKey . '-' . $cardTitleKey . '-' . $contentTitleKey;
                             }
                         }
                         $contentItem['renderer'] = match ($contentItem['type']) {
