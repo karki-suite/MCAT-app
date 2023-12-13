@@ -47,6 +47,7 @@ class ContentCategoryCrudController extends CrudController
             'attribute' => 'shortname',
         ]);
         CRUD::column('title');
+        CRUD::column('uworld_reference');
     }
 
     /**
@@ -65,6 +66,7 @@ class ContentCategoryCrudController extends CrudController
             'attribute' => 'shortname',
         ]);
         CRUD::field('title')->type('text');
+        CRUD::field('uworld_reference')->type('text');
     }
 
     /**
