@@ -5,27 +5,36 @@
         </h2>
     </x-slot>
     <div class="py-6">
-        @foreach($content as $contentSection)
+        @foreach($content as $contentCategories)
             <div class="py-6 max-w-7xl mx-auto sm:px-6 lg:px-8">
-                <h3 class="font-semibold text-xl text-gray-800 leading-tight pb-1">{{ $contentSection['title'] }}</h3>
-                <div class="block md:grid md:grid-cols-3 md:flex md:flex-wrap md:text-left">
-                    <div class="mb-1 md:mr-1 bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                        <div class="p-6 text-gray-900">
-                            <h5 class="font-semibold text-center text-lg text-gray-800 leading-tight pb-1">Most Common Errors</h5>
-                            @foreach($contentSection['commonErrorTypes'] as $errorType)
-                                <p>{{ $errorType }}</p>
+            @if($contentCategories['ready'])
+                    @foreach($contentCategories['sections'] as $contentSection)
+                        <h3 class="font-semibold text-xl text-gray-800 leading-tight pb-1">{{ $contentSection['title'] }}</h3>
+                        <div class="block md:grid md:grid-cols-3 md:flex md:flex-wrap md:text-left mb-2">
+                            @foreach($contentSection['cards'] as $contentCard)
+                                <div class="mb-1 md:mr-1 bg-white overflow-hidden shadow-sm sm:rounded-lg">
+                                    <div class="p-6 text-gray-900">
+                                        <h5 class="font-semibold text-center text-lg text-gray-800 leading-tight pb-1">{{ $contentCard['title'] ?? '' }}</h5>
+                                        @if(isset($contentCard['content']))
+                                            @foreach($contentCard['content'] as $content)
+                                                @if(isset($content['renderer']))
+                                                    <div style="clear:both;" class="pt-1">
+                                                        @include('content.application-schedule.content.' . $content['renderer'], $content)
+                                                    </div>
+                                                @else
+                                                    <p><pre>{{ print_r($content, true) }}</pre></p>
+                                                @endif
+                                            @endforeach
+                                        @endif
+                                    </div>
+                                </div>
                             @endforeach
                         </div>
-                    </div>
-                    <div class="mb-1 md:mr-1 bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                        <div class="p-6 text-gray-900">
-                            <h5 class="font-semibold text-center text-lg text-gray-800 leading-tight pb-1">Weakest Content Areas</h5>
-                            @foreach($contentSection['weakestCategories'] as $category)
-                                <p>{{ $category }}</p>
-                            @endforeach
-                        </div>
-                    </div>
-                </div>
+                    @endforeach
+                @else
+                    <h3 class="font-semibold text-xl text-gray-800 leading-tight pb-1">{{ $contentCategories['sections'][0]['title'] }}</h3>
+                    <p>This section will become available once you complete the relevant Sample Test.</p>
+                @endif
             </div>
         @endforeach
     </div>

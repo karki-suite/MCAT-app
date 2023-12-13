@@ -7,18 +7,16 @@ use App\Models\Content\Category;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
+use Symfony\Component\Yaml\Yaml;
 
 class ApplicationScheduleController extends Controller
 {
-    /** @var array<string,string> */
-    protected array $sections = [
-        'US' => 'Unscored Sample',
-        'FL1' => 'FL1',
-        'FL2' => 'FL2',
-        'FL3' => 'FL3',
-        'FL4' => 'FL4',
-        'FL5' => 'FL5'
-    ];
+    protected array $contentMapping;
+
+    public function __construct()
+    {
+        $this->contentMapping = Yaml::parseFile(config_path() . '/application_schedule.yaml');
+    }
 
     /**
      * Display the application schedule
@@ -26,29 +24,174 @@ class ApplicationScheduleController extends Controller
     public function index(Request $request): View
     {
         $sampleTests = json_decode(auth()->user()->sample_tests, true);
+
         $content = [];
-        foreach($this->sections as $sectionKey => $section) {
-            if(isset($sampleTests[$sectionKey])) {
-                $test = $sampleTests[$sectionKey];
-
-                $categoryCounts = array_count_values(array_filter(array_column($test, 'content-category')));
-                arsort($categoryCounts);
-                $weakestCategories = array_keys($categoryCounts);
-                $weakestCategories = array_column(Category::findMany($weakestCategories)->toArray(), 'title');
-
-                $errorCounts = array_count_values(array_filter(array_column($test, 'error-type')));
-                arsort($errorCounts);
-                $commonErrorTypes = array_keys($errorCounts);
-
-                $content[$sectionKey] = [
-                    'title' => $section,
-                    'weakestCategories' => $weakestCategories,
-                    'commonErrorTypes' => $commonErrorTypes,
+        foreach ($this->contentMapping as $contentGroupKey => $contentGroup) {
+            $content[$contentGroupKey] = [
+                'ready' => isset($sampleTests[$contentGroupKey]),
+            ];
+            foreach ($contentGroup as $contentSection) {
+                $newSection = [
+                    'title' => $contentSection['title'],
+                    'cards' => [],
                 ];
+                if(isset($contentSection['sections'])) {
+                    foreach ($contentSection['sections'] as $subSection) {
+                        $newSection['cards'][] = $this->processContentSection($subSection, $sampleTests, $contentGroupKey);
+                    }
+                }
+                $content[$contentGroupKey]['sections'][] = $newSection;
             }
         }
+
+
+
+
         return View('content.application-schedule.index', [
-            'content' => $content,
+            'content' => $this->renderContentItems($content, $sampleTests),
         ]);
+    }
+
+    protected function renderContentItems(array $content, array $sampleTests): array {
+        foreach ($content as &$contentGroup) {
+            foreach ($contentGroup['sections'] as &$section) {
+                foreach ($section['cards'] as &$card) {
+                    foreach ($card['content'] as &$contentItem) {
+                        if (isset($contentItem['text']) && str_starts_with($contentItem['text'], 'WEAKEST_CATEGORIES')) {
+                            [$command, $commandSection, $commandIndex, $commandTargetField] = explode(':', $contentItem['text'], 4);
+                            $targetCategory = $this->getWeakestCategoryAtIndex($sampleTests, $commandSection, $commandIndex);
+                            if(isset($targetCategory['uworld_reference'])) {
+                                $contentItem['text'] = $targetCategory['uworld_reference'];
+                            } else {
+                                $contentItem['text'] = '-';
+                            }
+                        }
+                        $contentItem['renderer'] = match ($contentItem['type']) {
+                            'score_summary' => 'score_summary',
+                            'score' => 'score',
+                            'subtitle' => 'subtitle',
+                            'text' => 'text',
+                            'percentage' => 'percentage',
+                            'checkbox' => 'checkbox',
+                        };
+                    }
+                }
+            }
+        }
+        return $content;
+    }
+
+    protected function processContentSection(string|array $sectionConfig, array $sampleTests, string $sectionKey): array
+    {
+        return match ($sectionConfig) {
+            'WEAKEST_CATEGORIES' => [
+                'title' => 'Test Review',
+                'content' => array_merge(
+                    [
+                        [
+                            'type' => 'subtitle',
+                            'text' => 'Weakest Content Categories In Order'
+                        ],
+                    ],
+                    $this->getWeakestCategories($sampleTests, $sectionKey)
+                ),
+            ],
+            'COMMON_ERROR_TYPES' => [
+                'title' => 'Exam',
+                'content' => array_merge(
+                    [
+                        [
+                            'type' => 'score_summary'
+                        ],
+                        [
+                            'type' => 'subtitle',
+                            'text' => 'Breakdown'
+                        ],
+                        [
+                            'type' => 'score',
+                            'text' => 'CP Score'
+                        ],
+                        [
+                            'type' => 'score',
+                            'text' => 'CARs Score'
+                        ],
+                        [
+                            'type' => 'score',
+                            'text' => 'BB Score'
+                        ],
+                        [
+                            'type' => 'score',
+                            'text' => 'PS Score'
+                        ],
+                        [
+                            'type' => 'subtitle',
+                            'text' => 'Most Common Errors (Organized by Missed)'
+                        ],
+                    ],
+                    $this->getCommonErrorTypes($sampleTests, $sectionKey)
+                )
+            ],
+            'PREDICTIONS' => [
+                'title' => 'Predictions',
+                'content' => [
+                    [
+                        'type' => 'text',
+                        'text' => 'Predictions'
+                    ],
+                ],
+            ],
+            default => $sectionConfig,
+        };
+    }
+
+    protected function getWeakestCategories(array $sampleTests, string $sectionKey): array
+    {
+        if (!isset($sampleTests[$sectionKey])) {
+            return [];
+        }
+        $test = $sampleTests[$sectionKey];
+        $categoryCounts = array_count_values(array_filter(array_column($test, 'content-category')));
+        arsort($categoryCounts);
+        $weakestCategories = Category::findMany(array_keys($categoryCounts))->toArray();
+        return array_map(
+            fn($category) => [
+                'type' => 'text',
+                'text' => $category['title']
+            ],
+            $weakestCategories
+        );
+    }
+
+    public function getWeakestCategoryAtIndex(array $sampleTests, string $sectionKey, int $index): array
+    {
+        if (!isset($sampleTests[$sectionKey])) {
+            return [];
+        }
+        $test = $sampleTests[$sectionKey];
+        $categoryCounts = array_count_values(array_filter(array_column($test, 'content-category')));
+        arsort($categoryCounts);
+        try {
+            $categoryAtIndex = array_keys($categoryCounts)[$index-1];
+            return Category::find($categoryAtIndex)->toArray();
+        } catch (\Exception $e) {
+            return [];
+        }
+    }
+
+    protected function getCommonErrorTypes(array $sampleTests, string $sectionKey): array
+    {
+        if (!isset($sampleTests[$sectionKey])) {
+            return [];
+        }
+        $test = $sampleTests[$sectionKey];
+        $errorCounts = array_count_values(array_filter(array_column($test, 'error-type')));
+        arsort($errorCounts);
+        return array_map(
+            fn($error) => [
+                'type' => 'text',
+                'text' => $error
+            ],
+            array_keys($errorCounts)
+        );
     }
 }

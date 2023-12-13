@@ -27,7 +27,7 @@
         @endforeach
     </div>
     <script type="text/javascript">
-        jQuery(document).ready(function () {
+        jQuery(document).ready(function ($) {
             $.ajaxSetup({
                 headers: {
                     'X-CSRF-TOKEN': '{{ csrf_token() }}'
@@ -78,6 +78,9 @@
 
             let contentResponses = {!! $contentResponses !!};
             loadContentResponses(contentResponses);
+            if($('input:checkbox:checked').length > 0) {
+                $('input:checkbox:not(:checked):first').get(0).scrollIntoView({behavior: 'smooth'});
+            }
         });
 
 

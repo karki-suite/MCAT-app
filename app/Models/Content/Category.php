@@ -67,7 +67,8 @@ class Category extends Model
      */
     protected $fillable = [
         'group_id',
-        'title'
+        'title',
+        'uworld_reference',
     ];
 
 }

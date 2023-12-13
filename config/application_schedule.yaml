@@ -1,0 +1,1022 @@
+
+US:
+  -
+    title: 'The Unscored Sample Exam'
+    sections:
+      - COMMON_ERROR_TYPES
+      - WEAKEST_CATEGORIES
+      -
+        title: UWorld
+        content:
+          -
+            type: subtitle
+            text: 'Application (20 Questions Each)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:US:1:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:US:2:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:US:3:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+      -
+        title: 'AAMC (CP)'
+        content:
+          -
+            type: subtitle
+            text: 'Application (15-20 Q Each)'
+          -
+            type: checkbox
+            text: '"F*** Da Passage" Strategy for CP (Optional)'
+            link: 'https://www.youtube.com/watch?v=XnCazl5ZG5U'
+          -
+            type: percentage
+            text: 'CP Section Bank (15 Questions)'
+          -
+            type: percentage
+            text: 'Physics Q Pack (15 Q)'
+          -
+            type: percentage
+            text: 'Chemistry Q Pack (15 Q)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:US:4:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:US:5:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+          -
+            type: checkbox
+            text: 'AAMC CARs (2 Passages)'
+      -
+        title: UWorld
+        content:
+          -
+            type: subtitle
+            text: 'Application (20 Questions Each)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:US:6:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:US:7:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:US:8:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+          -
+            type: checkbox
+            text: 'AAMC CARs (3 Passages)'
+      -
+        title: 'AAMC (BB)'
+        content:
+          -
+            type: subtitle
+            text: Application
+          -
+            type: checkbox
+            text: 'Cascade Mapping for BB (Optional)'
+            link: 'https://www.youtube.com/watch?v=D6kDizCYfBk'
+          -
+            type: percentage
+            text: 'BB Section Bank (20 Questions)'
+          -
+            type: percentage
+            text: 'Bio Q Pack (25 Q)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:US:9:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:US:10:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+          -
+            type: checkbox
+            text: 'AAMC CARs (6 Passages)'
+  -
+    title: 'Application Week'
+    sections:
+      -
+        title: UWorld
+        content:
+          -
+            type: subtitle
+            text: 'Application (20 Questions Each)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:US:11:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:US:12:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:US:13:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+      -
+        title: 'AAMC (PS)'
+        content:
+          -
+            type: subtitle
+            text: Application
+          -
+            type: percentage
+            text: 'PS Section Bank (25 Questions)'
+          -
+            type: checkbox
+            text: 'KA Document/Concept Map Review (5-10 Pages)'
+          -
+            type: checkbox
+            text: 'Bio Q Pack (15 Q)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:US:14:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: 'UWorld Incorrects (15 Q)'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+          -
+            type: checkbox
+            text: 'AAMC CARs (2 Passages)'
+      -
+        title: UWorld
+        content:
+          -
+            type: subtitle
+            text: 'Application (20 Questions Each)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:US:15:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:US:16:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:US:17:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: UWorld
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+      -
+        title: 'AAMC (CP)'
+        content:
+          -
+            type: subtitle
+            text: Application
+          -
+            type: percentage
+            text: 'CP Section Bank (15 Questions)'
+          -
+            type: percentage
+            text: 'Physics Q Pack (15 Q)'
+          -
+            type: percentage
+            text: 'Chemistry Q Pack (15 Q)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:US:18:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:US:19:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+      -
+        title: UWorld
+        content:
+          -
+            type: subtitle
+            text: 'Application (20 Questions Each)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:US:20:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:US:21:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:US:22:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+          -
+            type: checkbox
+            text: 'AAMC CARs (2 Passages)'
+      -
+        title: 'AAMC (BB)'
+        content:
+          -
+            type: subtitle
+            text: Application
+          -
+            type: percentage
+            text: 'BB Section Bank (15 Questions)'
+          -
+            type: percentage
+            text: 'Bio Q Pack (25 Q)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:US:23:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:US:24:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+          -
+            type: checkbox
+            text: 'AAMC CARs (6 Passages)'
+FL1:
+  -
+    title: 'FL1 Exam'
+    sections:
+      - COMMON_ERROR_TYPES
+      - WEAKEST_CATEGORIES
+      -
+        title: UWorld
+        content:
+          -
+            type: subtitle
+            text: 'Application (20 Questions Each)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL1:1:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL1:2:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL1:3:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+      -
+        title: 'AAMC (CP)'
+        content:
+          -
+            type: subtitle
+            text: Application
+          -
+            type: percentage
+            text: 'CP Section Bank (15 Questions)'
+          -
+            type: percentage
+            text: 'Physics Q Pack (15 Q)'
+          -
+            type: percentage
+            text: 'Chemistry Q Pack (15 Q)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL1:4:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL1:5:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+          -
+            type: checkbox
+            text: 'AAMC CARs (2 Passages)'
+      -
+        title: UWorld
+        content:
+          -
+            type: subtitle
+            text: 'Application (20 Questions Each)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL1:6:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL1:7:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL1:8:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+          -
+            type: checkbox
+            text: 'AAMC CARs (2 Passages)'
+      -
+        title: 'AAMC (BB)'
+        content:
+          -
+            type: subtitle
+            text: Application
+          -
+            type: percentage
+            text: 'BB Section Bank (15 Questions)'
+          -
+            type: percentage
+            text: 'Bio Q Pack (25 Q)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL1:9:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL1:10:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+          -
+            type: checkbox
+            text: 'AAMC CARs (6 Passages)'
+FL2:
+  -
+    title: 'FL2 Exam'
+    sections:
+      - COMMON_ERROR_TYPES
+      - WEAKEST_CATEGORIES
+      -
+        title: UWorld
+        content:
+          -
+            type: subtitle
+            text: 'Application (20 Questions Each)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL2:1:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL2:2:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL2:3:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+      -
+        title: 'AAMC (CP)'
+        content:
+          -
+            type: subtitle
+            text: Application
+          -
+            type: percentage
+            text: 'CP Section Bank (15 Questions)'
+          -
+            type: percentage
+            text: 'Physics Q Pack (15 Q)'
+          -
+            type: percentage
+            text: 'Chemistry Q Pack (15 Q)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL2:4:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL2:5:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+          -
+            type: checkbox
+            text: 'AAMC CARs (2 Passages)'
+      -
+        title: UWorld
+        content:
+          -
+            type: subtitle
+            text: 'Application (20 Questions Each)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL2:6:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL2:7:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL2:8:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+          -
+            type: checkbox
+            text: 'AAMC CARs (2 Passages)'
+      -
+        title: 'AAMC (BB)'
+        content:
+          -
+            type: subtitle
+            text: Application
+          -
+            type: percentage
+            text: 'BB Section Bank (15 Questions)'
+          -
+            type: percentage
+            text: 'Bio Q Pack (25 Q)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL2:9:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL2:10:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+          -
+            type: checkbox
+            text: 'AAMC CARs (6 Passages)'
+  -
+    title: 'Application Week'
+    sections:
+      -
+        title: 'UWorld'
+        content:
+          -
+            type: subtitle
+            text: 'Application (20 Questions Each)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL2:11:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL2:12:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL2:13:REFERENCE'
+          -
+            type: subtitle
+            text: 'Review'
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+          -
+            type: checkbox
+            text: 'AAMC CARs (2 Passages)'
+      -
+        title: 'AAMC (PS)'
+        content:
+          -
+            type: subtitle
+            text: 'Application'
+          -
+            type: percentage
+            text: 'PS Section Bank (25 Questions)'
+          -
+            type: checkbox
+            text: 'KA Document/Concept Map Review (5-10 Pages)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL2:14:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL2:15:REFERENCE'
+          -
+            type: subtitle
+            text: 'Review'
+          -
+            type: checkbox
+            text: 'UWorld Incorrects (15 Q)'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+          -
+            type: checkbox
+            text: 'AAMC CARs (2 Passages)'
+      -
+        title: 'UWorld'
+        content:
+          -
+            type: subtitle
+            text: 'Application (20 Questions Each)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL2:16:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL2:17:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL2:18:REFERENCE'
+          -
+            type: subtitle
+            text: 'Review'
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+
+      - title: 'AAMC (CP)'
+        content:
+          - type: subtitle
+            text: Application
+          - type: percentage
+            text: 'CP Section Bank (15 Questions)'
+          - type: percentage
+            text: 'Physics Q Pack (15 Q)'
+          - type: percentage
+            text: 'Chemistry Q Pack (15 Q)'
+          - type: percentage
+            text: 'WEAKEST_CATEGORIES:FL2:19:REFERENCE'
+          - type: percentage
+            text: 'WEAKEST_CATEGORIES:FL2:20:REFERENCE'
+          - type: subtitle
+            text: Review
+          - type: checkbox
+            text: 'UWorld Review'
+          - type: checkbox
+            text: Anki
+          - type: checkbox
+            text: 'PS Anki'
+          - type: checkbox
+            text: 'AAMC CARs (2 Passages)'
+      - title: UWorld
+        content:
+          - type: subtitle
+            text: 'Application (20 Questions Each)'
+          - type: percentage
+            text: 'WEAKEST_CATEGORIES:FL2:21:REFERENCE'
+          - type: percentage
+            text: 'WEAKEST_CATEGORIES:FL2:22:REFERENCE'
+          - type: percentage
+            text: 'WEAKEST_CATEGORIES:FL2:23:REFERENCE'
+          - type: subtitle
+            text: Review
+          - type: checkbox
+            text: 'UWorld Review'
+          - type: checkbox
+            text: Anki
+          - type: checkbox
+            text: 'PS Anki'
+          - type: checkbox
+            text: 'AAMC CARs (2 Passages)'
+      - title: 'AAMC (BB)'
+        content:
+          - type: subtitle
+            text: Application
+          - type: percentage
+            text: 'BB Section Bank (15 Questions)'
+          - type: percentage
+            text: 'Bio Q Pack (25 Q)'
+          - type: percentage
+            text: 'WEAKEST_CATEGORIES:FL2:24:REFERENCE'
+          - type: percentage
+            text: 'WEAKEST_CATEGORIES:FL2:25:REFERENCE'
+          - type: subtitle
+            text: Review
+          - type: checkbox
+            text: 'UWorld Review'
+          - type: checkbox
+            text: Anki
+          - type: checkbox
+            text: 'PS Anki'
+          - type: checkbox
+            text: 'AAMC CARs (6 Passages)'
+FL3:
+  -
+    title: 'FL3 Exam'
+    sections:
+      - COMMON_ERROR_TYPES
+      - WEAKEST_CATEGORIES
+      -
+        title: UWorld
+        content:
+          -
+            type: subtitle
+            text: 'Application (20 Questions Each)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL3:1:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL3:2:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL3:3:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+      -
+        title: 'AAMC (CP)'
+        content:
+          -
+            type: subtitle
+            text: Application
+          -
+            type: percentage
+            text: 'CP Section Bank (15 Questions)'
+          -
+            type: percentage
+            text: 'Physics Q Pack (15 Q)'
+          -
+            type: percentage
+            text: 'Chemistry Q Pack (15 Q)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL3:4:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL3:5:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+          -
+            type: checkbox
+            text: 'AAMC CARs (2 Passages)'
+      -
+        title: UWorld
+        content:
+          -
+            type: subtitle
+            text: 'Application (20 Questions Each)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL3:6:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL3:7:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL3:8:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+          -
+            type: checkbox
+            text: 'AAMC CARs (2 Passages)'
+      -
+        title: 'AAMC (BB)'
+        content:
+          -
+            type: subtitle
+            text: Application
+          -
+            type: percentage
+            text: 'BB Section Bank (15 Questions)'
+          -
+            type: percentage
+            text: 'Bio Q Pack (25 Q)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL3:9:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL3:10:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+          -
+            type: checkbox
+            text: 'AAMC CARs (6 Passages)'
+FL4:
+  -
+    title: 'FL4 Exam'
+    sections:
+      - COMMON_ERROR_TYPES
+      - WEAKEST_CATEGORIES
+      -
+        title: UWorld
+        content:
+          -
+            type: subtitle
+            text: 'Application (20 Questions Each)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL4:1:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL4:2:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL4:3:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+      -
+        title: 'AAMC (CP)'
+        content:
+          -
+            type: subtitle
+            text: Application
+          -
+            type: percentage
+            text: 'CP Section Bank (15 Questions)'
+          -
+            type: percentage
+            text: 'Physics Q Pack (15 Q)'
+          -
+            type: percentage
+            text: 'Chemistry Q Pack (15 Q)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL4:4:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL4:5:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+          -
+            type: checkbox
+            text: 'AAMC CARs (2 Passages)'
+      -
+        title: UWorld
+        content:
+          -
+            type: subtitle
+            text: 'Application (20 Questions Each)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL4:6:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL4:7:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL4:8:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+          -
+            type: checkbox
+            text: 'AAMC CARs (2 Passages)'
+      -
+        title: 'AAMC (BB)'
+        content:
+          -
+            type: subtitle
+            text: Application
+          -
+            type: percentage
+            text: 'BB Section Bank (15 Questions)'
+          -
+            type: percentage
+            text: 'Bio Q Pack (25 Q)'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL4:9:REFERENCE'
+          -
+            type: percentage
+            text: 'WEAKEST_CATEGORIES:FL4:10:REFERENCE'
+          -
+            type: subtitle
+            text: Review
+          -
+            type: checkbox
+            text: 'UWorld Review'
+          -
+            type: checkbox
+            text: Anki
+          -
+            type: checkbox
+            text: 'PS Anki'
+          -
+            type: checkbox
+            text: 'AAMC CARs (6 Passages)'
+FL5:
+  -
+    title: 'FL5 Exam'
+    sections:
+      - COMMON_ERROR_TYPES
+      - WEAKEST_CATEGORIES
+      - PREDICTIONS
