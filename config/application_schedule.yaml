@@ -139,6 +139,7 @@ US:
           -
             type: checkbox
             text: 'AAMC CARs (6 Passages)'
+AW1:
   -
     title: 'Application Week'
     sections:
@@ -589,6 +590,7 @@ FL2:
           -
             type: checkbox
             text: 'AAMC CARs (6 Passages)'
+AW2:
   -
     title: 'Application Week'
     sections:
