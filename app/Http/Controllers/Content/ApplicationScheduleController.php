@@ -182,8 +182,11 @@ class ApplicationScheduleController extends Controller
         $test = $sampleTests[$sectionKey];
         $categoryCounts = array_count_values(array_filter(array_column($test, 'content-category')));
         arsort($categoryCounts);
+
+        $totalResults = sizeof($categoryCounts);
+        $loopedIndex = (($index-1) % $totalResults) + 1;
         try {
-            $categoryAtIndex = array_keys($categoryCounts)[$index-1];
+            $categoryAtIndex = array_keys($categoryCounts)[$loopedIndex];
             return Category::find($categoryAtIndex)->toArray();
         } catch (\Exception $e) {
             return [];
