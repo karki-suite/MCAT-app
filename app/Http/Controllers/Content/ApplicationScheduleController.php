@@ -184,7 +184,7 @@ class ApplicationScheduleController extends Controller
         arsort($categoryCounts);
 
         $totalResults = sizeof($categoryCounts);
-        $loopedIndex = (($index-1) % $totalResults) + 1;
+        $loopedIndex = (($index-1) % $totalResults);
         try {
             $categoryAtIndex = array_keys($categoryCounts)[$loopedIndex];
             return Category::find($categoryAtIndex)->toArray();
