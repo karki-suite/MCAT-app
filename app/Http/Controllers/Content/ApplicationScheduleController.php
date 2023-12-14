@@ -28,7 +28,7 @@ class ApplicationScheduleController extends Controller
         $content = [];
         foreach ($this->contentMapping as $contentGroupKey => $contentGroup) {
             $content[$contentGroupKey] = [
-                'ready' => isset($sampleTests[$contentGroupKey]),
+                'ready' => $this->checkReady($contentGroup, $sampleTests),
             ];
             foreach ($contentGroup as $contentSection) {
                 $newSection = [
@@ -154,6 +154,25 @@ class ApplicationScheduleController extends Controller
             ],
             default => $sectionConfig,
         };
+    }
+
+    protected function checkReady(array $contentGroup, array $sampleTests): bool
+    {
+        foreach ($contentGroup as $contentSection) {
+            if(isset($contentSection['sections'])) {
+                foreach ($contentSection['sections'] as $card) {
+                    if (isset($card['content'])) {
+                        foreach ($card['content'] as $contentItem) {
+                            if (isset($contentItem['text']) && str_starts_with($contentItem['text'], 'WEAKEST_CATEGORIES')) {
+                                [$command, $commandSection, $commandIndex, $commandTargetField] = explode(':', $contentItem['text'], 4);
+                                return isset($sampleTests[$commandSection]);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        return false;
     }
 
     protected function getWeakestCategories(array $sampleTests, string $sectionKey): array
