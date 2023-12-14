@@ -55,15 +55,19 @@ class ApplicationScheduleController extends Controller
     protected function renderContentItems(array $content, array $sampleTests): array {
         foreach ($content as &$contentGroup) {
             foreach ($contentGroup['sections'] as &$section) {
+                $cardIndex = 0;
                 foreach ($section['cards'] as &$card) {
+                    $cardIndex++;
+                    $contentIndex = 0;
                     foreach ($card['content'] as &$contentItem) {
+                        $contentIndex++;
                         $sectionTitleKey = preg_replace("/[^A-Za-z0-9]+/", "", $section['title']);
                         $cardTitleKey = preg_replace("/[^A-Za-z0-9]+/", "", $card['title']);
                         if (isset($contentItem['text']) && str_starts_with($contentItem['text'], 'WEAKEST_CATEGORIES')) {
                             [$command, $commandSection, $commandIndex, $commandTargetField] = explode(':', $contentItem['text'], 4);
                             $targetCategory = $this->getWeakestCategoryAtIndex($sampleTests, $commandSection, $commandIndex);
                             if (isset($targetCategory['id'])) {
-                                $contentItem['key'] = $sectionTitleKey . '-' . $cardTitleKey . '-CAT-' . $targetCategory['id'];
+                                $contentItem['key'] = $sectionTitleKey . '-' . $cardTitleKey . '-CAT-' . $targetCategory['id'] . '-' . $cardIndex . '-' . $contentIndex;
                             } else {
                                 $contentItem['type'] = 'text';
                             }
@@ -75,7 +79,7 @@ class ApplicationScheduleController extends Controller
                         } else {
                             if (isset($contentItem['text'])) {
                                 $contentTitleKey = preg_replace("/[^A-Za-z0-9]+/", "", $contentItem['text']);
-                                $contentItem['key'] = $sectionTitleKey . '-' . $cardTitleKey . '-' . $contentTitleKey;
+                                $contentItem['key'] = $sectionTitleKey . '-' . $cardTitleKey . '-' . $contentTitleKey . '-' . $cardIndex . '-' . $contentIndex;
                             }
                         }
                         $contentItem['renderer'] = match ($contentItem['type']) {
