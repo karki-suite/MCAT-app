@@ -46,6 +46,27 @@
                 }
             });
 
+            let updateScoreContainer = ($ele) => {
+                let scoreSum = 0;
+                let validScore = true;
+                $ele.find('.score-input').each(function () {
+                    if($(this).val() == '') {
+                        validScore = false;
+                    }
+                    scoreSum = scoreSum + parseInt($(this).val());
+                });
+                if(validScore) {
+                    console.log(scoreSum);
+                    $ele.find('.score-summary').text(scoreSum);
+                } else {
+                    $ele.find('.score-summary').text('-');
+                }
+            };
+
+            $('.score-input').change(function () {
+                updateScoreContainer($(this).parent().parent());
+            });
+
             let serializeData = () => {
                 let data = {};
                 $(document).find('main input').each(function () {
@@ -80,10 +101,15 @@
                         $(document).find('[name="content[' + key + ']"]').val(data[key]);
                     }
                 }
+                $('.score-summary').each(function () {
+                    console.log('updating...');
+                    updateScoreContainer($(this).parent().parent());
+                });
             }
 
             let data = {!! $responses !!};
             loadData(data);
+
         });
     </script>
 </x-app-layout>
