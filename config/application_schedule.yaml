@@ -140,7 +140,7 @@ US:
             text: 'AAMC CARs (6 Passages)'
 AW1:
   -
-    title: 'Application Week'
+    title: 'Application Week 1'
     sections:
       -
         title: UWorld
@@ -591,7 +591,7 @@ FL2:
             text: 'AAMC CARs (6 Passages)'
 AW2:
   -
-    title: 'Application Week'
+    title: 'Application Week 2'
     sections:
       -
         title: 'UWorld'

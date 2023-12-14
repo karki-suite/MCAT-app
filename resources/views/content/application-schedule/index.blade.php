@@ -38,5 +38,52 @@
             </div>
         @endforeach
     </div>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': '{{ csrf_token() }}'
+                }
+            });
 
+            let serializeData = () => {
+                let data = {};
+                $(document).find('main input').each(function () {
+                    let name = $(this).attr('name').match(/\[([^)]+)\]/)[1];
+
+                    if($(this).attr('type') == 'checkbox') {
+                        data[name] = $(this).is(':checked');
+                    } else {
+                        data[name] = $(this).val();
+                    }
+                });
+
+                return data;
+            }
+
+            let saveData = () => {
+                let data = serializeData();
+                console.log(data);
+                $.post('/schedule/application', {'responses': data});
+            }
+
+            $('main input').on('change', function () {
+                saveData();
+            });
+
+            let loadData = (data) => {
+                for(let key in data) {
+
+                    if($(document).find('[name="content[' + key + ']"]').attr('type') === 'checkbox') {
+                        $(document).find('[name="content[' + key + ']"]').prop('checked', data[key] === "true");
+                    } else {
+                        $(document).find('[name="content[' + key + ']"]').val(data[key]);
+                    }
+                }
+            }
+
+            let data = {!! $responses !!};
+            loadData(data);
+        });
+    </script>
 </x-app-layout>

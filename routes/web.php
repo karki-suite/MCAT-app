@@ -35,6 +35,10 @@ Route::get('/schedule/application', [ApplicationScheduleController::class, 'inde
     ->middleware(['auth', 'verified'])
     ->name('schedule.application');
 
+Route::post('/schedule/application', [ApplicationScheduleController::class, 'save'])
+    ->middleware(['auth', 'verified'])
+    ->name('schedule.application.save');
+
 Route::get('/schedule', [ScheduleController::class, 'index'])
     ->middleware(['auth', 'verified'])
     ->name('schedule');

@@ -46,9 +46,9 @@ class ApplicationScheduleController extends Controller
 
 
 
-
         return View('content.application-schedule.index', [
             'content' => $this->renderContentItems($content, $sampleTests),
+            'responses' => auth()->user()->application_responses,
         ]);
     }
 
@@ -227,5 +227,14 @@ class ApplicationScheduleController extends Controller
             ],
             array_keys($errorCounts)
         );
+    }
+
+    public function save(Request $request): RedirectResponse
+    {
+        $user = auth()->user();
+
+        $user->application_responses = json_encode($request->input('responses'));
+        $user->save();
+        return response()->redirectToRoute('schedule.application');
     }
 }
