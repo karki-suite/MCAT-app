@@ -119,7 +119,7 @@
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="hero-caption pt-150 pb-200">
 						<h2>MCAT Suite</h2>
-						<p>Simple, Affordable, World-Class MCAT Study Guide</p>
+						<p>{{ $content['home-tagline'] }}</p>
 					</div>
 				</div>
 			</div>
@@ -137,41 +137,19 @@
 			<div class="row">
 				<div class="col-lg-10 offset-lg-1">
 					<div class="row h_counter_section">
-						<!-- Single -->
-						<div class="col-md-4 position-relative">
-							<div class="counter_item_h">
-	                			<div class="title">
-                                    <h2 class="counter text-gradient">200</h2>
-                                    <h3 class="text-gradient">+</h3>
+                        @for($i = 0; $i < 3; $i++)
+                            <div class="col-md-4 position-relative">
+                                <div class="counter_item_h">
+                                    <div class="title">
+                                        <h2 class="counter text-gradient">{{ $content['home-feature-' . ($i+1) . '-number'] }}</h2>
+                                        <h3 class="text-gradient">{{ $content['home-feature-' . ($i+1) . '-symbol'] }}</h3>
+                                    </div>
+                                    <h5>{{ $content['home-feature-' . ($i+1) . '-title'] }}</h5>
+                                    <p class="text-sm">{{ $content['home-feature-' . ($i+1) . '-summary'] }}</p>
+                                    <hr class="vertical dark">
                                 </div>
-	                			<h5>Hours Of Curated Content</h5>
-	                			<p class="text-sm">Hundreds of hours of curated content, in the format that suits you best, intelligently scheduled based on what you need to learn most.</p>
-		              			<hr class="vertical dark">
-							</div>
-	            		</div>
-						<!-- Single -->
-						<div class="col-md-4 position-relative">
-							<div class="counter_item_h">
-	                			<div class="title">
-                                    <h2 class="counter text-gradient">510</h2>
-                                    <h3 class="text-gradient">+</h3>
-                                </div>
-	                			<h5>Average Test Score</h5>
-	                			<p class="text-sm">Customers who spent at least 100 hours studying with Karki Suite scored an average of 510.</p>
-		              			<hr class="vertical dark">
-							</div>
-	            		</div>
-						<!-- Single -->
-						<div class="col-md-4">
-							<div class="counter_item_h">
-	                			<div class="title">
-                                    <h2 class="counter text-gradient">97</h2>
-                                    <h3 class="text-gradient">%</h3>
-                                </div>
-	                			<h5>Accuracy</h5>
-	                			<p class="text-sm">Most score predictions land within 3% of your final score. Know exactly when you've studied enough.</p>
-							</div>
-	            		</div>
+                            </div>
+                        @endfor
 					</div>
 				</div>
 			</div>
@@ -185,8 +163,8 @@
 				<!-- Content -->
 				<div class="col-lg-6 align-self-center">
 					<div class="analytics-toll-content">
-						<h2 class="text-gradient">AI Guided Self-Study</h2>
-						<p class="content">Save tens of thousands of dollars vs traditional tutoring, while achieving <b>better</b> results.</p>
+						<h2 class="text-gradient">{{ $content['home-block-1-title'] }}</h2>
+						<p class="content">{!! $content['home-block-1-text'] !!}</p>
 						<div class="row">
 							<!-- Single -->
 							<div class="col-sm-6 mb-30">
@@ -195,8 +173,8 @@
 										<img src="assets/img/icon/1.png" alt="icon">
 									</div>
 									<div class="content">
-										<h4>Instant Access</h4>
-										<p>Get started immediately with a 30 day trial.</p>
+										<h4>{{ $content['home-block-1-section-1-title'] }}</h4>
+										<p>{!! $content['home-block-1-section-1-text'] !!}</p>
 									</div>
 								</div>
 							</div>
@@ -207,21 +185,21 @@
 										<img src="assets/img/icon/2.png" alt="icon">
 									</div>
 									<div class="content">
-										<h4>Simple Yet Powerful</h4>
-										<p>Watch our demo video! Karki's MCAT Suite is incredibly easy to get started with.</p>
+										<h4>{{ $content['home-block-1-section-2-title'] }}</h4>
+                                        <p>{!! $content['home-block-1-section-2-text'] !!}</p>
 									</div>
 								</div>
 							</div>
 						</div>
-						<a class="button-1" href="#">Get Started</a>
+						<a class="button-1" href="/dashboard">Get Started</a>
 					</div>
 				</div>
 				<!-- Image -->
 				<div class="col-lg-6">
 					<div class="analytics-toll-img">
-						<img src="assets/img/1.png" alt="img">
+						<img src="https://img.youtube.com/vi/{{ $content['home-block-1-videoid'] }}/0.jpg" alt="img">
 						<div class="video-btn-ab">
-							<a data-rel="lightcase" href="https://player.vimeo.com/video/553110309?h=dc4ee31dc4"><i class="fas fa-play"></i> <span>Check This video</span></a>
+							<a data-rel="lightcase" href="https://www.youtube.com/embed/{{ $content['home-block-1-videoid'] }}"><i class="fas fa-play"></i> <span>Watch Video</span></a>
 						</div>
 					</div>
 				</div>
@@ -236,8 +214,8 @@
 			<div class="row mb-40">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="section-headding">
-						<h2>AI-Powered Study Guide <br />Helping you study better.</h2>
-						<p>Intelligent focus suggestions to maximize your score.</p>
+						<h2>{!! $content['home-block-2-title'] !!}</h2>
+						<p>{!! $content['home-block-2-subtitle'] !!}</p>
 					</div>
 				</div>
 			</div>
@@ -249,8 +227,8 @@
 							<img src="assets/img/icon/cod.png" alt="code">
 						</div>
 						<div class="content">
-							<h4 class="text-gradient"> Built for developers </h4>
-							<p>Vestibulum venenatis eget orci eget ornare. Donec pretium vel neque id lobortis. Integer at metus eleifend, viverra odio et, suscipit tortor. </p>
+							<h4 class="text-gradient">{!! $content['home-block-2-section-1-title'] !!}</h4>
+							<p>{!! $content['home-block-2-section-1-text'] !!}</p>
 						</div>
 					</div>
 				</div>
@@ -261,8 +239,8 @@
 							<img src="assets/img/icon/meas.png" alt="mase">
 						</div>
 						<div class="content">
-							<h4 class="text-gradient"> Designed to be modern </h4>
-							<p>Vestibulum venenatis eget orci eget ornare. Donec pretium vel neque id lobortis. Integer at metus eleifend, viverra odio et, suscipit tortor. </p>
+							<h4 class="text-gradient">{!! $content['home-block-2-section-2-title'] !!}</h4>
+							<p>{!! $content['home-block-2-section-2-text'] !!}</p>
 						</div>
 					</div>
 				</div>
@@ -273,8 +251,8 @@
 							<img src="assets/img/icon/do.png" alt="doc">
 						</div>
 						<div class="content">
-							<h4 class="text-gradient"> Documentation for everything </h4>
-							<p>Vestibulum venenatis eget orci eget ornare. Donec pretium vel neque id lobortis. Integer at metus eleifend, viverra odio et, suscipit tortor. </p>
+							<h4 class="text-gradient">{!! $content['home-block-2-section-3-title'] !!}</h4>
+							<p>{!! $content['home-block-2-section-3-text'] !!}</p>
 						</div>
 					</div>
 				</div>
@@ -282,76 +260,7 @@
 		</div>
 	</section>
 	<!-- End Features That Area -->
-	<!-- Start Pricing Plane -->
-	<section class="section-padding-2 pt-0">
-		<div class="container">
-			<!-- Section Headding -->
-			<div class="row mb-40">
-				<div class="col-lg-8 offset-lg-2 text-center">
-					<div class="section-headding">
-						<h2>Pricing</h2>
-						<p>Subscribe monthly or pay once for lifetime access!</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="mt-40" id="myTabPricingContent">
-					  	<div class="tab-pane fade show active">
-					  		<div class="row">
-					  			<!-- Single -->
-					  			<div class="col-lg-6 col-md-9 mb-30">
-					  				<div class="pricing-item">
-					  					<div class="pricing-header">
-					  						<h4>Monthly</h4>
-					  						<h2>$15</h2>
-					  					</div>
-					  					<div class="pricing-content">
-					  						<ul>
-					  							<li>Basic Listing Submission</li>
-					  							<li>One Listing</li>
-					  							<li>30 Days Availability</li>
-					  							<li>Limited Support</li>
-					  							<li>Accept Reviews</li>
-					  							<li>Edit Your Listing</li>
-					  						</ul>
-					  					</div>
-					  					<div class="pricng-btn">
-					  						<a class="button-1" href="#">Get Started</a>
-					  					</div>
-					  				</div>
-					  			</div>
-					  			<!-- Single -->
-					  			<div class="col-lg-6 col-md-9 mb-30">
-					  				<div class="pricing-item">
-					  					<div class="pricing-header">
-					  						<h4>Lifetime Access</h4>
-					  						<h2>$99</h2>
-					  					</div>
-					  					<div class="pricing-content">
-					  						<ul>
-					  							<li>Basic Listing Submission</li>
-					  							<li>One Listing</li>
-					  							<li>30 Days Availability</li>
-					  							<li>Limited Support</li>
-					  							<li>Accept Reviews</li>
-					  							<li>Edit Your Listing</li>
-					  						</ul>
-					  					</div>
-					  					<div class="pricng-btn">
-					  						<a class="button-1" href="#">Get Started</a>
-					  					</div>
-					  				</div>
-					  			</div>
-					  		</div>
-					  	</div>
-					</div>
 
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Pricing Plane -->
 	<!-- Start Testimonial Area -->
 	<section class="section-padding pt-0">
 		<div class="container">
@@ -439,28 +348,6 @@
 		</div>
 	</section>
 	<!-- End Testimonial Area -->
-	<!-- Start Subscribe Area -->
-	<section class="subscribe-area" style="background-image: url('assets/img/sub.png');">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="subscribe-content">
-						<h2>Start your <br>30 day free trial.</h2>
-						<p>Naff the little rotter have gutted mate James cuppa baking legged. </p>
-						<form action="#">
-							<input type="email" name="email" placeholder="Email Address">
-							<button type="submit">Sign up free</button>
-						</form>
-						<ul>
-							<li><i class="fas fa-check"></i>  30-day free trial</li>
-							<li><i class="fas fa-check"></i> No credit card required</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Subscribe Area -->
 	<!-- Start Footer Area -->
 	<footer class="footer">
 		<!-- Footer Bottom -->

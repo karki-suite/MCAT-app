@@ -19,6 +19,7 @@ class DashboardController extends Controller
             'scores' => auth()->user()->getResponseScoreSummary(),
             'content' => [
                 'welcome' => CmsContent::where('key', 'dashboard-welcome')->first()['content'],
+                'welcome-videoid' => CmsContent::where('key', 'dashboard-welcome-videoid')->first()['content'],
             ]
         ]);
     }
