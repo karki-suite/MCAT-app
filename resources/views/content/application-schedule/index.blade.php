@@ -4,6 +4,7 @@
             {{ __('Application Schedule') }}
         </h2>
     </x-slot>
+    <div class="py-6 mx-auto hidden lg:block max-w-7xl max-h-96" id="chart-container"></div>
     <div class="py-6">
         @foreach($content as $contentCategories)
             <div class="py-6 max-w-7xl mx-auto sm:px-6 lg:px-8">
@@ -38,6 +39,7 @@
             </div>
         @endforeach
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script type="text/javascript">
         jQuery(document).ready(function ($) {
             $.ajaxSetup({
@@ -56,11 +58,21 @@
                     scoreSum = scoreSum + parseInt($(this).val());
                 });
                 if(validScore) {
-                    console.log(scoreSum);
                     $ele.find('.score-summary').text(scoreSum);
                 } else {
                     $ele.find('.score-summary').text('-');
                 }
+
+                let newScores = [];
+                $('.score-summary').each(function() {
+                    if($(this).text() !== '-') {
+                        newScores.push({
+                            x: $(this).parent().parent().parent().parent().parent().children('h3').text(),
+                            y: $(this).text()
+                        });
+                    }
+                });
+                updateChart(newScores);
             };
 
             $('.score-input').change(function () {
@@ -84,7 +96,6 @@
 
             let saveData = () => {
                 let data = serializeData();
-                console.log(data);
                 $.post('/schedule/application', {'responses': data});
             }
 
@@ -102,13 +113,46 @@
                     }
                 }
                 $('.score-summary').each(function () {
-                    console.log('updating...');
                     updateScoreContainer($(this).parent().parent());
                 });
             }
 
             let data = {!! $responses !!};
             loadData(data);
+
+
+            function updateChart(scores) {
+                $('#chart-container').html('<canvas id="chart" class="w-full h-auto"></canvas>');
+                const ctx = document.getElementById('chart');
+
+                new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        datasets: [
+                            {
+                                label: 'Scores',
+                                data: scores,
+                                backgroundColor: '#003e79',
+                                borderColor: '#003e79'
+                            }
+                        ]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                min: 470,
+                                max: 530
+                            },
+                            x: {
+                                ticks: {
+                                    display: true
+                                }
+                            }
+                        },
+                        maintainAspectRatio: false
+                    }
+                });
+            }
 
         });
     </script>
