@@ -1,66 +1,71 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Karki Suite
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# application_schedule.yaml
 
-## About Laravel
+Located at `config/application_schedule.yaml`.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Changes to application_schedule.yaml can be deployed via Cloudways by clicking the green "PULL" button on this page: https://platform.cloudways.com/apps/4034683/deployment
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Note that while config changes can be deployed without further action, changes to styling or database configuration may require additional steps.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Text Formatting in YAML
+In general, text should be wrapped in single quotes.
 
-## Learning Laravel
+E.g. 'some text'
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+You can skip quotes in specific circumstances (e.g. alphabetical characters only, no spaces), but it is safer to default to always using quotes if unsure.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Top Level
+The top level always starts with the following...  This represents the title, and all "sections" within. Think of sections as the cards you see.
+```
+US:
+  -
+    title: 'The Unscored Sample Exam'
+    sections:
+```
+## Sections
+Sections can be any of the following "fixed blocks"... These are blocks that aren't customizable and have complex functionality.
+```
+      - COMMON_ERROR_TYPES
+      - WEAKEST_CATEGORIES
+```
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+They can also have "custom sections". These are the blocks that contain configurable content.
+```
+      -
+        title: UWorld
+        content:
+```
 
-## Laravel Sponsors
+## Content
+Content is line items within a section/card. Sections look like this:
+```
+          -
+            type: subtitle
+            text: 'Application (20 Questions Each)'
+```
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Type can be one of the following values:
+- subtitle (bolded and centered subtitle)
+- checkbox (with a checkbox)
+- percentage (with a percentage field)
 
-### Premium Partners
+Text can be either any text of your choosing, or exactly this format:
+```
+WEAKEST_CATEGORIES:TEST_CODE:INDEX:REFERENCE
+```
+Replace TEST_CODE and INDEX. When Index exceeds the number of available weakest categories it will loop back around.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+Example:
+```
+WEAKEST_CATEGORIES:US:23:REFERENCE
+```
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Adding a link: You can also add a `link` property to any checkbox or percentage type.
+e.g.
+```
+          -
+            type: checkbox
+            text: 'Cascade Mapping for BB (Optional)'
+            link: 'https://www.youtube.com/watch?v=D6kDizCYfBk'
+```
