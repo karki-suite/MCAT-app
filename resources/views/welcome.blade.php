@@ -359,16 +359,6 @@
 							<p>Copyright ©2023 <a href="#">Karki's MCAT Suite</a>. All Rights Reserved</p>
 						</div>
 					</div>
-					<div class="col-lg-6">
-						<div class="footer_social">
-							<ul>
-								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-								<li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
-							</ul>
-						</div>
-					</div>
 				</div>
 			</div>
 		</div>
