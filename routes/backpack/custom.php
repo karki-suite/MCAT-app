@@ -17,6 +17,7 @@ Route::group([
     'namespace'  => 'App\Http\Controllers\Admin',
 ], function () { // custom admin routes
     Route::crud('user', 'UserCrudController');
+    Route::crud('cms', 'CmsContentCrudController');
     Route::crud('content-category', 'ContentCategoryCrudController');
     Route::crud('content-group', 'ContentGroupCrudController');
     Route::crud('content-content', 'ContentContentCrudController');

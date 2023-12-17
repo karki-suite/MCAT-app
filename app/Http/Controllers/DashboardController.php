@@ -2,10 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Content\Group;
+use App\Models\CmsContent;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Redirect;
 use Illuminate\View\View;
 
 class DashboardController extends Controller
@@ -18,7 +16,10 @@ class DashboardController extends Controller
     {
         return view('dashboard', [
             'completion' => auth()->user()->getResponseCompletionSummary(),
-            'scores' => auth()->user()->getResponseScoreSummary()
+            'scores' => auth()->user()->getResponseScoreSummary(),
+            'content' => [
+                'welcome' => CmsContent::where('key', 'dashboard-welcome')->first()['content'],
+            ]
         ]);
     }
 

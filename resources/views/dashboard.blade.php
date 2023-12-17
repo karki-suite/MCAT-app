@@ -11,8 +11,7 @@
             <div class="block lg:grid lg:grid-cols-2 lg:flex lg:flex-wrap">
                 <div class="mb-1 lg:mr-1 bg-white overflow-hidden shadow-sm sm:rounded-lg">
                     <div class="p-6 text-gray-900">
-                        <p>Thank you for choosing Karki MCAT Suite! We recommend watching the getting started video below for an introduction on how to best use Karki MCAT Suite.</p>
-                        <p class="pt-2">For any questions please reach out to support@karkisuite.com.</p>
+                        {!! $content['welcome'] !!}
                     </div>
                 </div>
                 <div class="mb-1 overflow-hidden shadow-sm sm:rounded-lg mt-4 lg:mt-0">
