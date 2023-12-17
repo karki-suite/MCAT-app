@@ -54,25 +54,6 @@
 					<div class="hr_btn">
 						<a class="button-2" href="/register">Get Started</a>
 					</div>
-					<!-- Menu -->
-					<div class="menu">
-						<nav>
-							<ul>
-								<li>
-									<a href="#home">Dashboard</a>
-								</li>
-								<li>
-                  <a href="#features">Features</a>
-                </li>
-								<li>
-                  <a href="#pricing">Pricing</a>
-                </li>
-								<li>
-                  <a href="#testimonials">Testimonials</a>
-                </li>
-							</ul>
-						</nav>
-					</div>
 				</div>
 			</div>
 		</div>
