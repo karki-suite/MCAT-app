@@ -207,6 +207,9 @@ class ApplicationScheduleController extends Controller
         arsort($categoryCounts);
 
         $totalResults = sizeof($categoryCounts);
+        if ($totalResults == 0) {
+            return [];
+        }
         $loopedIndex = (($index-1) % $totalResults);
         try {
             $categoryAtIndex = array_keys($categoryCounts)[$loopedIndex];
