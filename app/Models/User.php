@@ -31,6 +31,7 @@ class User extends Authenticatable
         'sample_tests',
         'aamc_responses',
         'application_responses',
+        'is_admin', // Note: User objects are never mass assigned, this is used for admin CRUD
     ];
 
     /**
