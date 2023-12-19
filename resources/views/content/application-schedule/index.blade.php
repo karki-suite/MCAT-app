@@ -59,8 +59,16 @@
                 });
                 if(validScore) {
                     $ele.find('.score-summary').text(scoreSum);
+                    if(scoreSum < 500) {
+                        $ele.find('.score-summary').css('color', '#df3323');
+                    } else if (scoreSum < 510) {
+                        $ele.find('.score-summary').css('color', '#fbbc04');
+                    } else {
+                        $ele.find('.score-summary').css('color', '#4285f4');
+                    }
                 } else {
                     $ele.find('.score-summary').text('-');
+                    $ele.find('.score-summary').css('color', null);
                 }
 
                 let newScores = [];
