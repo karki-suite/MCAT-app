@@ -68,7 +68,7 @@
                     }
                 } else {
                     $ele.find('.score-summary').text('-');
-                    $ele.find('.score-summary').css('color', null);
+                    $ele.find('.score-summary').css('color', '#854d0e');
                 }
 
                 let newScores = [];
