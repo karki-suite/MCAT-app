@@ -71,6 +71,7 @@ US:
           -
             type: checkbox
             text: 'AAMC CARs (2 Passages)'
+            link: 'https://karkisuite.com/cars/jackwestin'
       -
         title: UWorld
         content:
@@ -101,6 +102,7 @@ US:
           -
             type: checkbox
             text: 'AAMC CARs (3 Passages)'
+            link: 'https://karkisuite.com/cars/jackwestin'
       -
         title: 'AAMC (BB)'
         content:
@@ -138,6 +140,7 @@ US:
           -
             type: checkbox
             text: 'AAMC CARs (6 Passages)'
+            link: 'https://karkisuite.com/cars/jackwestin'
 AW1:
   -
     title: 'Application Week 1'
@@ -202,6 +205,7 @@ AW1:
           -
             type: checkbox
             text: 'AAMC CARs (2 Passages)'
+            link: 'https://karkisuite.com/cars/jackwestin'
       -
         title: UWorld
         content:
@@ -292,6 +296,7 @@ AW1:
           -
             type: checkbox
             text: 'AAMC CARs (2 Passages)'
+            link: 'https://karkisuite.com/cars/jackwestin'
       -
         title: 'AAMC (BB)'
         content:
@@ -325,6 +330,7 @@ AW1:
           -
             type: checkbox
             text: 'AAMC CARs (6 Passages)'
+            link: 'https://karkisuite.com/cars/jackwestin'
 FL1:
   -
     title: 'FL1 Exam'
@@ -394,6 +400,7 @@ FL1:
           -
             type: checkbox
             text: 'AAMC CARs (2 Passages)'
+            link: 'https://karkisuite.com/cars/jackwestin'
       -
         title: UWorld
         content:
@@ -424,6 +431,7 @@ FL1:
           -
             type: checkbox
             text: 'AAMC CARs (2 Passages)'
+            link: 'https://karkisuite.com/cars/jackwestin'
       -
         title: 'AAMC (BB)'
         content:
@@ -457,6 +465,7 @@ FL1:
           -
             type: checkbox
             text: 'AAMC CARs (6 Passages)'
+            link: 'https://karkisuite.com/cars/jackwestin'
 FL2:
   -
     title: 'FL2 Exam'
@@ -526,6 +535,7 @@ FL2:
           -
             type: checkbox
             text: 'AAMC CARs (2 Passages)'
+            link: 'https://karkisuite.com/cars/jackwestin'
       -
         title: UWorld
         content:
@@ -556,6 +566,7 @@ FL2:
           -
             type: checkbox
             text: 'AAMC CARs (2 Passages)'
+            link: 'https://karkisuite.com/cars/jackwestin'
       -
         title: 'AAMC (BB)'
         content:
@@ -589,6 +600,7 @@ FL2:
           -
             type: checkbox
             text: 'AAMC CARs (6 Passages)'
+            link: 'https://karkisuite.com/cars/jackwestin'
 AW2:
   -
     title: 'Application Week 2'
@@ -623,6 +635,7 @@ AW2:
           -
             type: checkbox
             text: 'AAMC CARs (2 Passages)'
+            link: 'https://karkisuite.com/cars/jackwestin'
       -
         title: 'AAMC (PS)'
         content:
@@ -656,6 +669,7 @@ AW2:
           -
             type: checkbox
             text: 'AAMC CARs (2 Passages)'
+            link: 'https://karkisuite.com/cars/jackwestin'
       -
         title: 'UWorld'
         content:
@@ -708,6 +722,7 @@ AW2:
             text: 'PS Anki'
           - type: checkbox
             text: 'AAMC CARs (2 Passages)'
+            link: 'https://karkisuite.com/cars/jackwestin'
       - title: UWorld
         content:
           - type: subtitle
@@ -728,6 +743,7 @@ AW2:
             text: 'PS Anki'
           - type: checkbox
             text: 'AAMC CARs (2 Passages)'
+            link: 'https://karkisuite.com/cars/jackwestin'
       - title: 'AAMC (BB)'
         content:
           - type: subtitle
@@ -750,6 +766,7 @@ AW2:
             text: 'PS Anki'
           - type: checkbox
             text: 'AAMC CARs (6 Passages)'
+            link: 'https://karkisuite.com/cars/jackwestin'
 FL3:
   -
     title: 'FL3 Exam'
@@ -819,6 +836,7 @@ FL3:
           -
             type: checkbox
             text: 'AAMC CARs (2 Passages)'
+            link: 'https://karkisuite.com/cars/jackwestin'
       -
         title: UWorld
         content:
@@ -849,6 +867,7 @@ FL3:
           -
             type: checkbox
             text: 'AAMC CARs (2 Passages)'
+            link: 'https://karkisuite.com/cars/jackwestin'
       -
         title: 'AAMC (BB)'
         content:
@@ -882,6 +901,7 @@ FL3:
           -
             type: checkbox
             text: 'AAMC CARs (6 Passages)'
+            link: 'https://karkisuite.com/cars/jackwestin'
 FL4:
   -
     title: 'FL4 Exam'
@@ -951,6 +971,7 @@ FL4:
           -
             type: checkbox
             text: 'AAMC CARs (2 Passages)'
+            link: 'https://karkisuite.com/cars/jackwestin'
       -
         title: UWorld
         content:
@@ -981,6 +1002,7 @@ FL4:
           -
             type: checkbox
             text: 'AAMC CARs (2 Passages)'
+            link: 'https://karkisuite.com/cars/jackwestin'
       -
         title: 'AAMC (BB)'
         content:
@@ -1014,6 +1036,7 @@ FL4:
           -
             type: checkbox
             text: 'AAMC CARs (6 Passages)'
+            link: 'https://karkisuite.com/cars/jackwestin'
 FL5:
   -
     title: 'FL5 Exam'
