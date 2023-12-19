@@ -140,8 +140,8 @@
                     options: {
                         scales: {
                             y: {
-                                min: 470,
-                                max: 530
+                                min: 472,
+                                max: 528
                             },
                             x: {
                                 ticks: {
