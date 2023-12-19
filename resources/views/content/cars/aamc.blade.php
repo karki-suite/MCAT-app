@@ -5,7 +5,7 @@
         </h2>
     </x-slot>
     @include('content/cars/partials/navigation')
-    <div class="py-6 mx-auto hidden lg:block max-w-7xl max-h-96" id="chart-container"></div>
+    <div class="py-6 mx-auto lg:block max-w-7xl max-h-96" id="chart-container"></div>
     <div class="py-6">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 overflow-auto">
             <div class="mb-1 bg-white overflow-hidden shadow-sm sm:rounded-lg p-6 min-w-max">
@@ -153,6 +153,7 @@
             let aamcResponse = {!! $aamcResponses !!};
             if(aamcResponse.length == 0) {
                 addRow();
+                updateChart();
             } else {
                 for(let rowIdx in aamcResponse) {
                     addRow(aamcResponse[rowIdx]);

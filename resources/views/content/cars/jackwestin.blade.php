@@ -5,7 +5,7 @@
         </h2>
     </x-slot>
     @include('content/cars/partials/navigation')
-    <div class="py-6 mx-auto hidden lg:block max-w-7xl max-h-96" id="chart-container"></div>
+    <div class="py-6 mx-auto lg:block max-w-7xl max-h-96" id="chart-container"></div>
     <div class="py-6">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <h4 class="p-6 text-gray-900 text-center text-xl">Jack Westin</h4>
