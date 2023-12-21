@@ -1,5 +1,14 @@
 # Karki Suite
 
+# Deployment
+
+Deploys are managed through Cloudways.
+
+1. Log into Cloudways and "Deploy with Git".
+2. SSH into the server, navigate to public_html.
+3. Build updated CSS - `npm run build`
+4. Run Laravel Migrations `php artisan migrate`
+
 # application_schedule.yaml
 
 Located at `config/application_schedule.yaml`.
