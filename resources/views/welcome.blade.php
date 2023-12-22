@@ -73,22 +73,6 @@
                         <img src="assets/img/logo.png" alt="logo" />
                     </a>
                 </div>
-                <div id="menu" class="text-left">
-                    <ul class="offcanvas_main_menu">
-                      <li>
-                        <a href="#home">Dashboard</a>
-                      </li>
-                      <li>
-                        <a href="#features">Features</a>
-                      </li>
-                      <li>
-                        <a href="#pricing">Pricing</a>
-                      </li>
-                      <li>
-                        <a href="#testimonials">Testimonials</a>
-                      </li>
-                    </ul>
-                </div>
             </div>
         </div>
     </div>
@@ -250,7 +234,6 @@
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="section-headding">
 						<h2>Our Testimonial</h2>
-						<p>The powerful and flexible theme for all kinds of businesses</p>
 					</div>
 				</div>
 			</div>
@@ -258,71 +241,29 @@
 				<div class="col-lg-12">
 					<div class="testimonial-full owl-carousel">
 						<!-- Single -->
-						<div class="testimonial-item">
-							<div class="testimonial-single-header">
-								<div class="thumbnail">
-									<img src="assets/img/team/3.jpg" alt="testimonial">
-								</div>
-								<div class="testimonial-title">
-									<h4>Rachel Adams</h4>
-									<p>Regular Clients</p>
-									<div class="ratting-tes">
-										<span><i class="fas fa-star"></i></span>
-										<span><i class="fas fa-star"></i></span>
-										<span><i class="fas fa-star"></i></span>
-										<span><i class="fas fa-star"></i></span>
-										<span><i class="fas fa-star"></i></span>
-									</div>
-								</div>
-							</div>
-							<div class="testimonial-single-footer">
-								<p>We are a team of professional and enthusiastic people, who like what they do and are always in the process of growing and improving their skills.</p>
-							</div>
-						</div>
-						<!-- Single -->
-						<div class="testimonial-item">
-							<div class="testimonial-single-header">
-								<div class="thumbnail">
-									<img src="assets/img/team/2.jpg" alt="testimonial">
-								</div>
-								<div class="testimonial-title">
-									<h4>Rachel Adams</h4>
-									<p>Regular Clients</p>
-									<div class="ratting-tes">
-										<span><i class="fas fa-star"></i></span>
-										<span><i class="fas fa-star"></i></span>
-										<span><i class="fas fa-star"></i></span>
-										<span><i class="fas fa-star"></i></span>
-										<span><i class="fas fa-star"></i></span>
-									</div>
-								</div>
-							</div>
-							<div class="testimonial-single-footer">
-								<p>We are a team of professional and enthusiastic people, who like what they do and are always in the process of growing and improving their skills.</p>
-							</div>
-						</div>
-						<!-- Single -->
-						<div class="testimonial-item">
-							<div class="testimonial-single-header">
-								<div class="thumbnail">
-									<img src="assets/img/team/1.jpg" alt="testimonial">
-								</div>
-								<div class="testimonial-title">
-									<h4>Rachel Adams</h4>
-									<p>Regular Clients</p>
-									<div class="ratting-tes">
-										<span><i class="fas fa-star"></i></span>
-										<span><i class="fas fa-star"></i></span>
-										<span><i class="fas fa-star"></i></span>
-										<span><i class="fas fa-star"></i></span>
-										<span><i class="fas fa-star"></i></span>
-									</div>
-								</div>
-							</div>
-							<div class="testimonial-single-footer">
-								<p>We are a team of professional and enthusiastic people, who like what they do and are always in the process of growing and improving their skills.</p>
-							</div>
-						</div>
+                        @foreach($testimonials as $testimonial)
+                            <div class="testimonial-item">
+                                <div class="testimonial-single-header">
+                                    <div class="thumbnail">
+                                        <img src="{{ $testimonial['photo_url'] }}" alt="testimonial">
+                                    </div>
+                                    <div class="testimonial-title">
+                                        <h4>{{ $testimonial['name'] }}</h4>
+                                        <p>{{ $testimonial['title'] }}</p>
+                                        <div class="ratting-tes">
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                            <span><i class="fas fa-star"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-single-footer">
+                                    <p>{!! $testimonial['text'] !!}</p>
+                                </div>
+                            </div>
+                        @endforeach
 					</div>
 				</div>
 			</div>

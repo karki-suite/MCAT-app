@@ -6,3 +6,5 @@
 <x-backpack::menu-item title="Content Groups" icon="la la-question" :link="backpack_url('content-group')" />
 <x-backpack::menu-item title="Content Categories" icon="la la-question" :link="backpack_url('content-category')" />
 <x-backpack::menu-item title="Content Contents" icon="la la-question" :link="backpack_url('content-content')" />
+<x-backpack::menu-item title="Resources" icon="la la-question" :link="backpack_url('resources')" />
+<x-backpack::menu-item title="Testimonials" icon="la la-question" :link="backpack_url('testimonials')" />

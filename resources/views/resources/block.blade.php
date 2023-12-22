@@ -5,7 +5,7 @@
             <div class="block lg:grid lg:grid-cols-3 text-center">
                 @foreach($resources as $resource)
                     <div class="mb-1 lg:mr-1">
-                        <a href="{{ $resource['link'] }}" class="text-blue-800" target="_BLANK">{{ $resource['title'] }}</a>
+                        <a href="{{ $resource['url'] }}" class="text-blue-800" target="_BLANK">{{ $resource['label'] }}</a>
                         @if($resource['paid']) (paid) @endif
                     </div>
                 @endforeach

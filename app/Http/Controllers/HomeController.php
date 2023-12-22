@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\CmsContent;
+use App\Models\Testimonial;
 
 class HomeController extends Controller
 {
@@ -19,7 +20,8 @@ class HomeController extends Controller
                         ];
                     },
                     CmsContent::where('key', 'like', 'home-%')->get()->toArray()
-                ))
+                )),
+                'testimonials' => Testimonial::all()->toArray()
             ]
         );
     }
