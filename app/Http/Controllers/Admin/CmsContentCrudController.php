@@ -50,7 +50,8 @@ class CmsContentCrudController extends CrudController
      */
     protected function setupCreateOperation()
     {
-        CRUD::setFromDb();
+        CRUD::field('key')->type('text');
+        Crud::field('content')->type('summernote');
     }
 
     /**

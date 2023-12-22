@@ -269,7 +269,25 @@
 			</div>
 		</div>
 	</section>
-	<!-- End Testimonial Area -->
+    <!-- End Testimonial Area -->
+    <!-- Start Our Story Area -->
+    <section class="section-padding pt-0">
+        <div class="container">
+            <!-- Section Headding -->
+            <div class="row mb-40">
+                <div class="col-lg-8 offset-lg-2 text-center">
+                    <div class="section-headding">
+                        <h2>Our Story</h2>
+                    </div>
+                    <div>
+                        {!! $content['home-our-story'] !!}
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Our Story Area -->
 	<!-- Start Footer Area -->
 	<footer class="footer">
 		<!-- Footer Bottom -->
