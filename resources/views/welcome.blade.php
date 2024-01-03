@@ -84,8 +84,7 @@
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="hero-caption pt-150 pb-200">
 						<h2>MCAT Suite</h2>
-						<p>{{ $content['home-tagline'] }}</p>
-					</div>
+						<p>{!! $content['home-tagline'] !!}</p>
 				</div>
 			</div>
 		</div>
