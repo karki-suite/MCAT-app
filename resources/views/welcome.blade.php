@@ -120,6 +120,24 @@
 		</div>
 	</section>
 	<!-- Header Counter Area -->
+	 <!-- Start Our Story Area -->
+	 <section class="section-padding pt-0">
+        <div class="container">
+            <!-- Section Headding -->
+            <div class="row mb-40">
+                <div class="col-lg-8 offset-lg-2 text-center">
+                    <div class="section-headding">
+                        <h2>Our Story</h2>
+                    </div>
+                    <div>
+                        {!! $content['home-our-story'] !!}
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Our Story Area -->
 	<!-- Start Video Area -->
 	<section class="section-padding-2">
 		<div class="container">
@@ -127,7 +145,7 @@
 				<!-- Content -->
 				<div class="col-lg-6 align-self-center">
 					<div class="analytics-toll-content">
-						<h2 class="text-gradient">{{ $content['home-block-1-title'] }}</h2>
+						<h2 class="text-gradient">{!! $content['home-block-1-title'] !!}</h2>
 						<p class="content">{!! $content['home-block-1-text'] !!}</p>
 						<div class="row">
 							<!-- Single -->
@@ -137,7 +155,7 @@
 										<img src="assets/img/icon/1.png" alt="icon">
 									</div>
 									<div class="content">
-										<h4>{{ $content['home-block-1-section-1-title'] }}</h4>
+										<h4>{!! $content['home-block-1-section-1-title'] !!}</h4>
 										<p>{!! $content['home-block-1-section-1-text'] !!}</p>
 									</div>
 								</div>
@@ -224,7 +242,6 @@
 		</div>
 	</section>
 	<!-- End Features That Area -->
-
 	<!-- Start Testimonial Area -->
 	<section class="section-padding pt-0">
 		<div class="container">
@@ -269,24 +286,6 @@
 		</div>
 	</section>
     <!-- End Testimonial Area -->
-    <!-- Start Our Story Area -->
-    <section class="section-padding pt-0">
-        <div class="container">
-            <!-- Section Headding -->
-            <div class="row mb-40">
-                <div class="col-lg-8 offset-lg-2 text-center">
-                    <div class="section-headding">
-                        <h2>Our Story</h2>
-                    </div>
-                    <div>
-                        {!! $content['home-our-story'] !!}
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Our Story Area -->
 	<!-- Start Footer Area -->
 	<footer class="footer">
 		<!-- Footer Bottom -->
