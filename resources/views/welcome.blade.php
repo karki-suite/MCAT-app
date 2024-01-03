@@ -127,7 +127,7 @@
             <div class="row mb-40">
                 <div class="col-lg-8 offset-lg-2 text-center">
                     <div class="section-headding">
-                        <h2>Our Story</h2>
+                        <h2>Why Us?</h2>
                     </div>
                     <div>
                         {!! $content['home-our-story'] !!}
