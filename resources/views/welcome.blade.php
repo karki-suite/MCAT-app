@@ -106,7 +106,8 @@
                                 <div class="counter_item_h">
                                     <div class="title">
                                         <h2 class="counter text-gradient">{{ $content['home-feature-' . ($i+1) . '-number'] }}</h2>
-										<h3 class="text-gradient">{{ $content['home-feature-' . ($i+1) . '-symbol'] ?? ' ' }}</h3>                                    </div>
+										<h3 class="text-gradient">{!! $content['home-feature-' . ($i+1) . '-symbol'] ?? ' ' !!}</h3>                                    
+									</div>
                                     <h5>{{ $content['home-feature-' . ($i+1) . '-title'] }}</h5>
 									<p class="text-sm">{!! $content['home-feature-' . ($i+1) . '-summary'] !!}</p>
                                     <hr class="vertical dark">
