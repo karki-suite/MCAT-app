@@ -294,7 +294,7 @@
 				<div class="row">
 					<div class="col-lg-6 align-self-center">
 						<div class="copy-f-text">
-							<p>Copyright ©2023 <a href="#">Karki's MCAT Suite</a>. All Rights Reserved</p>
+							<p>Copyright ©2023 <a href="#">Kalypso L3C /a>. All Rights Reserved</p>
 						</div>
 					</div>
 				</div>
