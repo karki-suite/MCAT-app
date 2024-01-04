@@ -249,7 +249,7 @@
 			<div class="row mb-40">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="section-headding">
-						<h2>Our Testimonial</h2>
+						<h2></h2>
 					</div>
 				</div>
 			</div>
@@ -294,7 +294,7 @@
 				<div class="row">
 					<div class="col-lg-6 align-self-center">
 						<div class="copy-f-text">
-							<p>Copyright ©2023 <a href="#">Kalypso L3C /a>. All Rights Reserved</p>
+							<p>Copyright ©2023 <a href="#">Kalypso L3C </a>. All Rights Reserved</p>
 						</div>
 					</div>
 				</div>
