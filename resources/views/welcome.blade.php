@@ -10,7 +10,7 @@
 	<link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="20x20">
 
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/bootstrap-icons.css">
+	<link rel="stylesheet" href="assets/css/bootstrap-iconzs.css">
 	<link rel="stylesheet" href="assets/css/lightcase.css">
 	<link rel="stylesheet" href="assets/css/fontawesome.all.min.css">
 	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
@@ -167,7 +167,7 @@
 										<img src="assets/img/icon/2.png" alt="icon">
 									</div>
 									<div class="content">
-										<h4>{{ $content['home-block-1-section-2-title'] }}</h4>
+										<h4>{!! $content['home-block-1-section-2-title'] !!}</h4>
                                         <p>{!! $content['home-block-1-section-2-text'] !!}</p>
 									</div>
 								</div>
