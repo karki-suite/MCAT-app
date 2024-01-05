@@ -249,7 +249,7 @@
 			<div class="row mb-40">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="section-headding">
-						<h2></h2>
+						<h2>Testimonials</h2>
 					</div>
 				</div>
 			</div>
